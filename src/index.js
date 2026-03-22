@@ -44,7 +44,7 @@ async function run() {
         const allManufacturers = JSON.parse(
             fs.readFileSync(path.join(__dirname, '../data/manufacturers.json'), 'utf-8')
         );
-        const manufacturers = allManufacturers.slice(0, 10);
+        const manufacturers = allManufacturers;
 
         console.log(`📊 Starting model extraction for ${manufacturers.length} manufacturers...`);
         const result = await scrapeAllModels(page, manufacturers);
