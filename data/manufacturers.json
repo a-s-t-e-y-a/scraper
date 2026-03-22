@@ -1,0 +1,2397 @@
+[
+  {
+    "code": "M_161717",
+    "id": "3069",
+    "name": "G BYKE"
+  },
+  {
+    "code": "M_161844",
+    "id": "3202",
+    "name": "MAA LAXMI ENTERPRISES"
+  },
+  {
+    "code": "M_161613",
+    "id": "2961",
+    "name": "RADHA MOBILITIES LLP"
+  },
+  {
+    "code": "M_161872",
+    "id": "3232",
+    "name": "RATNAM EV"
+  },
+  {
+    "code": "M_161878",
+    "id": "3238",
+    "name": "SILENTRA EV RIDE"
+  },
+  {
+    "code": "M_161876",
+    "id": "3236",
+    "name": "WINDSON"
+  },
+  {
+    "code": "M_161823",
+    "id": "3180",
+    "name": "18 KRISTAL ELECTRIC"
+  },
+  {
+    "code": "M_160731",
+    "id": "2183",
+    "name": "AAPKE EELCTRIC VEHICLE"
+  },
+  {
+    "code": "M_160525",
+    "id": "1976",
+    "name": "AARYA AUTOMOBILES"
+  },
+  {
+    "code": "M_160385",
+    "id": "1877",
+    "name": "AASHI SALES & MARKETING"
+  },
+  {
+    "code": "M_161286",
+    "id": "2635",
+    "name": "AB MOTOSS EV PVT LTD"
+  },
+  {
+    "code": "M_160703",
+    "id": "2155",
+    "name": "AB MOTOSS ELECTRIC VEHICLES"
+  },
+  {
+    "code": "M_161594",
+    "id": "2939",
+    "name": "ABHIKA MOTORS"
+  },
+  {
+    "code": "M_161695",
+    "id": "3045",
+    "name": "ABM ELECTRIC"
+  },
+  {
+    "code": "M_161574",
+    "id": "2921",
+    "name": "AERO DRIVE ELECTRIC"
+  },
+  {
+    "code": "M_160769",
+    "id": "2220",
+    "name": "AERORIDE ELECTRIC"
+  },
+  {
+    "code": "M_160615",
+    "id": "2065",
+    "name": "AFTEK MOTORS INDIA PVT. LTD."
+  },
+  {
+    "code": "M_160811",
+    "id": "2263",
+    "name": "AIRIER MOTORS"
+  },
+  {
+    "code": "M_160727",
+    "id": "2179",
+    "name": "AIRYAN AUTOMOTIVE PVT. LTD."
+  },
+  {
+    "code": "M_161093",
+    "id": "2543",
+    "name": "AKAL AGRO INDUSTRIES"
+  },
+  {
+    "code": "M_160770",
+    "id": "2222",
+    "name": "ALF ELECTRO MOTORS"
+  },
+  {
+    "code": "M_160545",
+    "id": "1996",
+    "name": "ALTUX INNOVATION PVT LTD"
+  },
+  {
+    "code": "M_160377",
+    "id": "1869",
+    "name": "AMBIKA ENTERPRISES"
+  },
+  {
+    "code": "M_160405",
+    "id": "1884",
+    "name": "AMO MOBILITY"
+  },
+  {
+    "code": "M_1845159",
+    "id": "1300",
+    "name": "AMPERE VEHICLES"
+  },
+  {
+    "code": "M_160882",
+    "id": "2334",
+    "name": "AMR E MOBILITY"
+  },
+  {
+    "code": "M_160872",
+    "id": "2324",
+    "name": "ANGELO"
+  },
+  {
+    "code": "M_160749",
+    "id": "2201",
+    "name": "ANK ELECTRIC VEHICLE"
+  },
+  {
+    "code": "M_161098",
+    "id": "2548",
+    "name": "ARMZ SUPER ECO"
+  },
+  {
+    "code": "M_161789",
+    "id": "3144",
+    "name": "AROMAXX"
+  },
+  {
+    "code": "M_160072",
+    "id": "1062",
+    "name": "ARROW AUTOMOTIVES"
+  },
+  {
+    "code": "M_161095",
+    "id": "2545",
+    "name": "ASAV AUTOMOTIVE"
+  },
+  {
+    "code": "M_160809",
+    "id": "2261",
+    "name": "ASHWAVEGA AUTOMOTIVE PVT LTD"
+  },
+  {
+    "code": "M_161266",
+    "id": "2616",
+    "name": "ASIS"
+  },
+  {
+    "code": "M_161284",
+    "id": "2633",
+    "name": "ASTAR"
+  },
+  {
+    "code": "M_161429",
+    "id": "2776",
+    "name": "Aum Auto World"
+  },
+  {
+    "code": "M_160725",
+    "id": "2177",
+    "name": "AUM AUTO WORLD"
+  },
+  {
+    "code": "M_161711",
+    "id": "3062",
+    "name": "AUTONIX AUTO INDUSTRIES PRIVATE LIMITED"
+  },
+  {
+    "code": "M_160090",
+    "id": "1527",
+    "name": "AVAN MOTORS"
+  },
+  {
+    "code": "M_160603",
+    "id": "2052",
+    "name": "AVERA ELECTRIC VEHICLES"
+  },
+  {
+    "code": "M_1845825",
+    "id": "1439",
+    "name": "AVON CYCLES LTD"
+  },
+  {
+    "code": "M_161786",
+    "id": "3141",
+    "name": "BALAJI EV MOBILITY"
+  },
+  {
+    "code": "M_160404",
+    "id": "1883",
+    "name": "BALAJI MOTORS"
+  },
+  {
+    "code": "M_161270",
+    "id": "2620",
+    "name": "BATT RE"
+  },
+  {
+    "code": "M_161222",
+    "id": "2572",
+    "name": "Battery"
+  },
+  {
+    "code": "M_160402",
+    "id": "1902",
+    "name": "BATTRE ELECTRIC MOBILITY PVT LTD"
+  },
+  {
+    "code": "M_161799",
+    "id": "3154",
+    "name": "BBROS MOBILITY PRIVATE LIMITED"
+  },
+  {
+    "code": "M_160812",
+    "id": "2264",
+    "name": "BE GREEN MOTOSS ELECTRIC VEHICLE"
+  },
+  {
+    "code": "M_160515",
+    "id": "1967",
+    "name": "BGAUSS"
+  },
+  {
+    "code": "M_161552",
+    "id": "2899",
+    "name": "BHAARAT ELECTRICALLY ALIGNED MOTIONS PVT LTD"
+  },
+  {
+    "code": "M_160888",
+    "id": "2340",
+    "name": "BHARAT ELECTRIC VEHICLE"
+  },
+  {
+    "code": "M_160589",
+    "id": "2038",
+    "name": "BHAVE ELECTRIC VEHICLE PVT. LTD ."
+  },
+  {
+    "code": "M_161673",
+    "id": "3022",
+    "name": "BHOOMI DRIVE ELECTRIC"
+  },
+  {
+    "code": "M_161084",
+    "id": "2534",
+    "name": "BHUMI ECO AUTOMOTIVE"
+  },
+  {
+    "code": "M_160962",
+    "id": "2414",
+    "name": "BMR EV INDUSTRIES PVT. LTD ."
+  },
+  {
+    "code": "M_122164",
+    "id": "703",
+    "name": "BMW"
+  },
+  {
+    "code": "M_161274",
+    "id": "2623",
+    "name": "BNC Motor"
+  },
+  {
+    "code": "M_161516",
+    "id": "2863",
+    "name": "BONJO ELECTRIC"
+  },
+  {
+    "code": "M_161313",
+    "id": "2661",
+    "name": "BOOM Motor"
+  },
+  {
+    "code": "M_160833",
+    "id": "2285",
+    "name": "BOUNCE"
+  },
+  {
+    "code": "M_160984",
+    "id": "2436",
+    "name": "BQI ELECTRIC"
+  },
+  {
+    "code": "M_160708",
+    "id": "2160",
+    "name": "BRIGHTSTAR ELECTRIC SCOOTER"
+  },
+  {
+    "code": "M_161510",
+    "id": "2857",
+    "name": "BSA"
+  },
+  {
+    "code": "M_160953",
+    "id": "2405",
+    "name": "BUV E MOTORS"
+  },
+  {
+    "code": "M_161571",
+    "id": "2918",
+    "name": "CAL ON INDUSTRIES LTD"
+  },
+  {
+    "code": "M_161467",
+    "id": "2814",
+    "name": "CAP ELECTRIC WORKS"
+  },
+  {
+    "code": "M_1845722",
+    "id": "1396",
+    "name": "CEEON INDIA"
+  },
+  {
+    "code": "M_161277",
+    "id": "2626",
+    "name": "CHETAK"
+  },
+  {
+    "code": "M_160106",
+    "id": "1529",
+    "name": "CLEVELEND CYCLEWERKS"
+  },
+  {
+    "code": "M_161651",
+    "id": "3000",
+    "name": "CN EV AUTOMOTIVE"
+  },
+  {
+    "code": "M_161463",
+    "id": "2810",
+    "name": "COMPTECH"
+  },
+  {
+    "code": "M_160567",
+    "id": "2016",
+    "name": "COSBIKE ELECTRIC VEHICLES"
+  },
+  {
+    "code": "M_160335",
+    "id": "1854",
+    "name": "CRAYON ELECTRIC TWO WHEELS"
+  },
+  {
+    "code": "M_161311",
+    "id": "2659",
+    "name": "CREDENCE"
+  },
+  {
+    "code": "M_161718",
+    "id": "3070",
+    "name": "CYBORG"
+  },
+  {
+    "code": "M_160901",
+    "id": "2353",
+    "name": "DAILY GOO"
+  },
+  {
+    "code": "M_161226",
+    "id": "2576",
+    "name": "DALMIA ELECTRIC VEHICLE PVT LTD"
+  },
+  {
+    "code": "M_160637",
+    "id": "2088",
+    "name": "DAO EV TECH"
+  },
+  {
+    "code": "M_160685",
+    "id": "2137",
+    "name": "DAWNGATE BUSINESS LINK PRIVATE LIMITED"
+  },
+  {
+    "code": "M_161061",
+    "id": "2513",
+    "name": "DBL ELECTRIC"
+  },
+  {
+    "code": "M_161419",
+    "id": "2766",
+    "name": "DE ELECTRIC VEHICLE"
+  },
+  {
+    "code": "M_161085",
+    "id": "2535",
+    "name": "DELEVERY"
+  },
+  {
+    "code": "M_160434",
+    "id": "1897",
+    "name": "DELTA AUTO CORP"
+  },
+  {
+    "code": "M_160602",
+    "id": "2051",
+    "name": "DELTA SAKURA"
+  },
+  {
+    "code": "M_1845877",
+    "id": "1485",
+    "name": "DELTIC AUTO CORP LLP"
+  },
+  {
+    "code": "M_160766",
+    "id": "2218",
+    "name": "DEROZ MOTORS"
+  },
+  {
+    "code": "M_160596",
+    "id": "2045",
+    "name": "DETEL"
+  },
+  {
+    "code": "M_160557",
+    "id": "2008",
+    "name": "DEXPRESS ELECTRIC BIKE"
+  },
+  {
+    "code": "M_160848",
+    "id": "2300",
+    "name": "DISHMISH ELECTRIC SCOOTERS"
+  },
+  {
+    "code": "M_160764",
+    "id": "2216",
+    "name": "DIWA E - VEHICLE"
+  },
+  {
+    "code": "M_160771",
+    "id": "2223",
+    "name": "DM ELECTRIC SCOOTER"
+  },
+  {
+    "code": "M_161335",
+    "id": "2683",
+    "name": "DOV INDIA"
+  },
+  {
+    "code": "M_1845822",
+    "id": "1436",
+    "name": "DSK MOTOWHEELS PVT LTD"
+  },
+  {
+    "code": "M_1845168",
+    "id": "1303",
+    "name": "DUCATI"
+  },
+  {
+    "code": "M_160880",
+    "id": "2332",
+    "name": "DYNAMIC E BIKE"
+  },
+  {
+    "code": "M_160786",
+    "id": "2238",
+    "name": "E DRIVE ELECTRIC VEHICLES"
+  },
+  {
+    "code": "M_161879",
+    "id": "3239",
+    "name": "E GARUDA ELECTRIC MOBILITY PVT LTD"
+  },
+  {
+    "code": "M_161300",
+    "id": "2648",
+    "name": "E SPRINTO"
+  },
+  {
+    "code": "M_160239",
+    "id": "1775",
+    "name": "E TECHO ELECTRA"
+  },
+  {
+    "code": "M_160687",
+    "id": "2139",
+    "name": "E VISHWA ELECTOBIKE PVT. LTD."
+  },
+  {
+    "code": "M_161378",
+    "id": "2724",
+    "name": "E VOLTRA"
+  },
+  {
+    "code": "M_160797",
+    "id": "2249",
+    "name": "E WAY ELECTRIC PVT. LTD ."
+  },
+  {
+    "code": "M_160707",
+    "id": "2159",
+    "name": "E-NEXT ELECTRIC TECHNOLOGIES"
+  },
+  {
+    "code": "M_161074",
+    "id": "2524",
+    "name": "E-SAVARI"
+  },
+  {
+    "code": "M_160780",
+    "id": "2232",
+    "name": "E-WENT ELECTRIC SCOOTER"
+  },
+  {
+    "code": "M_160508",
+    "id": "1959",
+    "name": "EARTH ENERGY EV"
+  },
+  {
+    "code": "M_161672",
+    "id": "3021",
+    "name": "EBLU"
+  },
+  {
+    "code": "M_160305",
+    "id": "1833",
+    "name": "ECO FUEL SYSTEMS"
+  },
+  {
+    "code": "M_160644",
+    "id": "2094",
+    "name": "ECO SUNSHINE LLP"
+  },
+  {
+    "code": "M_160622",
+    "id": "2072",
+    "name": "EEVE INDIA"
+  },
+  {
+    "code": "M_161890",
+    "id": "3250",
+    "name": "EGREAT EXIS VENTURE PVT LTD"
+  },
+  {
+    "code": "M_161372",
+    "id": "2719",
+    "name": "EIFER INDIA"
+  },
+  {
+    "code": "M_160579",
+    "id": "2041",
+    "name": "EKO TEJAS E - VEHICLES"
+  },
+  {
+    "code": "M_161244",
+    "id": "2594",
+    "name": "EKTA E BIKE"
+  },
+  {
+    "code": "M_160959",
+    "id": "2411",
+    "name": "ELECTO INDIA"
+  },
+  {
+    "code": "M_160806",
+    "id": "2258",
+    "name": "ELECTRA EVS"
+  },
+  {
+    "code": "M_161054",
+    "id": "2505",
+    "name": "ELECTRIC VEHICLE TECHNOLOGIES"
+  },
+  {
+    "code": "M_161874",
+    "id": "3234",
+    "name": "ELECTRICPE"
+  },
+  {
+    "code": "M_161595",
+    "id": "2940",
+    "name": "ELECTRINO"
+  },
+  {
+    "code": "M_160610",
+    "id": "2060",
+    "name": "ELECTRO ECO MOBILITY"
+  },
+  {
+    "code": "M_161619",
+    "id": "2968",
+    "name": "ELECTRO WHEELS"
+  },
+  {
+    "code": "M_161797",
+    "id": "3152",
+    "name": "ELECTRORIDE"
+  },
+  {
+    "code": "M_160140",
+    "id": "1687",
+    "name": "ELECTROTHERM INDIA LTD"
+  },
+  {
+    "code": "M_160565",
+    "id": "2017",
+    "name": "ELESCO ELECTRIC VEHICLES"
+  },
+  {
+    "code": "M_161497",
+    "id": "2844",
+    "name": "ELESCO ELECTRIC VEHICLES"
+  },
+  {
+    "code": "M_160621",
+    "id": "2071",
+    "name": "ELEXA AUTO INDIA PVT. LTD."
+  },
+  {
+    "code": "M_160938",
+    "id": "2389",
+    "name": "ELIXIR AUTOMOTIVE INDUSTRIES PVT. LTD ."
+  },
+  {
+    "code": "M_161862",
+    "id": "3221",
+    "name": "ELLYSIUM AUTOMOTIVES PVT. LTD."
+  },
+  {
+    "code": "M_160437",
+    "id": "1900",
+    "name": "ELTHORE"
+  },
+  {
+    "code": "M_160455",
+    "id": "1915",
+    "name": "ENIGMA"
+  },
+  {
+    "code": "M_160767",
+    "id": "2219",
+    "name": "ENVEE WHEELS PVT. LTD."
+  },
+  {
+    "code": "M_160563",
+    "id": "2014",
+    "name": "ENVIRO"
+  },
+  {
+    "code": "M_161698",
+    "id": "3048",
+    "name": "ENVISION ELECTRONICS LLP"
+  },
+  {
+    "code": "M_160920",
+    "id": "2372",
+    "name": "EREGANTO"
+  },
+  {
+    "code": "M_161048",
+    "id": "2499",
+    "name": "ERISE DRIVE ELECTRIC"
+  },
+  {
+    "code": "M_160581",
+    "id": "2030",
+    "name": "EROYCE MOTORS INDIA PVT. LTD ."
+  },
+  {
+    "code": "M_161692",
+    "id": "3042",
+    "name": "ESSPN AUTOMOBILITY PVT LTD"
+  },
+  {
+    "code": "M_161360",
+    "id": "2707",
+    "name": "EV HUB"
+  },
+  {
+    "code": "M_161393",
+    "id": "2740",
+    "name": "EV MANTRA"
+  },
+  {
+    "code": "M_160754",
+    "id": "2206",
+    "name": "EV MINDA"
+  },
+  {
+    "code": "M_160678",
+    "id": "2129",
+    "name": "EV NEXUS GREEN MOBILITY"
+  },
+  {
+    "code": "M_161532",
+    "id": "2879",
+    "name": "EV TEJAS"
+  },
+  {
+    "code": "M_160815",
+    "id": "2269",
+    "name": "EVEIUM"
+  },
+  {
+    "code": "M_160560",
+    "id": "2011",
+    "name": "EVOLET"
+  },
+  {
+    "code": "M_160720",
+    "id": "2173",
+    "name": "EVOLT"
+  },
+  {
+    "code": "M_160830",
+    "id": "2282",
+    "name": "EVRA ENERGY INDIA PVT LTD"
+  },
+  {
+    "code": "M_160558",
+    "id": "2009",
+    "name": "EVTRIC MOTORS PVT. LTD ."
+  },
+  {
+    "code": "M_161570",
+    "id": "2917",
+    "name": "EVVY AUTOMOBILES PVT LTD"
+  },
+  {
+    "code": "M_160784",
+    "id": "2236",
+    "name": "EXER ENERGY ELECTRIC VEHICLES"
+  },
+  {
+    "code": "M_161371",
+    "id": "2718",
+    "name": "EZON ELECTRIC VEHICLES"
+  },
+  {
+    "code": "M_161457",
+    "id": "2804",
+    "name": "FERRATO"
+  },
+  {
+    "code": "M_161049",
+    "id": "2500",
+    "name": "FEZORA INDIA PVT LTD"
+  },
+  {
+    "code": "M_161294",
+    "id": "2642",
+    "name": "FIDATO"
+  },
+  {
+    "code": "M_160468",
+    "id": "1922",
+    "name": "FIDATO"
+  },
+  {
+    "code": "M_160845",
+    "id": "2297",
+    "name": "FLEETO ELECTRIC VEHICLE"
+  },
+  {
+    "code": "M_161315",
+    "id": "2663",
+    "name": "FLYBOLT"
+  },
+  {
+    "code": "M_160822",
+    "id": "2274",
+    "name": "FLYCON MOTORS"
+  },
+  {
+    "code": "M_161469",
+    "id": "2816",
+    "name": "FR ELECTRIC PRIVATE LIMITED"
+  },
+  {
+    "code": "M_160583",
+    "id": "2032",
+    "name": "FRANKLIN EV"
+  },
+  {
+    "code": "M_161519",
+    "id": "2865",
+    "name": "FREQUENCY VEHICLE"
+  },
+  {
+    "code": "M_161456",
+    "id": "2803",
+    "name": "FRIENDS MOTORS"
+  },
+  {
+    "code": "M_160735",
+    "id": "2187",
+    "name": "FUJIYAMA ELECTRIC VEHICLE"
+  },
+  {
+    "code": "M_160128",
+    "id": "3049",
+    "name": "FUTURA NX LITHIUM-ION"
+  },
+  {
+    "code": "M_161334",
+    "id": "2682",
+    "name": "FUTURE EV PVT LTD"
+  },
+  {
+    "code": "M_161733",
+    "id": "3087",
+    "name": "G LITE"
+  },
+  {
+    "code": "M_160773",
+    "id": "2225",
+    "name": "G-BYKE"
+  },
+  {
+    "code": "M_160869",
+    "id": "2321",
+    "name": "GAIA ELECTRIC"
+  },
+  {
+    "code": "M_160643",
+    "id": "2092",
+    "name": "GARUD"
+  },
+  {
+    "code": "M_160657",
+    "id": "2107",
+    "name": "GAURA ELECTRIC"
+  },
+  {
+    "code": "M_160204",
+    "id": "1751",
+    "name": "GAURI AUTO INDIA PVT LTD"
+  },
+  {
+    "code": "M_160679",
+    "id": "2130",
+    "name": "GELVIN INTERNATIONAL"
+  },
+  {
+    "code": "M_160804",
+    "id": "2254",
+    "name": "GLAD GURU MOTOR WALE"
+  },
+  {
+    "code": "M_161743",
+    "id": "3097",
+    "name": "GLADE GURU"
+  },
+  {
+    "code": "M_161745",
+    "id": "3099",
+    "name": "GLADGURU"
+  },
+  {
+    "code": "M_142488",
+    "id": "1515",
+    "name": "GLOBAL"
+  },
+  {
+    "code": "M_160760",
+    "id": "2212",
+    "name": "GO EASY E - SCOOTER"
+  },
+  {
+    "code": "M_161533",
+    "id": "2880",
+    "name": "GO GREEN INTERNATIONAL TECHNOLOGY"
+  },
+  {
+    "code": "M_160702",
+    "id": "2154",
+    "name": "GO WITH GREEN E-VEHICLES PVT. LTD ."
+  },
+  {
+    "code": "M_161201",
+    "id": "2551",
+    "name": "GOENKA GREEN PVT LTD"
+  },
+  {
+    "code": "M_1845348",
+    "id": "1351",
+    "name": "GOENKA ELECTRIC MOTOR VEHICLES PVT LTD"
+  },
+  {
+    "code": "M_161413",
+    "id": "2760",
+    "name": "GREAVES ELECTRIC MOBILITY PVT LTD"
+  },
+  {
+    "code": "M_161662",
+    "id": "3011",
+    "name": "GREEN ENERGY GROUPS"
+  },
+  {
+    "code": "M_161301",
+    "id": "2649",
+    "name": "GREEN FIT LLP"
+  },
+  {
+    "code": "M_161882",
+    "id": "3242",
+    "name": "GREEN FOX E MOBILITY"
+  },
+  {
+    "code": "M_160561",
+    "id": "2013",
+    "name": "GREENO INDIA PVT.LTD."
+  },
+  {
+    "code": "M_160803",
+    "id": "2255",
+    "name": "GRETA"
+  },
+  {
+    "code": "M_161058",
+    "id": "2510",
+    "name": "GRP ELECTRIC VEHICLES"
+  },
+  {
+    "code": "M_161231",
+    "id": "2581",
+    "name": "GT"
+  },
+  {
+    "code": "M_160559",
+    "id": "2010",
+    "name": "GT FORCE"
+  },
+  {
+    "code": "M_161431",
+    "id": "2777",
+    "name": "Guangdong Tayo Motorcycle Technology Co.Ltd"
+  },
+  {
+    "code": "M_161426",
+    "id": "2773",
+    "name": "GYANVI TECHNOLOGIES PVT LTD"
+  },
+  {
+    "code": "M_1845135",
+    "id": "1277",
+    "name": "HARLEY DAVIDSON"
+  },
+  {
+    "code": "M_161660",
+    "id": "3009",
+    "name": "HARSIL ELECTRIC BIKES"
+  },
+  {
+    "code": "M_161815",
+    "id": "3172",
+    "name": "HAWK WINGS"
+  },
+  {
+    "code": "M_160584",
+    "id": "2033",
+    "name": "HAYASA E -MOBILITY"
+  },
+  {
+    "code": "M_160712",
+    "id": "2163",
+    "name": "HCD INDIA"
+  },
+  {
+    "code": "M_160673",
+    "id": "2124",
+    "name": "HERALD E BIKE"
+  },
+  {
+    "code": "M_1845420",
+    "id": "1362",
+    "name": "HERO ELECTRIC"
+  },
+  {
+    "code": "M_161645",
+    "id": "2994",
+    "name": "HIGH GLOW INDUSTRIES"
+  },
+  {
+    "code": "M_161593",
+    "id": "2938",
+    "name": "HIGO"
+  },
+  {
+    "code": "M_160269",
+    "id": "1809",
+    "name": "HINDUSTAN MOTOR CORPORATION"
+  },
+  {
+    "code": "M_160631",
+    "id": "2081",
+    "name": "HINDUSTAN POWER ELECTRIC VEHICLE"
+  },
+  {
+    "code": "M_161008",
+    "id": "2460",
+    "name": "HIRADO ELECTRIC"
+  },
+  {
+    "code": "M_160963",
+    "id": "2415",
+    "name": "HIRALDO ELECTRIC VEHICLE PVT. LTD ."
+  },
+  {
+    "code": "M_160875",
+    "id": "2327",
+    "name": "HIROSHI MOTORS"
+  },
+  {
+    "code": "M_161010",
+    "id": "2462",
+    "name": "HUCH MOTOCORP PVT. LTD."
+  },
+  {
+    "code": "M_160506",
+    "id": "1957",
+    "name": "HUNDA EV"
+  },
+  {
+    "code": "M_161727",
+    "id": "3080",
+    "name": "HUSQVARNA"
+  },
+  {
+    "code": "M_1845155",
+    "id": "1535",
+    "name": "HYOSUNG"
+  },
+  {
+    "code": "M_160889",
+    "id": "2341",
+    "name": "HYPE ELECTRIC VEHICLE"
+  },
+  {
+    "code": "M_161709",
+    "id": "3060",
+    "name": "Hyperspace Technologies Pvt Ltd"
+  },
+  {
+    "code": "M_161227",
+    "id": "2577",
+    "name": "I KOYA EV PVT LTD"
+  },
+  {
+    "code": "M_161791",
+    "id": "3146",
+    "name": "IGNITRON MOTORCORP PVT LTD"
+  },
+  {
+    "code": "M_160792",
+    "id": "2244",
+    "name": "IKOYA E-VEHICLES"
+  },
+  {
+    "code": "M_161034",
+    "id": "2486",
+    "name": "IME VEHICLES PVT. LTD."
+  },
+  {
+    "code": "M_161022",
+    "id": "2474",
+    "name": "IMPRESS ELECTRIC VEHICLE"
+  },
+  {
+    "code": "M_161617",
+    "id": "2966",
+    "name": "INDI ELECTRICELS"
+  },
+  {
+    "code": "M_160208",
+    "id": "1756",
+    "name": "INDIAN MOTORS"
+  },
+  {
+    "code": "M_161738",
+    "id": "3092",
+    "name": "INDIASGO DIGITAL PVT LTD"
+  },
+  {
+    "code": "M_160761",
+    "id": "2213",
+    "name": "INDORE TECHNO COMMERCIAL"
+  },
+  {
+    "code": "M_161040",
+    "id": "2491",
+    "name": "INDS ELETRIC EELS PVT. LTD."
+  },
+  {
+    "code": "M_161045",
+    "id": "2497",
+    "name": "INGO ELECTRIC PVT. LTD."
+  },
+  {
+    "code": "M_160915",
+    "id": "2368",
+    "name": "iSCOOT MOTERS"
+  },
+  {
+    "code": "M_160624",
+    "id": "2074",
+    "name": "IVOOMI INNOVATION"
+  },
+  {
+    "code": "M_161310",
+    "id": "2658",
+    "name": "IYARA AUTOMOBILE"
+  },
+  {
+    "code": "M_161023",
+    "id": "2475",
+    "name": "JAGUAR LIFESTYLE ELECTRIC VEHICLE"
+  },
+  {
+    "code": "M_160265",
+    "id": "1803",
+    "name": "JAL AUTOMOBILE"
+  },
+  {
+    "code": "M_160125",
+    "id": "1673",
+    "name": "JAWA MOTO"
+  },
+  {
+    "code": "M_160958",
+    "id": "2410",
+    "name": "JEEVA E BIKE MFG PVT. LTD."
+  },
+  {
+    "code": "M_161218",
+    "id": "2568",
+    "name": "JHEV MOTORS"
+  },
+  {
+    "code": "M_161260",
+    "id": "2610",
+    "name": "JHEV MOTORS PVT LTD"
+  },
+  {
+    "code": "M_160670",
+    "id": "2122",
+    "name": "JIDOSHA PRIVATE LIMITED"
+  },
+  {
+    "code": "M_161434",
+    "id": "2781",
+    "name": "JINDAL MOBILITY"
+  },
+  {
+    "code": "M_161669",
+    "id": "3018",
+    "name": "JOSH ELECTRIC"
+  },
+  {
+    "code": "M_161630",
+    "id": "2979",
+    "name": "JOSHI SERVICES PRIVATE LIMITED"
+  },
+  {
+    "code": "M_160450",
+    "id": "1910",
+    "name": "JOY E- BIKE"
+  },
+  {
+    "code": "M_161370",
+    "id": "2717",
+    "name": "Jozhi Services Pvt Ltd"
+  },
+  {
+    "code": "M_160941",
+    "id": "2393",
+    "name": "JP MACHINERY"
+  },
+  {
+    "code": "M_161216",
+    "id": "2566",
+    "name": "JPM PRIVATE LTD"
+  },
+  {
+    "code": "M_161694",
+    "id": "3044",
+    "name": "JVK MOTORS PVT LTD"
+  },
+  {
+    "code": "M_161846",
+    "id": "3204",
+    "name": "KAGDI ELECTRIC VEHICLE"
+  },
+  {
+    "code": "M_161902",
+    "id": "3262",
+    "name": "KAIKAN"
+  },
+  {
+    "code": "M_160572",
+    "id": "2023",
+    "name": "KALSI MOTORS"
+  },
+  {
+    "code": "M_161667",
+    "id": "3016",
+    "name": "KAMAKHYA WORLDWIDE TECHNOLOGY PVT LTD"
+  },
+  {
+    "code": "M_160745",
+    "id": "2197",
+    "name": "KARTAR EV INDUSTRY"
+  },
+  {
+    "code": "M_161490",
+    "id": "2837",
+    "name": "KAVA ELECTRIC RIDER PVT LTD ."
+  },
+  {
+    "code": "M_161508",
+    "id": "2854",
+    "name": "KEVA INDIA"
+  },
+  {
+    "code": "M_161714",
+    "id": "3065",
+    "name": "KGADI TECH SOLUTION"
+  },
+  {
+    "code": "M_161011",
+    "id": "2463",
+    "name": "KICK ELECTRIC VEHICLE"
+  },
+  {
+    "code": "M_160012",
+    "id": "1006",
+    "name": "KINETIC GREEN"
+  },
+  {
+    "code": "M_128468",
+    "id": "788",
+    "name": "KINETIC MOTORS"
+  },
+  {
+    "code": "M_161032",
+    "id": "2484",
+    "name": "KINGCHE ELECTRIC BIKE"
+  },
+  {
+    "code": "M_160971",
+    "id": "2423",
+    "name": "KKL HITECH EV INDIA PVT LTD"
+  },
+  {
+    "code": "M_161748",
+    "id": "3102",
+    "name": "KRISHIKA EV INDIA PVT LTD"
+  },
+  {
+    "code": "M_161420",
+    "id": "2767",
+    "name": "KTM"
+  },
+  {
+    "code": "M_160993",
+    "id": "2445",
+    "name": "KUBERA MOTORS"
+  },
+  {
+    "code": "M_1845452",
+    "id": "1366",
+    "name": "KUKU AUTOMOTIVES"
+  },
+  {
+    "code": "M_161861",
+    "id": "3220",
+    "name": "KUMKUM ELECTRIC INDIA PVT LTD."
+  },
+  {
+    "code": "M_160796",
+    "id": "2248",
+    "name": "KYTE ENERGY"
+  },
+  {
+    "code": "M_161583",
+    "id": "2927",
+    "name": "LANIX ENTERPRISES (OPC )PRIVATE LTD."
+  },
+  {
+    "code": "M_122189",
+    "id": "722",
+    "name": "LML"
+  },
+  {
+    "code": "M_1845086",
+    "id": "1231",
+    "name": "LOHIA AUTO"
+  },
+  {
+    "code": "M_160611",
+    "id": "2061",
+    "name": "LORD AUTOMOTIVE PVT. LTD."
+  },
+  {
+    "code": "M_160432",
+    "id": "1895",
+    "name": "LORDS VEHICLE MFG PVT LTD"
+  },
+  {
+    "code": "M_160604",
+    "id": "2053",
+    "name": "M/S MOTEV ENERGY PVT. LTD ."
+  },
+  {
+    "code": "M_160860",
+    "id": "2313",
+    "name": "M/S AKASH INDCHI IMPORT & EXPORT CO."
+  },
+  {
+    "code": "M_160509",
+    "id": "1961",
+    "name": "M/S GREEN FUEL ALTERANATIVES PVT . LTD."
+  },
+  {
+    "code": "M_160617",
+    "id": "2068",
+    "name": "M/S SUNDAK SOLAR SOLUTIONS PVT. LTD."
+  },
+  {
+    "code": "M_160910",
+    "id": "2362",
+    "name": "M2GO ELECTRIC VEHICLE PVT. LTD ."
+  },
+  {
+    "code": "M_1845831",
+    "id": "1445",
+    "name": "MAC AUTO INDIA"
+  },
+  {
+    "code": "M_161647",
+    "id": "2996",
+    "name": "MAGNIOUS E MOBILITY PVT. LTD."
+  },
+  {
+    "code": "M_122172",
+    "id": "711",
+    "name": "MAHINDRA AND MAHINDRA"
+  },
+  {
+    "code": "M_161264",
+    "id": "2614",
+    "name": "MAKAI ELECTRIC VEHICLE LPP"
+  },
+  {
+    "code": "M_161395",
+    "id": "2742",
+    "name": "MAPSOR ELECTRIC VEHICLE"
+  },
+  {
+    "code": "M_160894",
+    "id": "2346",
+    "name": "MAPSOR ENERGY LLP"
+  },
+  {
+    "code": "M_160601",
+    "id": "2050",
+    "name": "MARUTISAN PVT. LTD."
+  },
+  {
+    "code": "M_160726",
+    "id": "2178",
+    "name": "MARVEL EAUTO"
+  },
+  {
+    "code": "M_160732",
+    "id": "2184",
+    "name": "MARYCIELO ELECTRIC VEHICLE"
+  },
+  {
+    "code": "M_161414",
+    "id": "2761",
+    "name": "MASHIBA MOTORS"
+  },
+  {
+    "code": "M_161881",
+    "id": "3241",
+    "name": "MATIN MOTORS"
+  },
+  {
+    "code": "M_161518",
+    "id": "2864",
+    "name": "MAXTRON ELECTRIC SCOOTERS"
+  },
+  {
+    "code": "M_161258",
+    "id": "2607",
+    "name": "MECPOWER MOBILITY"
+  },
+  {
+    "code": "M_161235",
+    "id": "2585",
+    "name": "MECPOWER MOBILITY PVT LTD"
+  },
+  {
+    "code": "M_160821",
+    "id": "2273",
+    "name": "MEERA ELECTROMOTIVES"
+  },
+  {
+    "code": "M_160633",
+    "id": "2083",
+    "name": "MEGTRON MOBILITIES PVT. LTD."
+  },
+  {
+    "code": "M_161572",
+    "id": "2919",
+    "name": "MERCURY ALLIANCE"
+  },
+  {
+    "code": "M_161288",
+    "id": "2637",
+    "name": "MERCURY EV TECH LTD"
+  },
+  {
+    "code": "M_161362",
+    "id": "2709",
+    "name": "MICRO AUTOTECH PVT LTD."
+  },
+  {
+    "code": "M_160128",
+    "id": "1675",
+    "name": "MIRACLE 5 AUTOMOBILE PVT LTD"
+  },
+  {
+    "code": "M_161346",
+    "id": "2693",
+    "name": "MISTI MAX EV"
+  },
+  {
+    "code": "M_160739",
+    "id": "2191",
+    "name": "MIZUKI"
+  },
+  {
+    "code": "M_161012",
+    "id": "2464",
+    "name": "MONTRA ELECTRIC"
+  },
+  {
+    "code": "M_160577",
+    "id": "2027",
+    "name": "MOTION MAN SCOOTERS"
+  },
+  {
+    "code": "M_161330",
+    "id": "2678",
+    "name": "MOTOVOLT"
+  },
+  {
+    "code": "M_160741",
+    "id": "2193",
+    "name": "MR. E-BIKES"
+  },
+  {
+    "code": "M_161437",
+    "id": "2784",
+    "name": "MU POWER"
+  },
+  {
+    "code": "M_161220",
+    "id": "2570",
+    "name": "MUDIT RIDH"
+  },
+  {
+    "code": "M_160718",
+    "id": "2170",
+    "name": "MUNJAL MOTORS"
+  },
+  {
+    "code": "M_161013",
+    "id": "2465",
+    "name": "MURPHY CAT"
+  },
+  {
+    "code": "M_160960",
+    "id": "2412",
+    "name": "MV SYNERGY"
+  },
+  {
+    "code": "M_160571",
+    "id": "2022",
+    "name": "NAHAK MOTORS PVT. LTD ."
+  },
+  {
+    "code": "M_161788",
+    "id": "3143",
+    "name": "NEO VOLT"
+  },
+  {
+    "code": "M_160668",
+    "id": "2119",
+    "name": "NEWTRON ELECTRIC VEHICLES"
+  },
+  {
+    "code": "M_161856",
+    "id": "3215",
+    "name": "NFBI"
+  },
+  {
+    "code": "M_160590",
+    "id": "2039",
+    "name": "NGAGE IMPEX PVT . LTD."
+  },
+  {
+    "code": "M_160645",
+    "id": "2095",
+    "name": "NIJ AUTOMOTIVE"
+  },
+  {
+    "code": "M_160716",
+    "id": "2167",
+    "name": "NIKOLAS E -BIKES"
+  },
+  {
+    "code": "M_160698",
+    "id": "2150",
+    "name": "NIPS ELECTRIC AUTO PVT. LTD."
+  },
+  {
+    "code": "M_161252",
+    "id": "2602",
+    "name": "NK E Bikes"
+  },
+  {
+    "code": "M_160597",
+    "id": "2046",
+    "name": "NK E BIKES"
+  },
+  {
+    "code": "M_161359",
+    "id": "2706",
+    "name": "NORTHSTAR"
+  },
+  {
+    "code": "M_161900",
+    "id": "3260",
+    "name": "NOTRIX EV"
+  },
+  {
+    "code": "M_161703",
+    "id": "3054",
+    "name": "NOVO ELECTRIC"
+  },
+  {
+    "code": "M_160592",
+    "id": "2135",
+    "name": "NUMEROS MOTORS PRIVATE LIMITED"
+  },
+  {
+    "code": "M_160728",
+    "id": "2180",
+    "name": "NXTE ELECTRIC VEHICLES"
+  },
+  {
+    "code": "M_160474",
+    "id": "1927",
+    "name": "OCTIVA"
+  },
+  {
+    "code": "M_161542",
+    "id": "2889",
+    "name": "ODI MOTORS"
+  },
+  {
+    "code": "M_160303",
+    "id": "1832",
+    "name": "ODYSSE"
+  },
+  {
+    "code": "M_160493",
+    "id": "1944",
+    "name": "ODYSSE"
+  },
+  {
+    "code": "M_161567",
+    "id": "2914",
+    "name": "OIKO MOTORS"
+  },
+  {
+    "code": "M_160689",
+    "id": "2141",
+    "name": "OITA E BIKES"
+  },
+  {
+    "code": "M_160548",
+    "id": "2000",
+    "name": "OKAYA ELECTRIC VEHICLE"
+  },
+  {
+    "code": "M_160843",
+    "id": "2295",
+    "name": "OM PARADISE"
+  },
+  {
+    "code": "M_161416",
+    "id": "2763",
+    "name": "OMAHA"
+  },
+  {
+    "code": "M_160472",
+    "id": "1925",
+    "name": "OMEGA"
+  },
+  {
+    "code": "M_161352",
+    "id": "2699",
+    "name": "OMEGA SEIKI PVT LTD"
+  },
+  {
+    "code": "M_160736",
+    "id": "2188",
+    "name": "ONE ELECTRIC MOTORCYCLES"
+  },
+  {
+    "code": "M_160543",
+    "id": "1994",
+    "name": "ONE LIFE ONE OPPORTUNITY"
+  },
+  {
+    "code": "M_160752",
+    "id": "2203",
+    "name": "ONZO ELECTRIC VEHICLE MOTORS PVT. LTD."
+  },
+  {
+    "code": "M_161029",
+    "id": "2481",
+    "name": "OZONE MITRA"
+  },
+  {
+    "code": "M_160520",
+    "id": "1972",
+    "name": "OZOTEC AUTOMOBILE PRI. LTD."
+  },
+  {
+    "code": "M_161568",
+    "id": "2915",
+    "name": "Ozotec Automobile Pvt Ltd"
+  },
+  {
+    "code": "M_161759",
+    "id": "3114",
+    "name": "PANDA"
+  },
+  {
+    "code": "M_161867",
+    "id": "3227",
+    "name": "PANTHERA ELECTRIC MOBILITY PVT LTD"
+  },
+  {
+    "code": "M_160753",
+    "id": "2205",
+    "name": "PARSUVI MOTORS"
+  },
+  {
+    "code": "M_161418",
+    "id": "2765",
+    "name": "PEV ELECTRIC PVT LTD"
+  },
+  {
+    "code": "M_161599",
+    "id": "2945",
+    "name": "PLASMA MOTORS"
+  },
+  {
+    "code": "M_160743",
+    "id": "2195",
+    "name": "POISE"
+  },
+  {
+    "code": "M_160772",
+    "id": "2224",
+    "name": "POOSHPAK AUTOMOBILE PVT. LTD."
+  },
+  {
+    "code": "M_160954",
+    "id": "2406",
+    "name": "POWER ELECTRIC VEHICLES"
+  },
+  {
+    "code": "M_160646",
+    "id": "2096",
+    "name": "POWERADO EBIKES"
+  },
+  {
+    "code": "M_161229",
+    "id": "2579",
+    "name": "POWORO"
+  },
+  {
+    "code": "M_161250",
+    "id": "2600",
+    "name": "PRAKRITI"
+  },
+  {
+    "code": "M_160591",
+    "id": "2040",
+    "name": "PROSSPA"
+  },
+  {
+    "code": "M_160675",
+    "id": "2127",
+    "name": "PS ELECTRIC VEHICLE"
+  },
+  {
+    "code": "M_160372",
+    "id": "1864",
+    "name": "PURE ELECTICAL VEHICLES"
+  },
+  {
+    "code": "M_161340",
+    "id": "2688",
+    "name": "Q J MOTOR"
+  },
+  {
+    "code": "M_161597",
+    "id": "2943",
+    "name": "QIDA"
+  },
+  {
+    "code": "M_161537",
+    "id": "2885",
+    "name": "QRT AUTO PVT LTD"
+  },
+  {
+    "code": "M_160883",
+    "id": "2335",
+    "name": "QUANTUM ENERGY SCOOTERS"
+  },
+  {
+    "code": "M_160519",
+    "id": "1971",
+    "name": "RAFTAAR ELECTRIC GREEN VEHICLES"
+  },
+  {
+    "code": "M_161009",
+    "id": "2461",
+    "name": "RAILIES MOTO"
+  },
+  {
+    "code": "M_161538",
+    "id": "2884",
+    "name": "RAILIES MOTO"
+  },
+  {
+    "code": "M_160642",
+    "id": "2093",
+    "name": "RANVI E BIKES"
+  },
+  {
+    "code": "M_161214",
+    "id": "2564",
+    "name": "RAPID"
+  },
+  {
+    "code": "M_161559",
+    "id": "2906",
+    "name": "RAPTEE"
+  },
+  {
+    "code": "M_160551",
+    "id": "2002",
+    "name": "RAYMOTOSS"
+  },
+  {
+    "code": "M_161368",
+    "id": "2715",
+    "name": "RENUKA E AUTOMOBILES"
+  },
+  {
+    "code": "M_161015",
+    "id": "2467",
+    "name": "REVAMP MOTO"
+  },
+  {
+    "code": "M_161017",
+    "id": "2469",
+    "name": "REVEAL ELECTRIC PVT. LTD."
+  },
+  {
+    "code": "M_161569",
+    "id": "2916",
+    "name": "REVO ELECTRIC"
+  },
+  {
+    "code": "M_160312",
+    "id": "1839",
+    "name": "REVOLT MOTORS"
+  },
+  {
+    "code": "M_161863",
+    "id": "3223",
+    "name": "REVOTRONIX"
+  },
+  {
+    "code": "M_161462",
+    "id": "2809",
+    "name": "RHODIUM AUTOMOBILE PVT. LTD."
+  },
+  {
+    "code": "M_161477",
+    "id": "2824",
+    "name": "RIVER"
+  },
+  {
+    "code": "M_161855",
+    "id": "3214",
+    "name": "RIVER INDIE"
+  },
+  {
+    "code": "M_160710",
+    "id": "2162",
+    "name": "ROMAI ELECTRIC SCOOTER"
+  },
+  {
+    "code": "M_161543",
+    "id": "2890",
+    "name": "RONFLANT"
+  },
+  {
+    "code": "M_161681",
+    "id": "3031",
+    "name": "ROSEN"
+  },
+  {
+    "code": "M_161409",
+    "id": "2755",
+    "name": "ROTOGMAX ELECTRIC VEHICLE"
+  },
+  {
+    "code": "M_160595",
+    "id": "2044",
+    "name": "ROWWET FUTURISTIC MOBILITY"
+  },
+  {
+    "code": "M_122188",
+    "id": "721",
+    "name": "ROYAL ENFIELD"
+  },
+  {
+    "code": "M_160898",
+    "id": "2350",
+    "name": "RYOTO ELECTRIX"
+  },
+  {
+    "code": "M_161461",
+    "id": "2808",
+    "name": "S MOBILITY EV TECH"
+  },
+  {
+    "code": "M_160742",
+    "id": "2194",
+    "name": "S ONE ELECTRIC VEHICLES"
+  },
+  {
+    "code": "M_161345",
+    "id": "2692",
+    "name": "S.B.E MOTORS"
+  },
+  {
+    "code": "M_161002",
+    "id": "2455",
+    "name": "S1 ELECTRIX"
+  },
+  {
+    "code": "M_1845341",
+    "id": "1349",
+    "name": "SAERA ELECTRIC AUTO PVT LTD"
+  },
+  {
+    "code": "M_161545",
+    "id": "2893",
+    "name": "SAN EV PRIVATE LIMITED"
+  },
+  {
+    "code": "M_161382",
+    "id": "2729",
+    "name": "SARAOGI E VENTURES PVT LTD"
+  },
+  {
+    "code": "M_161813",
+    "id": "3168",
+    "name": "SAWHNEY IMPEX"
+  },
+  {
+    "code": "M_160730",
+    "id": "2182",
+    "name": "SBTEK E MOTO PVT. LTD."
+  },
+  {
+    "code": "M_161517",
+    "id": "2861",
+    "name": "SD ELECTRIC"
+  },
+  {
+    "code": "M_160713",
+    "id": "2165",
+    "name": "SDM MOTOCORP"
+  },
+  {
+    "code": "M_161067",
+    "id": "2520",
+    "name": "SEEKA E MOTORS PVT. LTD"
+  },
+  {
+    "code": "M_161859",
+    "id": "3218",
+    "name": "SHARK ELECTRIC"
+  },
+  {
+    "code": "M_160606",
+    "id": "2055",
+    "name": "SHEMA E VEHICLE & SOLAR PVT LTD"
+  },
+  {
+    "code": "M_161742",
+    "id": "3096",
+    "name": "SHREE SHYAM INDUSTRIES"
+  },
+  {
+    "code": "M_161225",
+    "id": "2575",
+    "name": "SHREEMAYA ENTERPRISES"
+  },
+  {
+    "code": "M_160715",
+    "id": "2168",
+    "name": "SHRI MAA MOTORS PVT. LTD."
+  },
+  {
+    "code": "M_160994",
+    "id": "2446",
+    "name": "SHURBHI AUTOTECH PVT. LTD."
+  },
+  {
+    "code": "M_160661",
+    "id": "2112",
+    "name": "SIMITAL WHEELS PVT. LTD ."
+  },
+  {
+    "code": "M_161602",
+    "id": "2948",
+    "name": "SIROS VEHICLES PRIVATE LIMITED"
+  },
+  {
+    "code": "M_161563",
+    "id": "2910",
+    "name": "SKANDAA AUTOMOTIVE PRIVATE LIMITED"
+  },
+  {
+    "code": "M_150018",
+    "id": "914",
+    "name": "SKYRIDE AUTOMOTIVE"
+  },
+  {
+    "code": "M_160986",
+    "id": "2438",
+    "name": "SMART MOTORS ELECTRIC VEHICLE"
+  },
+  {
+    "code": "M_160988",
+    "id": "2440",
+    "name": "SOKUDO ELECTRIC INDIA PVT. LTD."
+  },
+  {
+    "code": "M_161739",
+    "id": "3093",
+    "name": "SRI CHINI INDIA"
+  },
+  {
+    "code": "M_161211",
+    "id": "2561",
+    "name": "Sterlite EV Mobility Pvt Ltd"
+  },
+  {
+    "code": "M_161075",
+    "id": "2525",
+    "name": "STRIKECO"
+  },
+  {
+    "code": "M_161089",
+    "id": "2540",
+    "name": "SUN MOBILITY PRIVATE LIMTED"
+  },
+  {
+    "code": "M_160605",
+    "id": "2054",
+    "name": "SUNLUX ENERGY PVT. LTD."
+  },
+  {
+    "code": "M_161679",
+    "id": "3028",
+    "name": "SUNSAI TECHNOLOGIES PRIVATE LIMITED"
+  },
+  {
+    "code": "M_160088",
+    "id": "1078",
+    "name": "SUPER ECO AUTOMOTIVES PVT LTD."
+  },
+  {
+    "code": "M_160524",
+    "id": "1977",
+    "name": "SUPERTECH"
+  },
+  {
+    "code": "M_161337",
+    "id": "2686",
+    "name": "SUPERTECH EV LIMITED"
+  },
+  {
+    "code": "M_160313",
+    "id": "1838",
+    "name": "SUPPER ECO AUTOMOTIVE"
+  },
+  {
+    "code": "M_122190",
+    "id": "1509",
+    "name": "SUZUKI"
+  },
+  {
+    "code": "M_160851",
+    "id": "2303",
+    "name": "SVM"
+  },
+  {
+    "code": "M_161839",
+    "id": "3197",
+    "name": "SWIFTVOLT VENTURES INDIA PVT.LTD"
+  },
+  {
+    "code": "M_160758",
+    "id": "2210",
+    "name": "TANGREE ELECTRIC VEHICLE"
+  },
+  {
+    "code": "M_160511",
+    "id": "1962",
+    "name": "TES"
+  },
+  {
+    "code": "M_161712",
+    "id": "3063",
+    "name": "TEZAR ELECTRIC VEHICLE PVT LTD"
+  },
+  {
+    "code": "M_150097",
+    "id": "991",
+    "name": "THUKRAL ELECTRIC BIKES"
+  },
+  {
+    "code": "M_160854",
+    "id": "2306",
+    "name": "THUNDERBOLT"
+  },
+  {
+    "code": "M_160930",
+    "id": "2382",
+    "name": "TIME4EV MOTORS PVT. LTD."
+  },
+  {
+    "code": "M_160546",
+    "id": "1997",
+    "name": "TIRANGA AUTOTECH INDIA PVT . LTD."
+  },
+  {
+    "code": "M_161785",
+    "id": "3140",
+    "name": "TLCTECNOLICK"
+  },
+  {
+    "code": "M_160360",
+    "id": "1857",
+    "name": "TNR MOTORS"
+  },
+  {
+    "code": "M_160957",
+    "id": "2409",
+    "name": "TORK"
+  },
+  {
+    "code": "M_160585",
+    "id": "2034",
+    "name": "TOXMO ELECTRIC MOTORS PVT. LTD"
+  },
+  {
+    "code": "M_161427",
+    "id": "2774",
+    "name": "TRANSMOBILITY INDIA PVT LTD"
+  },
+  {
+    "code": "M_161769",
+    "id": "3124",
+    "name": "TRB MOBOLITY SOLUTIONS PRIVATE LIMITED"
+  },
+  {
+    "code": "M_160688",
+    "id": "2140",
+    "name": "TRIBUS MOTORS"
+  },
+  {
+    "code": "M_160015",
+    "id": "1526",
+    "name": "TUNWAL E BIKE"
+  },
+  {
+    "code": "M_160746",
+    "id": "2198",
+    "name": "TUZBY MOTORS"
+  },
+  {
+    "code": "M_161361",
+    "id": "2708",
+    "name": "TVISI ELECTRIC PRIVATE LIMITED"
+  },
+  {
+    "code": "M_122184",
+    "id": "719",
+    "name": "TVS"
+  },
+  {
+    "code": "M_161841",
+    "id": "3199",
+    "name": "TW E BIKE"
+  },
+  {
+    "code": "M_160491",
+    "id": "1942",
+    "name": "TX9"
+  },
+  {
+    "code": "M_160695",
+    "id": "2147",
+    "name": "TYLOS ELECTRIC VEHICLES"
+  },
+  {
+    "code": "M_160206",
+    "id": "1753",
+    "name": "UJAAS ENERGY LIMITED"
+  },
+  {
+    "code": "M_160632",
+    "id": "2082",
+    "name": "UKAVA ELECTRIC VEHICLE"
+  },
+  {
+    "code": "M_160922",
+    "id": "2374",
+    "name": "ULTRAVIOLETTE AUTOMOTIVE"
+  },
+  {
+    "code": "M_161273",
+    "id": "2624",
+    "name": "Ultravoilet"
+  },
+  {
+    "code": "M_1845862",
+    "id": "1540",
+    "name": "UM MOTORCYCLES"
+  },
+  {
+    "code": "M_160807",
+    "id": "2259",
+    "name": "UNICORN E -BIKE"
+  },
+  {
+    "code": "M_160969",
+    "id": "2421",
+    "name": "UNINOR AUTOMOBILE"
+  },
+  {
+    "code": "M_161642",
+    "id": "2991",
+    "name": "USTROM E BIKE"
+  },
+  {
+    "code": "M_160539",
+    "id": "1990",
+    "name": "V TECH AUTOMOTORS LTD"
+  },
+  {
+    "code": "M_161893",
+    "id": "3253",
+    "name": "VA2Z"
+  },
+  {
+    "code": "M_161603",
+    "id": "2949",
+    "name": "VAAYU EV ELECTRIC MOTORCYCLE"
+  },
+  {
+    "code": "M_160864",
+    "id": "2318",
+    "name": "VABRO EVTECH"
+  },
+  {
+    "code": "M_160627",
+    "id": "2077",
+    "name": "VAHAK FUTURE SOLUTIONS LLP"
+  },
+  {
+    "code": "M_160995",
+    "id": "2447",
+    "name": "VANNYA ELECTRIC"
+  },
+  {
+    "code": "M_160831",
+    "id": "2283",
+    "name": "VENU MOTORS"
+  },
+  {
+    "code": "M_161479",
+    "id": "2826",
+    "name": "VESPA"
+  },
+  {
+    "code": "M_160939",
+    "id": "2391",
+    "name": "VGK ELECTRIC VEHICLE INDUSTRY PVT LTD"
+  },
+  {
+    "code": "M_1845141",
+    "id": "1283",
+    "name": "VIBGYOR ALLIED"
+  },
+  {
+    "code": "M_150016",
+    "id": "912",
+    "name": "VICTORY ELECTRIC INTERNATIONAL"
+  },
+  {
+    "code": "M_160446",
+    "id": "1907",
+    "name": "VIER"
+  },
+  {
+    "code": "M_160650",
+    "id": "2100",
+    "name": "VOLT ELECTRIC"
+  },
+  {
+    "code": "M_161611",
+    "id": "2959",
+    "name": "VOLTA EV PRIVATE LIMITED"
+  },
+  {
+    "code": "M_160566",
+    "id": "2018",
+    "name": "VTECH ELECTRIC VEHICLES"
+  },
+  {
+    "code": "M_160483",
+    "id": "1935",
+    "name": "WARIVO MOTOR INDIA PVT. LTD ."
+  },
+  {
+    "code": "M_160868",
+    "id": "2320",
+    "name": "WEDSON MOTORS"
+  },
+  {
+    "code": "M_160816",
+    "id": "2266",
+    "name": "WHITE CARBON MOTORS"
+  },
+  {
+    "code": "M_160776",
+    "id": "2228",
+    "name": "WIREBEE ELECTRIC VEHICLES"
+  },
+  {
+    "code": "M_160933",
+    "id": "2385",
+    "name": "WROLEY ELECTRIC VEHICLE"
+  },
+  {
+    "code": "M_161253",
+    "id": "2604",
+    "name": "WROLY"
+  },
+  {
+    "code": "M_160836",
+    "id": "2292",
+    "name": "X WHEELS ELECTRIC PVT. LTD."
+  },
+  {
+    "code": "M_161680",
+    "id": "3029",
+    "name": "XERO EV"
+  },
+  {
+    "code": "M_161596",
+    "id": "2942",
+    "name": "XES MOTORS"
+  },
+  {
+    "code": "M_161531",
+    "id": "2878",
+    "name": "XIDAA MOTO INDIA PRIVATE LIMITED"
+  },
+  {
+    "code": "M_161628",
+    "id": "2977",
+    "name": "XWHEEL"
+  },
+  {
+    "code": "M_122182",
+    "id": "718",
+    "name": "YAMAHA"
+  },
+  {
+    "code": "M_160018",
+    "id": "1011",
+    "name": "YC ELECTRICAL WHEELS"
+  },
+  {
+    "code": "M_160733",
+    "id": "2185",
+    "name": "YED ELECTRIC VEHICLE"
+  },
+  {
+    "code": "M_161511",
+    "id": "2856",
+    "name": "YEZDI"
+  },
+  {
+    "code": "M_160376",
+    "id": "1868",
+    "name": "YO BYKES"
+  },
+  {
+    "code": "M_160744",
+    "id": "2196",
+    "name": "YOGO BIKES"
+  },
+  {
+    "code": "M_160496",
+    "id": "1946",
+    "name": "YUKIE"
+  },
+  {
+    "code": "M_161212",
+    "id": "2562",
+    "name": "ZELIO EV MOTORS"
+  },
+  {
+    "code": "M_160729",
+    "id": "2181",
+    "name": "ZELO ELECTRIC VEHICLES"
+  },
+  {
+    "code": "M_161624",
+    "id": "2973",
+    "name": "ZEN EV"
+  },
+  {
+    "code": "M_161530",
+    "id": "2877",
+    "name": "ZENO MOTO INDIA PRIVATE LIMITED"
+  },
+  {
+    "code": "M_161666",
+    "id": "3015",
+    "name": "ZIGGOR MOBILITY PRIVATE LIMITED"
+  },
+  {
+    "code": "M_161627",
+    "id": "2976",
+    "name": "ZUWIX MOBILITY"
+  },
+  {
+    "code": "M_160586",
+    "id": "2035",
+    "name": "ZYPP ELECTRIC"
+  }
+]
