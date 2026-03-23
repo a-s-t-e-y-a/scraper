@@ -6,11 +6,14 @@ const wait = (ms) => new Promise(r => setTimeout(r, ms));
 async function pollForRows(page, selector, timeout = 12000) {
     const start = Date.now();
     while (Date.now() - start < timeout) {
-        const count = await page.evaluate((sel) => document.querySelectorAll(sel).length, selector);
+        const count = await page.evaluate(() => {
+            const activeModal = Array.from(document.querySelectorAll('.ant-modal-content')).pop();
+            return activeModal ? activeModal.querySelectorAll('.ant-table-row').length : 0;
+        });
         if (count > 0) return count;
         await wait(600);
     }
-    throw new Error(`Timeout: no rows found for ${selector}`);
+    throw new Error(`Timeout: no rows found in active modal`);
 }
 
 async function domClick(page, evalFn) {
@@ -18,13 +21,31 @@ async function domClick(page, evalFn) {
 }
 
 async function scrapeAllModels(page, manufacturers) {
-    const result = [];
+    let result = [];
     const dataDir = path.join(__dirname, '../data');
     if (!fs.existsSync(dataDir)) fs.mkdirSync(dataDir);
     const outputPath = path.join(dataDir, 'manufacturers_with_models.json');
 
+    if (fs.existsSync(outputPath)) {
+        try {
+            const fileData = fs.readFileSync(outputPath, 'utf-8');
+            if (fileData.trim()) result = JSON.parse(fileData);
+            console.log(`\n📂 Found existing data with ${result.length} manufacturers. Resuming...`);
+        } catch (e) {
+            console.log('⚠️ Could not parse existing JSON. Starting fresh.');
+        }
+    }
+    
+    const processedCodes = new Set(result.map(m => m.code));
+
     for (let i = 0; i < manufacturers.length; i++) {
         const mfr = manufacturers[i];
+
+        if (processedCodes.has(mfr.code)) {
+            console.log(`[${i + 1}/${manufacturers.length}] ⏭️  Skipping ${mfr.name} (Already scraped)`);
+            continue;
+        }
+
         console.log(`[${i + 1}/${manufacturers.length}] 🔍 ${mfr.name}`);
 
         try {
@@ -126,20 +147,27 @@ async function scrapeAllModels(page, manufacturers) {
 
             // CLEAR THE MODEL SEARCH FIELD (USING THE 'Clear' BUTTON IN THE MODAL UI)
             await domClick(page, () => {
-                // Find all buttons in the modal and click the one that has 'Clear' text
-                const buttons = Array.from(document.querySelectorAll('.ant-modal-body button'));
+                const activeModal = Array.from(document.querySelectorAll('.ant-modal-content')).pop();
+                if (!activeModal) return false;
+                const buttons = Array.from(activeModal.querySelectorAll('button'));
                 const clearBtn = buttons.find(b => b.innerText.includes('Clear'));
                 if (clearBtn) clearBtn.dispatchEvent(new MouseEvent('click', { bubbles: true, cancelable: true }));
                 return true;
             });
             await wait(1500);
             
-            // Check if Model Modal actually opened (sometimes it's empty and doesn't open)
-            const count = await page.evaluate(() => document.querySelectorAll('.ant-modal-body .ant-table-row').length);
+            // Check if Model Modal actually opened
+            const count = await page.evaluate(() => {
+                const activeModal = Array.from(document.querySelectorAll('.ant-modal-content')).pop();
+                return activeModal ? activeModal.querySelectorAll('.ant-table-row').length : 0;
+            });
             if (count === 0) {
                 console.log(`  ⚠️  No models returned (modal didn't open or empty) - skipping.`);
                 result.push({ ...mfr, models: [] });
-                await page.evaluate(() => document.querySelector('.ant-modal-close')?.dispatchEvent(new MouseEvent('click', { bubbles: true, cancelable: true })));
+                await page.evaluate(() => {
+                    const activeModal = Array.from(document.querySelectorAll('.ant-modal-content')).pop();
+                    activeModal?.querySelector('.ant-modal-close')?.dispatchEvent(new MouseEvent('click', { bubbles: true, cancelable: true }));
+                });
                 await wait(1000);
                 continue;
             }
@@ -153,12 +181,15 @@ async function scrapeAllModels(page, manufacturers) {
             while (loops < 50) { // Safety break
                 loops++;
                 const currentActivePage = await page.evaluate(() => {
-                    const active = document.querySelector('.ant-modal-body .ant-pagination-item-active');
+                    const activeModal = Array.from(document.querySelectorAll('.ant-modal-content')).pop();
+                    const active = activeModal?.querySelector('.ant-pagination-item-active');
                     return active ? parseInt(active.title || active.innerText) : 1;
                 });
 
                 const pageData = await page.evaluate(() => {
-                    return Array.from(document.querySelectorAll('.ant-modal-body .ant-table-row')).map(row => {
+                    const activeModal = Array.from(document.querySelectorAll('.ant-modal-content')).pop();
+                    if (!activeModal) return [];
+                    return Array.from(activeModal.querySelectorAll('.ant-table-row')).map(row => {
                         const cells = Array.from(row.querySelectorAll('.ant-table-cell'));
                         return {
                             vehicleCode: cells[0]?.innerText.trim(),
@@ -171,27 +202,30 @@ async function scrapeAllModels(page, manufacturers) {
                             seatingCapacity: cells[7]?.innerText.trim(),
                             vehicleWatt: cells[8]?.innerText.trim()
                         };
-                    }).filter(model => model.cubicCapacity && model.fuel && model.seatingCapacity); // 🚨 FILTER OUT MAKE ROWS
+                    }).filter(model => model.cubicCapacity && model.fuel && model.seatingCapacity);
                 });
 
                 allModels = allModels.concat(pageData);
 
                 const isNextDisabled = await page.evaluate(() => {
-                    const nextLi = document.querySelector('.ant-modal-body .ant-pagination-next');
+                    const activeModal = Array.from(document.querySelectorAll('.ant-modal-content')).pop();
+                    const nextLi = activeModal?.querySelector('.ant-pagination-next');
                     return nextLi?.classList.contains('ant-pagination-disabled') || nextLi?.getAttribute('aria-disabled') === 'true';
                 });
 
                 if (isNextDisabled) break;
 
                 await page.evaluate(() => {
-                    const btn = document.querySelector('.ant-modal-body .ant-pagination-next button');
+                    const activeModal = Array.from(document.querySelectorAll('.ant-modal-content')).pop();
+                    const btn = activeModal?.querySelector('.ant-pagination-next button');
                     if (btn) btn.dispatchEvent(new MouseEvent('click', { bubbles: true, cancelable: true }));
                 });
 
                 await wait(1500);
 
                 const newActivePage = await page.evaluate(() => {
-                    const active = document.querySelector('.ant-modal-body .ant-pagination-item-active');
+                    const activeModal = Array.from(document.querySelectorAll('.ant-modal-content')).pop();
+                    const active = activeModal?.querySelector('.ant-pagination-item-active');
                     return active ? parseInt(active.title || active.innerText) : 1;
                 });
 

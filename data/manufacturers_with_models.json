@@ -222,5 +222,796 @@
         "vehicleWatt": "1273.00"
       }
     ]
+  },
+  {
+    "code": "M_161286",
+    "id": "2635",
+    "name": "AB MOTOSS EV PVT LTD",
+    "models": [
+      {
+        "vehicleCode": "M_27605",
+        "modelDescription": "R7Z F15 Electric SEAT 1",
+        "bodyDescription": "E BIKE",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "1",
+        "noOfDrivers": "1",
+        "seatingCapacity": "1",
+        "vehicleWatt": "1500.00"
+      }
+    ]
+  },
+  {
+    "code": "M_160703",
+    "id": "2155",
+    "name": "AB MOTOSS ELECTRIC VEHICLES",
+    "models": [
+      {
+        "vehicleCode": "M_22604",
+        "modelDescription": "RAYS Electric SEAT 1",
+        "bodyDescription": "E BIKE",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "1",
+        "noOfDrivers": "1",
+        "seatingCapacity": "1",
+        "vehicleWatt": "250.00"
+      },
+      {
+        "vehicleCode": "M_22605",
+        "modelDescription": "RAYS + Electric SEAT 1",
+        "bodyDescription": "E BIKE",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "1",
+        "noOfDrivers": "1",
+        "seatingCapacity": "1",
+        "vehicleWatt": "250.00"
+      },
+      {
+        "vehicleCode": "M_22606",
+        "modelDescription": "RAPID Electric SEAT 1",
+        "bodyDescription": "E BIKE",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "1",
+        "noOfDrivers": "1",
+        "seatingCapacity": "1",
+        "vehicleWatt": "250.00"
+      },
+      {
+        "vehicleCode": "M_22607",
+        "modelDescription": "RACE Electric SEAT 1",
+        "bodyDescription": "E BIKE",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "1",
+        "noOfDrivers": "1",
+        "seatingCapacity": "1",
+        "vehicleWatt": "250.00"
+      }
+    ]
+  },
+  {
+    "code": "M_161594",
+    "id": "2939",
+    "name": "ABHIKA MOTORS",
+    "models": [
+      {
+        "vehicleCode": "M_31747",
+        "modelDescription": "BAT 48 Electric SEAT 1",
+        "bodyDescription": "E BIKE",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "1",
+        "noOfDrivers": "1",
+        "seatingCapacity": "1",
+        "vehicleWatt": "250.00"
+      },
+      {
+        "vehicleCode": "M_31944",
+        "modelDescription": "BAT 52 Electric SEAT 1",
+        "bodyDescription": "E BIKE",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "1",
+        "noOfDrivers": "1",
+        "seatingCapacity": "1",
+        "vehicleWatt": "250.00"
+      },
+      {
+        "vehicleCode": "M_32671",
+        "modelDescription": "BAT 49 Electric SEAT 1",
+        "bodyDescription": "E BIKE",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "1",
+        "noOfDrivers": "1",
+        "seatingCapacity": "1",
+        "vehicleWatt": "250.00"
+      }
+    ]
+  },
+  {
+    "code": "M_161695",
+    "id": "3045",
+    "name": "ABM ELECTRIC",
+    "models": [
+      {
+        "vehicleCode": "M_32705",
+        "modelDescription": "ABM RAPID GO Electric SEAT 1",
+        "bodyDescription": "E BIKE",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "1",
+        "noOfDrivers": "1",
+        "seatingCapacity": "1",
+        "vehicleWatt": "250.00"
+      }
+    ]
+  },
+  {
+    "code": "M_161574",
+    "id": "2921",
+    "name": "AERO DRIVE ELECTRIC",
+    "models": [
+      {
+        "vehicleCode": "UL31394",
+        "modelDescription": "CROSSFIRE 500 X PETROL SEAT 1",
+        "bodyDescription": "BIKE",
+        "cubicCapacity": "486.00",
+        "fuel": "PETROL",
+        "gvw": "1",
+        "noOfDrivers": "1",
+        "seatingCapacity": "1",
+        "vehicleWatt": "0.00"
+      },
+      {
+        "vehicleCode": "UL31395",
+        "modelDescription": "CROSSFIRE 500 XC PETROL SEAT 1",
+        "bodyDescription": "BIKE",
+        "cubicCapacity": "486.00",
+        "fuel": "PETROL",
+        "gvw": "1",
+        "noOfDrivers": "1",
+        "seatingCapacity": "1",
+        "vehicleWatt": "0.00"
+      },
+      {
+        "vehicleCode": "UL31396",
+        "modelDescription": "CROMWELL 1200 STANDARD PETROL SEAT 1",
+        "bodyDescription": "BIKE",
+        "cubicCapacity": "1222.00",
+        "fuel": "PETROL",
+        "gvw": "1",
+        "noOfDrivers": "1",
+        "seatingCapacity": "1",
+        "vehicleWatt": "0.00"
+      },
+      {
+        "vehicleCode": "UL31397",
+        "modelDescription": "CROMWELL 1200 X PETROL SEAT 1",
+        "bodyDescription": "BIKE",
+        "cubicCapacity": "1222.00",
+        "fuel": "PETROL",
+        "gvw": "1",
+        "noOfDrivers": "1",
+        "seatingCapacity": "1",
+        "vehicleWatt": "0.00"
+      }
+    ]
+  },
+  {
+    "code": "M_160769",
+    "id": "2220",
+    "name": "AERORIDE ELECTRIC",
+    "models": [
+      {
+        "vehicleCode": "M_23272",
+        "modelDescription": "AERO Electric SEAT 1",
+        "bodyDescription": "E BIKE",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "1",
+        "noOfDrivers": "1",
+        "seatingCapacity": "1",
+        "vehicleWatt": "250.00"
+      },
+      {
+        "vehicleCode": "M_23809",
+        "modelDescription": "BRAVO NM Electric SEAT 1",
+        "bodyDescription": "E BIKE",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "1",
+        "noOfDrivers": "1",
+        "seatingCapacity": "1",
+        "vehicleWatt": "3000.00"
+      },
+      {
+        "vehicleCode": "M_23854",
+        "modelDescription": "BRAVO Electric SEAT 1",
+        "bodyDescription": "E BIKE",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "1",
+        "noOfDrivers": "1",
+        "seatingCapacity": "1",
+        "vehicleWatt": "3000.00"
+      },
+      {
+        "vehicleCode": "M_23909",
+        "modelDescription": "COSMO Electric SEAT 1",
+        "bodyDescription": "E BIKE",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "1",
+        "noOfDrivers": "1",
+        "seatingCapacity": "1",
+        "vehicleWatt": "250.00"
+      },
+      {
+        "vehicleCode": "M_23272",
+        "modelDescription": "AERO Electric SEAT 1",
+        "bodyDescription": "E BIKE",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "1",
+        "noOfDrivers": "1",
+        "seatingCapacity": "1",
+        "vehicleWatt": "250.00"
+      },
+      {
+        "vehicleCode": "M_23809",
+        "modelDescription": "BRAVO NM Electric SEAT 1",
+        "bodyDescription": "E BIKE",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "1",
+        "noOfDrivers": "1",
+        "seatingCapacity": "1",
+        "vehicleWatt": "3000.00"
+      },
+      {
+        "vehicleCode": "M_23854",
+        "modelDescription": "BRAVO Electric SEAT 1",
+        "bodyDescription": "E BIKE",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "1",
+        "noOfDrivers": "1",
+        "seatingCapacity": "1",
+        "vehicleWatt": "3000.00"
+      },
+      {
+        "vehicleCode": "M_23909",
+        "modelDescription": "COSMO Electric SEAT 1",
+        "bodyDescription": "E BIKE",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "1",
+        "noOfDrivers": "1",
+        "seatingCapacity": "1",
+        "vehicleWatt": "250.00"
+      },
+      {
+        "vehicleCode": "M_27043",
+        "modelDescription": "AERO LEAD ACID Electric SEAT 1",
+        "bodyDescription": "E BIKE",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "1",
+        "noOfDrivers": "1",
+        "seatingCapacity": "1",
+        "vehicleWatt": "250.00"
+      },
+      {
+        "vehicleCode": "M_27361",
+        "modelDescription": "YB 2000S 60 V 30AH Electric SEAT 1",
+        "bodyDescription": "E BIKE",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "1",
+        "noOfDrivers": "1",
+        "seatingCapacity": "1",
+        "vehicleWatt": "1800.00"
+      },
+      {
+        "vehicleCode": "M_27935",
+        "modelDescription": "AERO SMARTY Electric SEAT 1",
+        "bodyDescription": "E BIKE",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "1",
+        "noOfDrivers": "1",
+        "seatingCapacity": "1",
+        "vehicleWatt": "250.00"
+      }
+    ]
+  },
+  {
+    "code": "M_160615",
+    "id": "2065",
+    "name": "AFTEK MOTORS INDIA PVT. LTD.",
+    "models": [
+      {
+        "vehicleCode": "M_21952",
+        "modelDescription": "ELMO CITY STAR Electric SEAT 1",
+        "bodyDescription": "E BIKE",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "1",
+        "noOfDrivers": "1",
+        "seatingCapacity": "1",
+        "vehicleWatt": "3000.00"
+      },
+      {
+        "vehicleCode": "M_27288",
+        "modelDescription": "E ONE 60V 30AH Electric SEAT 1",
+        "bodyDescription": "E BIKE",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "1",
+        "noOfDrivers": "1",
+        "seatingCapacity": "1",
+        "vehicleWatt": "249.00"
+      },
+      {
+        "vehicleCode": "M_29438",
+        "modelDescription": "E TWO Electric SEAT 1",
+        "bodyDescription": "E BIKE",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "1",
+        "noOfDrivers": "1",
+        "seatingCapacity": "1",
+        "vehicleWatt": "250.00"
+      }
+    ]
+  },
+  {
+    "code": "M_160811",
+    "id": "2263",
+    "name": "AIRIER MOTORS",
+    "models": [
+      {
+        "vehicleCode": "M_23816",
+        "modelDescription": "MERAKI Electric SEAT 1",
+        "bodyDescription": "E BIKE",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "1",
+        "noOfDrivers": "1",
+        "seatingCapacity": "1",
+        "vehicleWatt": "250.00"
+      },
+      {
+        "vehicleCode": "M_24820",
+        "modelDescription": "JAUNTY PLUS Electric SEAT 1",
+        "bodyDescription": "E BIKE",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "1",
+        "noOfDrivers": "1",
+        "seatingCapacity": "1",
+        "vehicleWatt": "1265.00"
+      }
+    ]
+  },
+  {
+    "code": "M_160727",
+    "id": "2179",
+    "name": "AIRYAN AUTOMOTIVE PVT. LTD.",
+    "models": [
+      {
+        "vehicleCode": "M_22839",
+        "modelDescription": "SIGMA VX Electric SEAT 1",
+        "bodyDescription": "E BIKE",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "1",
+        "noOfDrivers": "1",
+        "seatingCapacity": "1",
+        "vehicleWatt": "250.00"
+      }
+    ]
+  },
+  {
+    "code": "M_161093",
+    "id": "2543",
+    "name": "AKAL AGRO INDUSTRIES",
+    "models": [
+      {
+        "vehicleCode": "UL29493",
+        "modelDescription": "JUGNU STANDARD Electric SEAT 1",
+        "bodyDescription": "E BIKE",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "1",
+        "noOfDrivers": "1",
+        "seatingCapacity": "1",
+        "vehicleWatt": "2500.00"
+      }
+    ]
+  },
+  {
+    "code": "M_160770",
+    "id": "2222",
+    "name": "ALF ELECTRO MOTORS",
+    "models": [
+      {
+        "vehicleCode": "M_23274",
+        "modelDescription": "MIN VAGAN Electric SEAT 1",
+        "bodyDescription": "E BIKE",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "1",
+        "noOfDrivers": "1",
+        "seatingCapacity": "1",
+        "vehicleWatt": "250.00"
+      },
+      {
+        "vehicleCode": "M_23449",
+        "modelDescription": "MIN SAKTHI Electric SEAT 1",
+        "bodyDescription": "E BIKE",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "1",
+        "noOfDrivers": "1",
+        "seatingCapacity": "1",
+        "vehicleWatt": "250.00"
+      },
+      {
+        "vehicleCode": "M_24566",
+        "modelDescription": "MIN ATRAL Electric SEAT 1",
+        "bodyDescription": "E BIKE",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "1",
+        "noOfDrivers": "1",
+        "seatingCapacity": "1",
+        "vehicleWatt": "250.00"
+      }
+    ]
+  },
+  {
+    "code": "M_160545",
+    "id": "1996",
+    "name": "ALTUX INNOVATION PVT LTD",
+    "models": [
+      {
+        "vehicleCode": "M_21450",
+        "modelDescription": "GRACIA 48V 24 AH Electric SEAT 1",
+        "bodyDescription": "E BIKE",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "1",
+        "noOfDrivers": "1",
+        "seatingCapacity": "1",
+        "vehicleWatt": "250.00"
+      },
+      {
+        "vehicleCode": "M_21451",
+        "modelDescription": "GRACIA 48V 30 AH Electric SEAT 1",
+        "bodyDescription": "E BIKE",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "1",
+        "noOfDrivers": "1",
+        "seatingCapacity": "1",
+        "vehicleWatt": "250.00"
+      },
+      {
+        "vehicleCode": "M_21452",
+        "modelDescription": "GRACIA 60V 24 AH Electric SEAT 1",
+        "bodyDescription": "E BIKE",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "1",
+        "noOfDrivers": "1",
+        "seatingCapacity": "1",
+        "vehicleWatt": "250.00"
+      },
+      {
+        "vehicleCode": "M_21453",
+        "modelDescription": "GRACIA 60V 30 AH Electric SEAT 1",
+        "bodyDescription": "E BIKE",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "1",
+        "noOfDrivers": "1",
+        "seatingCapacity": "1",
+        "vehicleWatt": "250.00"
+      },
+      {
+        "vehicleCode": "M_21450",
+        "modelDescription": "GRACIA 48V 24 AH Electric SEAT 1",
+        "bodyDescription": "E BIKE",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "1",
+        "noOfDrivers": "1",
+        "seatingCapacity": "1",
+        "vehicleWatt": "250.00"
+      },
+      {
+        "vehicleCode": "M_21451",
+        "modelDescription": "GRACIA 48V 30 AH Electric SEAT 1",
+        "bodyDescription": "E BIKE",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "1",
+        "noOfDrivers": "1",
+        "seatingCapacity": "1",
+        "vehicleWatt": "250.00"
+      },
+      {
+        "vehicleCode": "M_21452",
+        "modelDescription": "GRACIA 60V 24 AH Electric SEAT 1",
+        "bodyDescription": "E BIKE",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "1",
+        "noOfDrivers": "1",
+        "seatingCapacity": "1",
+        "vehicleWatt": "250.00"
+      },
+      {
+        "vehicleCode": "M_21453",
+        "modelDescription": "GRACIA 60V 30 AH Electric SEAT 1",
+        "bodyDescription": "E BIKE",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "1",
+        "noOfDrivers": "1",
+        "seatingCapacity": "1",
+        "vehicleWatt": "250.00"
+      },
+      {
+        "vehicleCode": "M_21460",
+        "modelDescription": "MUSCULAR PLUS 48V 24 AH Electric SEAT 1",
+        "bodyDescription": "E BIKE",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "1",
+        "noOfDrivers": "1",
+        "seatingCapacity": "1",
+        "vehicleWatt": "250.00"
+      },
+      {
+        "vehicleCode": "M_21461",
+        "modelDescription": "MUSCULAR PLUS 48V 30 AH Electric SEAT 1",
+        "bodyDescription": "E BIKE",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "1",
+        "noOfDrivers": "1",
+        "seatingCapacity": "1",
+        "vehicleWatt": "250.00"
+      },
+      {
+        "vehicleCode": "M_21468",
+        "modelDescription": "MUSCULAR PLUS 60V 24 AH Electric SEAT 1",
+        "bodyDescription": "E BIKE",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "1",
+        "noOfDrivers": "1",
+        "seatingCapacity": "1",
+        "vehicleWatt": "250.00"
+      },
+      {
+        "vehicleCode": "M_21469",
+        "modelDescription": "MUSCULAR PLUS 60V 30 AH Electric SEAT 1",
+        "bodyDescription": "E BIKE",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "1",
+        "noOfDrivers": "1",
+        "seatingCapacity": "1",
+        "vehicleWatt": "250.00"
+      }
+    ]
+  },
+  {
+    "code": "M_160377",
+    "id": "1869",
+    "name": "AMBIKA ENTERPRISES",
+    "models": [
+      {
+        "vehicleCode": "M_23394",
+        "modelDescription": "E VOLT Electric SEAT 1",
+        "bodyDescription": "E BIKE",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "1",
+        "noOfDrivers": "1",
+        "seatingCapacity": "1",
+        "vehicleWatt": "250.00"
+      }
+    ]
+  },
+  {
+    "code": "M_160405",
+    "id": "1884",
+    "name": "AMO MOBILITY",
+    "models": [
+      {
+        "vehicleCode": "M_20290",
+        "modelDescription": "JAUNTY Electric SEAT 1",
+        "bodyDescription": "E BIKE",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "1",
+        "noOfDrivers": "1",
+        "seatingCapacity": "1",
+        "vehicleWatt": "250.00"
+      },
+      {
+        "vehicleCode": "M_21593",
+        "modelDescription": "INSPIRER Electric SEAT 1",
+        "bodyDescription": "E BIKE",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "1",
+        "noOfDrivers": "1",
+        "seatingCapacity": "1",
+        "vehicleWatt": "249.00"
+      },
+      {
+        "vehicleCode": "M_21687",
+        "modelDescription": "AMO JAUNTY PRO Electric SEAT 1",
+        "bodyDescription": "E BIKE",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "1",
+        "noOfDrivers": "1",
+        "seatingCapacity": "1",
+        "vehicleWatt": "250.00"
+      },
+      {
+        "vehicleCode": "M_22012",
+        "modelDescription": "AMO JAUNTY Electric SEAT 1",
+        "bodyDescription": "E BIKE",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "1",
+        "noOfDrivers": "1",
+        "seatingCapacity": "1",
+        "vehicleWatt": "250.00"
+      },
+      {
+        "vehicleCode": "M_20290",
+        "modelDescription": "JAUNTY Electric SEAT 1",
+        "bodyDescription": "E BIKE",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "1",
+        "noOfDrivers": "1",
+        "seatingCapacity": "1",
+        "vehicleWatt": "250.00"
+      },
+      {
+        "vehicleCode": "M_21593",
+        "modelDescription": "INSPIRER Electric SEAT 1",
+        "bodyDescription": "E BIKE",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "1",
+        "noOfDrivers": "1",
+        "seatingCapacity": "1",
+        "vehicleWatt": "249.00"
+      },
+      {
+        "vehicleCode": "M_21687",
+        "modelDescription": "AMO JAUNTY PRO Electric SEAT 1",
+        "bodyDescription": "E BIKE",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "1",
+        "noOfDrivers": "1",
+        "seatingCapacity": "1",
+        "vehicleWatt": "250.00"
+      },
+      {
+        "vehicleCode": "M_22012",
+        "modelDescription": "AMO JAUNTY Electric SEAT 1",
+        "bodyDescription": "E BIKE",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "1",
+        "noOfDrivers": "1",
+        "seatingCapacity": "1",
+        "vehicleWatt": "250.00"
+      },
+      {
+        "vehicleCode": "M_25991",
+        "modelDescription": "BRISK Electric SEAT 1",
+        "bodyDescription": "E BIKE",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "1",
+        "noOfDrivers": "1",
+        "seatingCapacity": "1",
+        "vehicleWatt": "249.00"
+      },
+      {
+        "vehicleCode": "M_27160",
+        "modelDescription": "INSPIRER Electric SEAT 1",
+        "bodyDescription": "E BIKE",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "1",
+        "noOfDrivers": "1",
+        "seatingCapacity": "1",
+        "vehicleWatt": "250.00"
+      },
+      {
+        "vehicleCode": "M_27424",
+        "modelDescription": "MAXIMUS 60V 28AH Electric SEAT 1",
+        "bodyDescription": "E BIKE",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "1",
+        "noOfDrivers": "1",
+        "seatingCapacity": "1",
+        "vehicleWatt": "250.00"
+      },
+      {
+        "vehicleCode": "M_27428",
+        "modelDescription": "XES UMAX 72V 27AH Electric SEAT 1",
+        "bodyDescription": "E BIKE",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "1",
+        "noOfDrivers": "1",
+        "seatingCapacity": "1",
+        "vehicleWatt": "250.00"
+      },
+      {
+        "vehicleCode": "M_32046",
+        "modelDescription": "AMO JAUNTY L Electric SEAT 1",
+        "bodyDescription": "E BIKE",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "1",
+        "noOfDrivers": "1",
+        "seatingCapacity": "1",
+        "vehicleWatt": "250.00"
+      },
+      {
+        "vehicleCode": "UL33746",
+        "modelDescription": "JAUNTY I PRO STANDARD Electric SEAT 1",
+        "bodyDescription": "E BIKE",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "1",
+        "noOfDrivers": "1",
+        "seatingCapacity": "1",
+        "vehicleWatt": "2900.00"
+      },
+      {
+        "vehicleCode": "UL33747",
+        "modelDescription": "JAUNTY L STANDARD Electric SEAT 1",
+        "bodyDescription": "E BIKE",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "1",
+        "noOfDrivers": "1",
+        "seatingCapacity": "1",
+        "vehicleWatt": "249.00"
+      },
+      {
+        "vehicleCode": "UL33748",
+        "modelDescription": "JAUNTY S STANDARD Electric SEAT 1",
+        "bodyDescription": "E BIKE",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "1",
+        "noOfDrivers": "1",
+        "seatingCapacity": "1",
+        "vehicleWatt": "211.00"
+      }
+    ]
   }
 ]

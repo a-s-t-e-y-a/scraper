@@ -83,6 +83,9 @@ node src/index.js
    - JSON file mein save karke aage badh jayegi.
 6. Progress aapko terminal logs mein live dikhayi degi jaise:  `[1/479] 🔍 G BYKE` -> `✅ Extracted 2 models.`
 
+> **💡 Smart Resume Feature!**
+> Agar beech mein script ruk jaaye (jaise error aa jaye ya aap khud `Ctrl + C` dabake rok dein), toh fikar ki koi baat nahi. Agli baar jab aap `node src/index.js` chalayenge toh script automatic `.json` file check karegi aur jo data pehle aa chuka hoga usko **skip** (`⏭️ Skipping...`) karke wahin se start karegi jahan se ruki thi!
+
 Data achanak crash hone pe udh na jaye, isliye har manufacturer ka models scrape hone ke baad file live-overwrite hoke save hoti rehti hai `data/manufacturers_with_models.json` mein.
 
 ---
