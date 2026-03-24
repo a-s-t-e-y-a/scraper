@@ -10,7 +10,7 @@ const wait = (ms) => new Promise(r => setTimeout(r, ms));
 class TwoWheelerHandler extends BaseHandler {
     constructor() {
         super('TW', {
-            outputDir: require('path').join(__dirname, '../data')
+            outputDir: require('path').join(__dirname, '../../data')
         });
 
         // Product-specific selectors

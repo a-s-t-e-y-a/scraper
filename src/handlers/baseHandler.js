@@ -252,6 +252,10 @@ class BaseHandler {
      */
     saveData(filePath, data) {
         try {
+            const dir = path.dirname(filePath);
+            if (!fs.existsSync(dir)) {
+                fs.mkdirSync(dir, { recursive: true });
+            }
             fs.writeFileSync(filePath, JSON.stringify(data, null, 2));
         } catch (err) {
             console.error('Error saving data:', err.message);
