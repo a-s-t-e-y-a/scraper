@@ -1,0 +1,133 @@
+[
+  {
+    "code": "M_127631",
+    "id": "752",
+    "name": "ACE",
+    "models": [
+      {
+        "vehicleCode": "M_12878",
+        "modelDescription": "DI 854NG DIESEL SEAT 0",
+        "bodyDescription": "TRACTOR",
+        "cubicCapacity": "0.00",
+        "fuel": "DIESEL",
+        "gvw": "0",
+        "noOfDrivers": "1",
+        "seatingCapacity": "0",
+        "vehicleWatt": "0.00"
+      },
+      {
+        "vehicleCode": "S_3637",
+        "modelDescription": "DI 550 DIESEL SEAT 0",
+        "bodyDescription": "TRACTOR",
+        "cubicCapacity": "0.00",
+        "fuel": "DIESEL",
+        "gvw": "1",
+        "noOfDrivers": "1",
+        "seatingCapacity": "0",
+        "vehicleWatt": "0.00"
+      },
+      {
+        "vehicleCode": "S_3635",
+        "modelDescription": "DI 350 DIESEL SEAT 0",
+        "bodyDescription": "TRACTOR",
+        "cubicCapacity": "0.00",
+        "fuel": "DIESEL",
+        "gvw": "1",
+        "noOfDrivers": "1",
+        "seatingCapacity": "0",
+        "vehicleWatt": "0.00"
+      },
+      {
+        "vehicleCode": "S_3636",
+        "modelDescription": "DI 450 DIESEL SEAT 0",
+        "bodyDescription": "TRACTOR",
+        "cubicCapacity": "0.00",
+        "fuel": "DIESEL",
+        "gvw": "1",
+        "noOfDrivers": "1",
+        "seatingCapacity": "0",
+        "vehicleWatt": "0.00"
+      }
+    ],
+    "vehicleType": "GCCV-PUBLIC CARRIERS OTHER THAN THREE WHEELERS"
+  },
+  {
+    "code": "M_1845138",
+    "id": "1280",
+    "name": "AGRIKING TRACTORS",
+    "models": [
+      {
+        "vehicleCode": "M_11381",
+        "modelDescription": "AGRI KING 2055 DIESEL SEAT 0",
+        "bodyDescription": "TRACTOR",
+        "cubicCapacity": "1.00",
+        "fuel": "DIESEL",
+        "gvw": "1",
+        "noOfDrivers": "1",
+        "seatingCapacity": "0",
+        "vehicleWatt": "0.00"
+      },
+      {
+        "vehicleCode": "M_22219",
+        "modelDescription": "AKT-44 DIESEL SEAT 0",
+        "bodyDescription": "TRACTOR",
+        "cubicCapacity": "1.00",
+        "fuel": "DIESEL",
+        "gvw": "1",
+        "noOfDrivers": "1",
+        "seatingCapacity": "0",
+        "vehicleWatt": "0.00"
+      }
+    ],
+    "vehicleType": "GCCV-PUBLIC CARRIERS OTHER THAN THREE WHEELERS"
+  },
+  {
+    "code": "M_160946",
+    "id": "2397",
+    "name": "AGROTRACK",
+    "models": [
+      {
+        "vehicleCode": "M_25007",
+        "modelDescription": "736 DI DIESEL SEAT 0",
+        "bodyDescription": "TRACTOR",
+        "cubicCapacity": "1.00",
+        "fuel": "DIESEL",
+        "gvw": "1",
+        "noOfDrivers": "1",
+        "seatingCapacity": "0",
+        "vehicleWatt": "0.00"
+      },
+      {
+        "vehicleCode": "M_25424",
+        "modelDescription": "333 DI DIESEL SEAT 0",
+        "bodyDescription": "TRACTOR",
+        "cubicCapacity": "1.00",
+        "fuel": "DIESEL",
+        "gvw": "1",
+        "noOfDrivers": "1",
+        "seatingCapacity": "0",
+        "vehicleWatt": "0.00"
+      }
+    ],
+    "vehicleType": "GCCV-PUBLIC CARRIERS OTHER THAN THREE WHEELERS"
+  },
+  {
+    "code": "M_1845764",
+    "id": "1409",
+    "name": "AKASH EQUIPMENTS",
+    "models": [
+      {
+        "vehicleCode": "M_14432",
+        "modelDescription": "AKASH 35 DI DIESEL SEAT 0",
+        "bodyDescription": "TRACTOR",
+        "cubicCapacity": "0.00",
+        "fuel": "DIESEL",
+        "gvw": "0",
+        "noOfDrivers": "1",
+        "seatingCapacity": "0",
+        "vehicleWatt": "0.00"
+      }
+    ],
+    "vehicleType": "GCCV-PUBLIC CARRIERS OTHER THAN THREE WHEELERS"
+  }
+]

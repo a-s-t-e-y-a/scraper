@@ -94,10 +94,10 @@ class GCCVHandler extends BaseHandler {
 
         let allResults = [];
 
-        for (let typeIdx = 0; typeIdx < vehicleTypes.length; typeIdx++) {
+        for (let typeIdx = 1; typeIdx < vehicleTypes.length; typeIdx++) {
             const vehicleType = vehicleTypes[typeIdx];
             console.log(`\n${'='.repeat(70)}`);
-            console.log(`🔄 Processing Vehicle Type [${typeIdx + 1}/${vehicleTypes.length}]: ${vehicleType.label}`);
+            console.log(`🔄 Processing Vehicle Type [${typeIdx}/${vehicleTypes.length - 1}]: ${vehicleType.label}`);
             console.log(`${'='.repeat(70)}\n`);
 
             try {
