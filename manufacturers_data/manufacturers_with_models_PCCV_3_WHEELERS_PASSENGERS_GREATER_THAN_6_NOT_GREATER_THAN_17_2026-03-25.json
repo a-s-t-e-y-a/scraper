@@ -1,0 +1,330 @@
+{
+  "productType": "PCCV-3 wheeled vehicles-carrying passengers > 6 but NOT >17",
+  "productCode": "MOT-PRD-005",
+  "productClass": "CLASS_4C3",
+  "fetchDate": "2026-03-25T08:54:37.806Z",
+  "manufacturersCount": 8,
+  "totalModels": 12,
+  "data": [
+    {
+      "manufacturer": {
+        "id": "728",
+        "name": "FORCE MOTORS",
+        "code": "M_125913"
+      },
+      "modelsCount": 1,
+      "models": [
+        {
+          "row_num": "1",
+          "modeL_DESC": "MINIDOR DIESEL SEAT 7",
+          "veH_MODEL": "M_8670",
+          "veH_FUEL": "124",
+          "bodY_DESC": "AUTO RICKSHAW",
+          "vehWatt": "0.00",
+          "fuel": "DIESEL",
+          "vehId": "9757",
+          "seatingCapacity": "7",
+          "cubiccapacity": "499.00",
+          "gvw": "1",
+          "noofdrivers": "1",
+          "totalRows": "1",
+          "fkModelId": "MINIDOR",
+          "bodyCode": "0",
+          "isCommercial": "0",
+          "chassisPrice": "0.00",
+          "bodyPrice": "0.00"
+        }
+      ]
+    },
+    {
+      "manufacturer": {
+        "id": "1054",
+        "name": "GAYATRI ELECTRIC VEHICLES",
+        "code": "M_160064"
+      },
+      "modelsCount": 2,
+      "models": [
+        {
+          "row_num": "1",
+          "modeL_DESC": "DABANG MAXX Electric SEAT 7",
+          "veH_MODEL": "M_32033",
+          "veH_FUEL": "213",
+          "bodY_DESC": "AUTO RICKSHAW",
+          "vehWatt": "4000.00",
+          "fuel": "Electric",
+          "vehId": "68065",
+          "seatingCapacity": "7",
+          "cubiccapacity": "1.00",
+          "gvw": "1",
+          "noofdrivers": "1",
+          "totalRows": "2",
+          "fkModelId": "DABANG MAXX",
+          "bodyCode": "0",
+          "isCommercial": "0",
+          "chassisPrice": "0.00",
+          "bodyPrice": "0.00"
+        },
+        {
+          "row_num": "2",
+          "modeL_DESC": "DABANG MAXX Electric SEAT 7",
+          "veH_MODEL": "M_32363",
+          "veH_FUEL": "213",
+          "bodY_DESC": "AUTO RICKSHAW",
+          "vehWatt": "4000.00",
+          "fuel": "Electric",
+          "vehId": "68993",
+          "seatingCapacity": "7",
+          "cubiccapacity": "1.00",
+          "gvw": "1",
+          "noofdrivers": "1",
+          "totalRows": "2",
+          "fkModelId": "DABANG MAXX",
+          "bodyCode": "0",
+          "isCommercial": "0",
+          "chassisPrice": "0.00",
+          "bodyPrice": "0.00"
+        }
+      ]
+    },
+    {
+      "manufacturer": {
+        "id": "858",
+        "name": "J S AUTO",
+        "code": "M_133363"
+      },
+      "modelsCount": 2,
+      "models": [
+        {
+          "row_num": "1",
+          "modeL_DESC": "1360 D3 DIESEL SEAT 7",
+          "veH_MODEL": "M_8635",
+          "veH_FUEL": "124",
+          "bodY_DESC": "AUTO RICKSHAW",
+          "vehWatt": "0.00",
+          "fuel": "DIESEL",
+          "vehId": "28408",
+          "seatingCapacity": "7",
+          "cubiccapacity": "510.00",
+          "gvw": "1350",
+          "noofdrivers": "1",
+          "totalRows": "2",
+          "fkModelId": "1360 D3",
+          "bodyCode": "0",
+          "isCommercial": "0",
+          "chassisPrice": "0.00",
+          "bodyPrice": "0.00"
+        },
+        {
+          "row_num": "2",
+          "modeL_DESC": "1360 D4 DIESEL SEAT 7",
+          "veH_MODEL": "M_16549",
+          "veH_FUEL": "124",
+          "bodY_DESC": "AUTO RICKSHAW",
+          "vehWatt": "0.00",
+          "fuel": "DIESEL",
+          "vehId": "33947",
+          "seatingCapacity": "7",
+          "cubiccapacity": "510.00",
+          "gvw": "0",
+          "noofdrivers": "1",
+          "totalRows": "2",
+          "fkModelId": "1360 D4",
+          "bodyCode": "0",
+          "isCommercial": "0",
+          "chassisPrice": "0.00",
+          "bodyPrice": "0.00"
+        }
+      ]
+    },
+    {
+      "manufacturer": {
+        "id": "711",
+        "name": "MAHINDRA AND MAHINDRA",
+        "code": "M_122172"
+      },
+      "modelsCount": 1,
+      "models": [
+        {
+          "row_num": "1",
+          "modeL_DESC": "CHAMPION PASSENGER DIESEL SEAT 7",
+          "veH_MODEL": "M_17364",
+          "veH_FUEL": "124",
+          "bodY_DESC": "AUTO RICKSHAW",
+          "vehWatt": "0.00",
+          "fuel": "DIESEL",
+          "vehId": "34541",
+          "seatingCapacity": "7",
+          "cubiccapacity": "510.00",
+          "gvw": "1",
+          "noofdrivers": "1",
+          "totalRows": "1",
+          "fkModelId": "CHAMPION PASSENGER",
+          "bodyCode": "0",
+          "isCommercial": "0",
+          "chassisPrice": "0.00",
+          "bodyPrice": "0.00"
+        }
+      ]
+    },
+    {
+      "manufacturer": {
+        "id": "2637",
+        "name": "MERCURY EV TECH LTD",
+        "code": "M_161288"
+      },
+      "modelsCount": 1,
+      "models": [
+        {
+          "row_num": "1",
+          "modeL_DESC": "L 5 PASSANGER DODO PLUS Electric SEAT 7",
+          "veH_MODEL": "M_32988",
+          "veH_FUEL": "213",
+          "bodY_DESC": "AUTO RICKSHAW",
+          "vehWatt": "7780.00",
+          "fuel": "Electric",
+          "vehId": "69897",
+          "seatingCapacity": "7",
+          "cubiccapacity": "1.00",
+          "gvw": "1",
+          "noofdrivers": "1",
+          "totalRows": "1",
+          "fkModelId": "L 5 PASSANGER DODO PLUS",
+          "bodyCode": "0",
+          "isCommercial": "0",
+          "chassisPrice": "0.00",
+          "bodyPrice": "0.00"
+        }
+      ]
+    },
+    {
+      "manufacturer": {
+        "id": "741",
+        "name": "RASANDIK MOTORS",
+        "code": "M_127620"
+      },
+      "modelsCount": 1,
+      "models": [
+        {
+          "row_num": "1",
+          "modeL_DESC": "711 CHIEF DIESEL SEAT 7",
+          "veH_MODEL": "M_20636",
+          "veH_FUEL": "124",
+          "bodY_DESC": "AUTO RICKSHAW",
+          "vehWatt": "0.00",
+          "fuel": "DIESEL",
+          "vehId": "46268",
+          "seatingCapacity": "7",
+          "cubiccapacity": "510.00",
+          "gvw": "1",
+          "noofdrivers": "1",
+          "totalRows": "1",
+          "fkModelId": "711 CHIEF",
+          "bodyCode": "0",
+          "isCommercial": "0",
+          "chassisPrice": "0.00",
+          "bodyPrice": "0.00"
+        }
+      ]
+    },
+    {
+      "manufacturer": {
+        "id": "1109",
+        "name": "SCOOTER INDIA",
+        "code": "M_1800495"
+      },
+      "modelsCount": 3,
+      "models": [
+        {
+          "row_num": "1",
+          "modeL_DESC": "VIKRAM 1500 CNG SEAT 7",
+          "veH_MODEL": "M_7672",
+          "veH_FUEL": "125",
+          "bodY_DESC": "AUTO RICKSHAW",
+          "vehWatt": "0.00",
+          "fuel": "CNG",
+          "vehId": "7962",
+          "seatingCapacity": "7",
+          "cubiccapacity": "510.00",
+          "gvw": "0",
+          "noofdrivers": "1",
+          "totalRows": "3",
+          "fkModelId": "VIKRAM 1500",
+          "bodyCode": "0",
+          "isCommercial": "0",
+          "chassisPrice": "0.00",
+          "bodyPrice": "0.00"
+        },
+        {
+          "row_num": "2",
+          "modeL_DESC": "VIKRAM 750 D AC DIESEL SEAT 7",
+          "veH_MODEL": "M_7665",
+          "veH_FUEL": "124",
+          "bodY_DESC": "AUTO RICKSHAW",
+          "vehWatt": "0.00",
+          "fuel": "DIESEL",
+          "vehId": "26547",
+          "seatingCapacity": "7",
+          "cubiccapacity": "510.00",
+          "gvw": "0",
+          "noofdrivers": "1",
+          "totalRows": "3",
+          "fkModelId": "VIKRAM 750 D AC",
+          "bodyCode": "0",
+          "isCommercial": "0",
+          "chassisPrice": "0.00",
+          "bodyPrice": "0.00"
+        },
+        {
+          "row_num": "3",
+          "modeL_DESC": "VIKRAM 750 PETROL SEAT 7",
+          "veH_MODEL": "M_28499",
+          "veH_FUEL": "126",
+          "bodY_DESC": "AUTO RICKSHAW",
+          "vehWatt": "0.00",
+          "fuel": "PETROL",
+          "vehId": "56818",
+          "seatingCapacity": "7",
+          "cubiccapacity": "510.00",
+          "gvw": "1",
+          "noofdrivers": "1",
+          "totalRows": "3",
+          "fkModelId": "VIKRAM 750",
+          "bodyCode": "0",
+          "isCommercial": "0",
+          "chassisPrice": "0.00",
+          "bodyPrice": "0.00"
+        }
+      ]
+    },
+    {
+      "manufacturer": {
+        "id": "573",
+        "name": "SURAJ AUTO",
+        "code": "MANF_605"
+      },
+      "modelsCount": 1,
+      "models": [
+        {
+          "row_num": "1",
+          "modeL_DESC": "SITARA DIESEL SEAT 7",
+          "veH_MODEL": "M_10083",
+          "veH_FUEL": "124",
+          "bodY_DESC": "AUTO RICKSHAW",
+          "vehWatt": "0.00",
+          "fuel": "DIESEL",
+          "vehId": "7229",
+          "seatingCapacity": "7",
+          "cubiccapacity": "510.00",
+          "gvw": "1",
+          "noofdrivers": "1",
+          "totalRows": "1",
+          "fkModelId": "SITARA",
+          "bodyCode": "0",
+          "isCommercial": "0",
+          "chassisPrice": "0.00",
+          "bodyPrice": "0.00"
+        }
+      ]
+    }
+  ]
+}

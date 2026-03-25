@@ -1,0 +1,490 @@
+{
+  "fetchDate": "2026-03-25T08:11:27.385Z",
+  "totalCount": 69,
+  "pagesCount": 1,
+  "data": [
+    {
+      "row_num": "1",
+      "manfacturerID": "726",
+      "manfacturerName": "ASHOK LEYLAND",
+      "manfacturerCode": "M_125911",
+      "totalRows": "69"
+    },
+    {
+      "row_num": "2",
+      "manfacturerID": "1516",
+      "manfacturerName": "ASTON MARTIN",
+      "manfacturerCode": "M_150000",
+      "totalRows": "69"
+    },
+    {
+      "row_num": "3",
+      "manfacturerID": "701",
+      "manfacturerName": "AUDI",
+      "manfacturerCode": "M_122162",
+      "totalRows": "69"
+    },
+    {
+      "row_num": "4",
+      "manfacturerID": "716",
+      "manfacturerName": "BAJAJ AUTO",
+      "manfacturerCode": "M_122179",
+      "totalRows": "69"
+    },
+    {
+      "row_num": "5",
+      "manfacturerID": "702",
+      "manfacturerName": "BENTLEY",
+      "manfacturerCode": "M_122163",
+      "totalRows": "69"
+    },
+    {
+      "row_num": "6",
+      "manfacturerID": "703",
+      "manfacturerName": "BMW",
+      "manfacturerCode": "M_122164",
+      "totalRows": "69"
+    },
+    {
+      "row_num": "7",
+      "manfacturerID": "1587",
+      "manfacturerName": "BMW",
+      "manfacturerCode": "VEH_MANF_041",
+      "totalRows": "69"
+    },
+    {
+      "row_num": "8",
+      "manfacturerID": "1517",
+      "manfacturerName": "BUGATTI",
+      "manfacturerCode": "M_150001",
+      "totalRows": "69"
+    },
+    {
+      "row_num": "9",
+      "manfacturerID": "2069",
+      "manfacturerName": "BYD INDIA PVT. LTD .",
+      "manfacturerCode": "M_160619",
+      "totalRows": "69"
+    },
+    {
+      "row_num": "10",
+      "manfacturerID": "754",
+      "manfacturerName": "CHEVROLET",
+      "manfacturerCode": "M_127711",
+      "totalRows": "69"
+    },
+    {
+      "row_num": "11",
+      "manfacturerID": "2087",
+      "manfacturerName": "CITROEN",
+      "manfacturerCode": "M_160638",
+      "totalRows": "69"
+    },
+    {
+      "row_num": "12",
+      "manfacturerID": "705",
+      "manfacturerName": "DAEWOO",
+      "manfacturerCode": "M_122166",
+      "totalRows": "69"
+    },
+    {
+      "row_num": "13",
+      "manfacturerID": "1518",
+      "manfacturerName": "DATSUN",
+      "manfacturerCode": "M_150002",
+      "totalRows": "69"
+    },
+    {
+      "row_num": "14",
+      "manfacturerID": "1525",
+      "manfacturerName": "DC",
+      "manfacturerCode": "M_160001",
+      "totalRows": "69"
+    },
+    {
+      "row_num": "15",
+      "manfacturerID": "727",
+      "manfacturerName": "EICHER",
+      "manfacturerCode": "M_125912",
+      "totalRows": "69"
+    },
+    {
+      "row_num": "16",
+      "manfacturerID": "606",
+      "manfacturerName": "FERRARI",
+      "manfacturerCode": "MANF_647",
+      "totalRows": "69"
+    },
+    {
+      "row_num": "17",
+      "manfacturerID": "706",
+      "manfacturerName": "FIAT",
+      "manfacturerCode": "M_122167",
+      "totalRows": "69"
+    },
+    {
+      "row_num": "18",
+      "manfacturerID": "11",
+      "manfacturerName": "FORCE MOTORS",
+      "manfacturerCode": "MAKE_125913",
+      "totalRows": "69"
+    },
+    {
+      "row_num": "19",
+      "manfacturerID": "728",
+      "manfacturerName": "FORCE MOTORS",
+      "manfacturerCode": "M_125913",
+      "totalRows": "69"
+    },
+    {
+      "row_num": "20",
+      "manfacturerID": "2870",
+      "manfacturerName": "FORCE MOTORS",
+      "manfacturerCode": "M_125913_01",
+      "totalRows": "69"
+    },
+    {
+      "row_num": "21",
+      "manfacturerID": "707",
+      "manfacturerName": "FORD",
+      "manfacturerCode": "M_122168",
+      "totalRows": "69"
+    },
+    {
+      "row_num": "22",
+      "manfacturerID": "746",
+      "manfacturerName": "HINDUSTAN MOTORS",
+      "manfacturerCode": "M_127625",
+      "totalRows": "69"
+    },
+    {
+      "row_num": "23",
+      "manfacturerID": "710",
+      "manfacturerName": "HONDA",
+      "manfacturerCode": "M_122171",
+      "totalRows": "69"
+    },
+    {
+      "row_num": "24",
+      "manfacturerID": "712",
+      "manfacturerName": "HYUNDAI",
+      "manfacturerCode": "M_122173",
+      "totalRows": "69"
+    },
+    {
+      "row_num": "25",
+      "manfacturerID": "713",
+      "manfacturerName": "ICML",
+      "manfacturerCode": "M_122174",
+      "totalRows": "69"
+    },
+    {
+      "row_num": "26",
+      "manfacturerID": "1519",
+      "manfacturerName": "ISUZU",
+      "manfacturerCode": "M_150003",
+      "totalRows": "69"
+    },
+    {
+      "row_num": "27",
+      "manfacturerID": "1539",
+      "manfacturerName": "ISUZU MOTORS",
+      "manfacturerCode": "M_1845816",
+      "totalRows": "69"
+    },
+    {
+      "row_num": "28",
+      "manfacturerID": "757",
+      "manfacturerName": "JAGUAR",
+      "manfacturerCode": "M_127745",
+      "totalRows": "69"
+    },
+    {
+      "row_num": "29",
+      "manfacturerID": "1541",
+      "manfacturerName": "JEEP",
+      "manfacturerCode": "M_1845868",
+      "totalRows": "69"
+    },
+    {
+      "row_num": "30",
+      "manfacturerID": "1762",
+      "manfacturerName": "KIA MOTORS",
+      "manfacturerCode": "M_160211",
+      "totalRows": "69"
+    },
+    {
+      "row_num": "31",
+      "manfacturerID": "1776",
+      "manfacturerName": "KIA MOTORS",
+      "manfacturerCode": "M_160238",
+      "totalRows": "69"
+    },
+    {
+      "row_num": "32",
+      "manfacturerID": "1520",
+      "manfacturerName": "KOENINSEGG",
+      "manfacturerCode": "M_150004",
+      "totalRows": "69"
+    },
+    {
+      "row_num": "33",
+      "manfacturerID": "714",
+      "manfacturerName": "LAMBORGHINI",
+      "manfacturerCode": "M_122175",
+      "totalRows": "69"
+    },
+    {
+      "row_num": "34",
+      "manfacturerID": "890",
+      "manfacturerName": "LAND ROVER",
+      "manfacturerCode": "M_144039",
+      "totalRows": "69"
+    },
+    {
+      "row_num": "35",
+      "manfacturerID": "2702",
+      "manfacturerName": "LAND ROVER",
+      "manfacturerCode": "M_161355",
+      "totalRows": "69"
+    },
+    {
+      "row_num": "36",
+      "manfacturerID": "1521",
+      "manfacturerName": "LEXUS",
+      "manfacturerCode": "M_150005",
+      "totalRows": "69"
+    },
+    {
+      "row_num": "37",
+      "manfacturerID": "2668",
+      "manfacturerName": "LOTUS",
+      "manfacturerCode": "M_161320",
+      "totalRows": "69"
+    },
+    {
+      "row_num": "38",
+      "manfacturerID": "2",
+      "manfacturerName": "M V TRAILERS",
+      "manfacturerCode": "3",
+      "totalRows": "69"
+    },
+    {
+      "row_num": "39",
+      "manfacturerID": "711",
+      "manfacturerName": "MAHINDRA AND MAHINDRA",
+      "manfacturerCode": "M_122172",
+      "totalRows": "69"
+    },
+    {
+      "row_num": "40",
+      "manfacturerID": "1252",
+      "manfacturerName": "MAHINDRA SSANGYONG",
+      "manfacturerCode": "M_1845108",
+      "totalRows": "69"
+    },
+    {
+      "row_num": "41",
+      "manfacturerID": "695",
+      "manfacturerName": "MARUTI SUZUKI",
+      "manfacturerCode": "M_122156",
+      "totalRows": "69"
+    },
+    {
+      "row_num": "42",
+      "manfacturerID": "1522",
+      "manfacturerName": "MASERATI",
+      "manfacturerCode": "M_150006",
+      "totalRows": "69"
+    },
+    {
+      "row_num": "43",
+      "manfacturerID": "1542",
+      "manfacturerName": "MAZDA",
+      "manfacturerCode": "M_1845872",
+      "totalRows": "69"
+    },
+    {
+      "row_num": "44",
+      "manfacturerID": "1948",
+      "manfacturerName": "MCLAREN",
+      "manfacturerCode": "M_160487",
+      "totalRows": "69"
+    },
+    {
+      "row_num": "45",
+      "manfacturerID": "697",
+      "manfacturerName": "MERCEDES BENZ",
+      "manfacturerCode": "M_122158",
+      "totalRows": "69"
+    },
+    {
+      "row_num": "46",
+      "manfacturerID": "3030",
+      "manfacturerName": "MG",
+      "manfacturerCode": "M_160191",
+      "totalRows": "69"
+    },
+    {
+      "row_num": "47",
+      "manfacturerID": "1538",
+      "manfacturerName": "MINI",
+      "manfacturerCode": "M_1845628",
+      "totalRows": "69"
+    },
+    {
+      "row_num": "48",
+      "manfacturerID": "698",
+      "manfacturerName": "MITSUBISHI",
+      "manfacturerCode": "M_122159",
+      "totalRows": "69"
+    },
+    {
+      "row_num": "49",
+      "manfacturerID": "1746",
+      "manfacturerName": "MORRIS GARAGES",
+      "manfacturerCode": "M_160191",
+      "totalRows": "69"
+    },
+    {
+      "row_num": "50",
+      "manfacturerID": "700",
+      "manfacturerName": "NISSAN",
+      "manfacturerCode": "M_122161",
+      "totalRows": "69"
+    },
+    {
+      "row_num": "51",
+      "manfacturerID": "715",
+      "manfacturerName": "OPEL",
+      "manfacturerCode": "M_122176",
+      "totalRows": "69"
+    },
+    {
+      "row_num": "52",
+      "manfacturerID": "762",
+      "manfacturerName": "PIAGGIO",
+      "manfacturerCode": "M_127965",
+      "totalRows": "69"
+    },
+    {
+      "row_num": "53",
+      "manfacturerID": "2390",
+      "manfacturerName": "PMV",
+      "manfacturerCode": "M_160937",
+      "totalRows": "69"
+    },
+    {
+      "row_num": "54",
+      "manfacturerID": "699",
+      "manfacturerName": "PORSCHE",
+      "manfacturerCode": "M_122160",
+      "totalRows": "69"
+    },
+    {
+      "row_num": "55",
+      "manfacturerID": "687",
+      "manfacturerName": "PREMIER",
+      "manfacturerCode": "M_122148",
+      "totalRows": "69"
+    },
+    {
+      "row_num": "56",
+      "manfacturerID": "32",
+      "manfacturerName": "RENAULT",
+      "manfacturerCode": "MAKE_128732",
+      "totalRows": "69"
+    },
+    {
+      "row_num": "57",
+      "manfacturerID": "688",
+      "manfacturerName": "ROLLS ROYCE",
+      "manfacturerCode": "M_122149",
+      "totalRows": "69"
+    },
+    {
+      "row_num": "58",
+      "manfacturerID": "1523",
+      "manfacturerName": "SAN",
+      "manfacturerCode": "M_150007",
+      "totalRows": "69"
+    },
+    {
+      "row_num": "59",
+      "manfacturerID": "690",
+      "manfacturerName": "SKODA",
+      "manfacturerCode": "M_122151",
+      "totalRows": "69"
+    },
+    {
+      "row_num": "60",
+      "manfacturerID": "730",
+      "manfacturerName": "SML ISUZU",
+      "manfacturerCode": "M_125917",
+      "totalRows": "69"
+    },
+    {
+      "row_num": "61",
+      "manfacturerID": "810",
+      "manfacturerName": "TATA MOTORS",
+      "manfacturerCode": "M_128694",
+      "totalRows": "69"
+    },
+    {
+      "row_num": "62",
+      "manfacturerID": "3104",
+      "manfacturerName": "TESLA",
+      "manfacturerCode": "M_161750",
+      "totalRows": "69"
+    },
+    {
+      "row_num": "63",
+      "manfacturerID": "694",
+      "manfacturerName": "TOYOTA",
+      "manfacturerCode": "M_122155",
+      "totalRows": "69"
+    },
+    {
+      "row_num": "64",
+      "manfacturerID": "6",
+      "manfacturerName": "TOYOTA",
+      "manfacturerCode": "MAKE_122155",
+      "totalRows": "69"
+    },
+    {
+      "row_num": "65",
+      "manfacturerID": "2971",
+      "manfacturerName": "VAYVE",
+      "manfacturerCode": "M_161622",
+      "totalRows": "69"
+    },
+    {
+      "row_num": "66",
+      "manfacturerID": "3133",
+      "manfacturerName": "VINFAST",
+      "manfacturerCode": "M_161778",
+      "totalRows": "69"
+    },
+    {
+      "row_num": "67",
+      "manfacturerID": "692",
+      "manfacturerName": "VOLKSWAGEN",
+      "manfacturerCode": "M_122153",
+      "totalRows": "69"
+    },
+    {
+      "row_num": "68",
+      "manfacturerID": "693",
+      "manfacturerName": "VOLVO",
+      "manfacturerCode": "M_122154",
+      "totalRows": "69"
+    },
+    {
+      "row_num": "69",
+      "manfacturerID": "2108",
+      "manfacturerName": "VOLVO",
+      "manfacturerCode": "M_160470",
+      "totalRows": "69"
+    }
+  ]
+}

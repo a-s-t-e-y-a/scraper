@@ -1,0 +1,14 @@
+const crypto = require('crypto');
+
+const key = 'b14ca5898a4e4133bbce2ea2315a1916';
+const iv = Buffer.alloc(16, 0);
+const encrypted = 'XblHaCsmqj5oz8feR2gQKBn5pSKWbjAaUI9F26ULv2smtMlhY7f3ccXF7A8sTpz9nDaEgwBVf//o6yQtk8fgGMcVbrFj6FUByb4h+bxYE1u4nwjo762gfdXYBZBuCt+P0GhthNn2hgiS+y0sFsZzBH8Ff79iSzWcXFwGgy/OTGU91BWBHaOZubhM8oPiUHo0TE+uFNJkWFxR/NeyDccuUwu/TsLLt/RxZU807ms9JTrpAEEuexwKayNLXWv1YlCux3uyOy/Px4M+AWAgL24IST6yHWQuumryqwCjFI5vbYCwWhMMfpAb1Up3erTgcXSZsFiJanLdLi6L4elHo+EdsUhVC0wGb/1nRHyB1j98/ocJ+RYP6zFEfySqFDXG6HwY2VD/pcMOu0GV/WjgxCqvRNJXtv48xX4Ye7ZuQvleEaKlv3NK844Qf7xUDEHVvpBy7xQaPqjFSCBhzMzO+TIyEcH3DkdkWQEac4pcZPLoeRcfPOuPmtYolPK4X3m9cJaLwRPgEeYD6/FuQ/t3NB83HupJ75ZI5YzKN/UpSq/Hb/XWS5ra+SeGs3NmWyAJP2BiNbOvOT2DY1ppaRv/dc/d1jGmNRgJERl01EEcoWwwu04/3Ls/nCYz1Y3qwpsu7Jjuo5kEyDThoTIBiegHg6zMibSRD2LDF4W6ys8HyymC4g1rQRGokDiu2UBJsb/Z3N6t9m/dPo7q2WCrkSYRfInLGsVKApRFxWfnzwaKpTFt1bHDE8eRnuYfIRRaYGl1UIla/8ocBKCj590r7Z+FFFA9MaZ+Xzqgs35c/B8cu4W2sSIZvK+IojbQ5mHITNDJALHoMOx88xTVGXVOlatJw1PSjBJp4GbtL470hBJ5XQaYbaI27kKvoszNipJYktMQptzpdw15yy4+xjVe0fNJGNTbXpzOQtBx9VGBh19WOwgqvZZqnkXSMnXKr0UQA84xca97RXOZj7VRJ8YQEn/R6j/LwhRaN1Degx1EE7wPlhmu4LzawCzdeXchDSzCU6d5BPFJ21BA3W4RYnD07Jke9bfCJIoMnSa07YFw6SB82FdVPNyx2Lm6ijhrf0LFanLTHXHQX0KslZhdfAYIxmTOjonjmaBh5F/FirQa5irx5AVA7Vo1jljWb03dxxHTXN0rAv4fJceU6j+/5Tu2fRDXo8nDXwBleBtQQvptlawsNp5+bFHSMJT/fT5a8WXXVbGU13BafDxKklxGViFBi7KnCSj1oOLbdDSKVXipKL3yYQBSG7HertOkGXcZcLmLZoFvq8KlSgFY2uwBafxrj064Q9BBPyPNp6twfb5qT5/OeuMZdxKJdEm6dT6gD0YDNNXu2ciYuLjZJprZttAnf/h/FYKolXSNeaUatSKJFlfbPwIKidnmtXxnpM8LJFXF6I0/m9XTaH+E/k/56lOS7PZgG7em3Alyg74xhi+HXAyl40RPnvgO9TUa2yAvY1gmNUwJWadQngxoVNSi91d/V/g4xBNo4iwo6vr3BY3ri5me6UrfbXyuVlvN/ZsDmz5GSSCcHZzOs3x8lEh+oTDexi7EsDPzgyORp/+N1txHWjkkBL2E+sKPTekM/LeFmwMpigGgxcmVTHs56JRGi08y27tAFuEYZHWQHc9aesepgexZh2yCakaeQiQfwff1mwzJHrc8Wc4CNja6Mq1jiLUzg+6K9tX5hoOgoOXaPKhLyeo+N2WIxvNepZu1hzQKfKVcFJEnFHOVljODQu/+b/mJpPtOqRemig==';
+
+const buffer = Buffer.from(encrypted, 'base64');
+const decipher = crypto.createDecipheriv('aes-256-cbc', Buffer.from(key), iv);
+let decrypted = decipher.update(buffer);
+decrypted = Buffer.concat([decrypted, decipher.final()]);
+const result = decrypted.toString('utf-8').replace(/\x00/g, '');
+const parsed = JSON.parse(result);
+
+console.log(JSON.stringify(parsed, null, 2));
