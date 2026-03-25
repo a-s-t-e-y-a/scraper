@@ -2,7 +2,6 @@ const BaseHandler = require('./baseHandler');
 const fs = require('fs');
 const path = require('path');
 const { getAvailableVehicleTypes, selectVehicleTypeByLabel } = require('../utils/vehicleTypeHelper');
-const { searchAndSelectManufacturer, clearSearchInput } = require('../utils/manufacturerSearch');
 
 const wait = (ms) => new Promise(r => setTimeout(r, ms));
 
@@ -201,28 +200,28 @@ class PCCVHandler extends BaseHandler {
                 continue;
             }
 
-            const isFirstOrThird = typeIdx === 0 || typeIdx === 2;
+            console.log('📝 Selecting form options...');
             
-            if (isFirstOrThird) {
-                console.log('📝 Handling additional selections for 1st/3rd variant...');
-                
-                try {
-                    console.log('  → Selecting Proposal Type...');
-                    await this.selectProposalType(page);
-                    console.log('    ✅ Proposal Type selected');
+            try {
+                console.log('  → Selecting Proposal Type...');
+                await this.selectProposalType(page);
+                console.log('    ✅ Proposal Type selected');
 
-                    console.log('  → Selecting Policy Type...');
-                    await this.selectPolicyType(page);
-                    console.log('    ✅ Policy Type selected');
+                console.log('  → Selecting Policy Type...');
+                await this.selectPolicyType(page);
+                console.log('    ✅ Policy Type selected');
 
+                const isFirstOrThird = typeIdx === 0 || typeIdx === 2;
+                if (isFirstOrThird) {
                     console.log('  → Selecting Registration Type...');
                     await this.selectRegistrationType(page);
-                    console.log('    ✅ Registration Type selected\n');
-                } catch (err) {
-                    console.log(`  ❌ Failed during selection steps: ${err.message}`);
-                    console.log('  ⏭️  Skipping this vehicle type variant.\n');
-                    continue;
+                    console.log('    ✅ Registration Type selected');
                 }
+                console.log();
+            } catch (err) {
+                console.log(`  ❌ Failed during selection steps: ${err.message}`);
+                console.log('  ⏭️  Skipping this vehicle type variant.\n');
+                continue;
             }
 
             console.log('📥 Fetching available manufacturers for this vehicle type...');
@@ -388,15 +387,6 @@ class PCCVHandler extends BaseHandler {
     async findAndSelectManufacturer(page, code) {
         console.log(`  📱 Starting manufacturer lookup for: ${code}`);
         console.log(`  ─────────────────────────────────────────`);
-        
-        let found = await searchAndSelectManufacturer(page, code);
-        if (found) {
-            console.log(`  ✅ Found via search`);
-            return true;
-        }
-
-        console.log(`  ⚠️ Search returned false, trying pagination fallback...`);
-        await clearSearchInput(page);
 
         let mfrPagesDone = false;
 
