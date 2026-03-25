@@ -85,37 +85,35 @@ class PCCVHandler extends BaseHandler {
 
     async selectProposalType(page) {
         await wait(1000);
-        
-        const options = await page.evaluate(() => {
+
+        const isOpen = await page.evaluate(() => {
             const input = document.querySelector('#proposalType');
-            if (!input) return [];
-            
-            input.dispatchEvent(new MouseEvent('click', { bubbles: true, cancelable: true }));
-            return [];
-        });
-
-        await wait(1500);
-
-        const firstOption = await page.evaluate(() => {
-            const dropdown = document.querySelector('.rc-virtual-list-holder li');
-            if (dropdown) {
-                dropdown.dispatchEvent(new MouseEvent('click', { bubbles: true, cancelable: true }));
+            const selector = input ? input.closest('.ant-select-selector') : null;
+            if (selector) {
+                selector.click();
                 return true;
             }
             return false;
         });
 
-        if (!firstOption) {
-            const selected = await page.evaluate(() => {
-                const options = Array.from(document.querySelectorAll('.ant-select-item-option'));
-                if (options.length > 0) {
-                    options[0].dispatchEvent(new MouseEvent('click', { bubbles: true, cancelable: true }));
-                    return true;
-                }
-                return false;
-            });
+        if (!isOpen) throw new Error('Could not find Proposal Type dropdown');
 
-            if (!selected) throw new Error('Failed to select proposal type option');
+        await wait(2000);
+
+        const selected = await page.evaluate(() => {
+            const options = Array.from(document.querySelectorAll('.ant-select-item-option-content'));
+            if (options.length > 0) {
+                options[0].click();
+                return true;
+            }
+            return false;
+        });
+
+        if (!selected) {
+            console.log('    ⚠️ Retrying Proposal Type selection with down arrow...');
+            await page.keyboard.press('ArrowDown');
+            await wait(500);
+            await page.keyboard.press('Enter');
         }
 
         await wait(1500);
@@ -123,26 +121,36 @@ class PCCVHandler extends BaseHandler {
 
     async selectPolicyType(page) {
         await wait(1000);
-        
-        await page.evaluate(() => {
+
+        const isOpen = await page.evaluate(() => {
             const input = document.querySelector('#policyType');
-            if (input) {
-                input.dispatchEvent(new MouseEvent('click', { bubbles: true, cancelable: true }));
-            }
-        });
-
-        await wait(1500);
-
-        const selected = await page.evaluate(() => {
-            const options = Array.from(document.querySelectorAll('.ant-select-item-option'));
-            if (options.length > 0) {
-                options[0].dispatchEvent(new MouseEvent('click', { bubbles: true, cancelable: true }));
+            const selector = input ? input.closest('.ant-select-selector') : null;
+            if (selector) {
+                selector.click();
                 return true;
             }
             return false;
         });
 
-        if (!selected) throw new Error('Failed to select first policy type option');
+        if (!isOpen) throw new Error('Could not find Policy Type dropdown');
+
+        await wait(2000);
+
+        const selected = await page.evaluate(() => {
+            const options = Array.from(document.querySelectorAll('.ant-select-item-option-content'));
+            if (options.length > 0) {
+                options[0].click();
+                return true;
+            }
+            return false;
+        });
+
+        if (!selected) {
+            console.log('    ⚠️ Retrying Policy Type selection with down arrow...');
+            await page.keyboard.press('ArrowDown');
+            await wait(500);
+            await page.keyboard.press('Enter');
+        }
 
         await wait(1500);
     }
