@@ -200,28 +200,28 @@ class PCCVHandler extends BaseHandler {
                 continue;
             }
 
-            console.log('📝 Selecting form options...');
+            const isFirstOrThird = typeIdx === 0 || typeIdx === 2;
             
-            try {
-                console.log('  → Selecting Proposal Type...');
-                await this.selectProposalType(page);
-                console.log('    ✅ Proposal Type selected');
+            if (isFirstOrThird) {
+                console.log('📝 Selecting form options for 1st/3rd variant...');
+                
+                try {
+                    console.log('  → Selecting Proposal Type...');
+                    await this.selectProposalType(page);
+                    console.log('    ✅ Proposal Type selected');
 
-                console.log('  → Selecting Policy Type...');
-                await this.selectPolicyType(page);
-                console.log('    ✅ Policy Type selected');
+                    console.log('  → Selecting Policy Type...');
+                    await this.selectPolicyType(page);
+                    console.log('    ✅ Policy Type selected');
 
-                const isFirstOrThird = typeIdx === 0 || typeIdx === 2;
-                if (isFirstOrThird) {
                     console.log('  → Selecting Registration Type...');
                     await this.selectRegistrationType(page);
-                    console.log('    ✅ Registration Type selected');
+                    console.log('    ✅ Registration Type selected\n');
+                } catch (err) {
+                    console.log(`  ❌ Failed during selection steps: ${err.message}`);
+                    console.log('  ⏭️  Skipping this vehicle type variant.\n');
+                    continue;
                 }
-                console.log();
-            } catch (err) {
-                console.log(`  ❌ Failed during selection steps: ${err.message}`);
-                console.log('  ⏭️  Skipping this vehicle type variant.\n');
-                continue;
             }
 
             console.log('📥 Fetching available manufacturers for this vehicle type...');
