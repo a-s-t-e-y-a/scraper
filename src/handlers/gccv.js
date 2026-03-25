@@ -266,13 +266,17 @@ class GCCVHandler extends BaseHandler {
     }
 
     async findAndSelectManufacturer(page, code) {
+        console.log(`  📱 Starting manufacturer lookup for: ${code}`);
+        console.log(`  ─────────────────────────────────────────`);
+        
         let found = await searchAndSelectManufacturer(page, code);
+        
         if (found) {
             console.log(`  ✅ Found via search`);
             return true;
         }
 
-        console.log(`  🔄 Search not available, trying pagination...`);
+        console.log(`  ⚠️ Search returned false, trying pagination fallback...`);
         await clearSearchInput(page);
 
         let mfrPagesDone = false;
