@@ -5757,5 +5757,95 @@
       }
     ],
     "vehicleType": "GOODS CARRYING MOTORISED THREE WHEELERS AND MOTORISED PEDAL CYCLES-PUBLIC CARRIERS"
+  },
+  {
+    "code": "M_161708",
+    "id": "3059",
+    "name": "GREEN WAY MOBILITY PVT LTD.",
+    "models": [
+      {
+        "vehicleCode": "M_32779",
+        "modelDescription": "CHHOTA BULL Electric SEAT 0",
+        "bodyDescription": "ECART",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "1",
+        "noOfDrivers": "1",
+        "seatingCapacity": "0",
+        "vehicleWatt": "1820.00"
+      }
+    ],
+    "vehicleType": "GOODS CARRYING MOTORISED THREE WHEELERS AND MOTORISED PEDAL CYCLES-PUBLIC CARRIERS"
+  },
+  {
+    "code": "M_1845775",
+    "id": "1411",
+    "name": "GREEN WHEEL AUTOMOBILE PVT LTD",
+    "models": [
+      {
+        "vehicleCode": "M_20108",
+        "modelDescription": "E RANGER Electric SEAT 0",
+        "bodyDescription": "ECART",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "500",
+        "noOfDrivers": "1",
+        "seatingCapacity": "0",
+        "vehicleWatt": "1000.00"
+      },
+      {
+        "vehicleCode": "M_20124",
+        "modelDescription": "E RANGER Electric SEAT 0",
+        "bodyDescription": "ECART",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "600",
+        "noOfDrivers": "1",
+        "seatingCapacity": "0",
+        "vehicleWatt": "1000.00"
+      },
+      {
+        "vehicleCode": "M_27141",
+        "modelDescription": "E RANGER HALF LOADER Electric SEAT 0",
+        "bodyDescription": "ECART",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "1",
+        "noOfDrivers": "1",
+        "seatingCapacity": "0",
+        "vehicleWatt": "1200.00"
+      }
+    ],
+    "vehicleType": "GOODS CARRYING MOTORISED THREE WHEELERS AND MOTORISED PEDAL CYCLES-PUBLIC CARRIERS"
+  },
+  {
+    "code": "M_161262",
+    "id": "2612",
+    "name": "GREENFIT INDUSTRIES LLP",
+    "models": [
+      {
+        "vehicleCode": "M_28131",
+        "modelDescription": "GREENFIT CARGO PRO Electric SEAT 0",
+        "bodyDescription": "ECART",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "1",
+        "noOfDrivers": "1",
+        "seatingCapacity": "0",
+        "vehicleWatt": "1500.00"
+      },
+      {
+        "vehicleCode": "M_29618",
+        "modelDescription": "SAVARI E RIDE Electric SEAT 0",
+        "bodyDescription": "ECART",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "1",
+        "noOfDrivers": "1",
+        "seatingCapacity": "0",
+        "vehicleWatt": "1500.00"
+      }
+    ],
+    "vehicleType": "GOODS CARRYING MOTORISED THREE WHEELERS AND MOTORISED PEDAL CYCLES-PUBLIC CARRIERS"
   }
 ]

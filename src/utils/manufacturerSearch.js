@@ -3,7 +3,7 @@ const wait = (ms) => new Promise(r => setTimeout(r, ms));
 async function searchAndSelectManufacturer(page, code) {
     try {
         const searchInput = await page.waitForSelector(
-            'input[placeholder*="search"], input[placeholder*="Search"], input[placeholder*="Filter"]',
+            'input#value[placeholder*="Search"], input[id="value"]',
             { visible: true, timeout: 3000 }
         ).catch(() => null);
 
@@ -13,19 +13,33 @@ async function searchAndSelectManufacturer(page, code) {
         }
 
         await page.evaluate((code) => {
-            const inputs = Array.from(document.querySelectorAll('input'));
-            const searchInput = inputs.find(input =>
-                input.placeholder.toLowerCase().includes('search') ||
-                input.placeholder.toLowerCase().includes('filter') ||
-                input.id === 'searchInput'
-            );
-
-            if (searchInput) {
-                searchInput.value = code;
-                searchInput.dispatchEvent(new Event('input', { bubbles: true }));
-                searchInput.dispatchEvent(new Event('change', { bubbles: true }));
+            const input = document.querySelector('input#value');
+            if (input) {
+                input.value = code;
+                input.dispatchEvent(new Event('input', { bubbles: true }));
+                input.dispatchEvent(new Event('change', { bubbles: true }));
             }
         }, code);
+
+        await wait(500);
+
+        const searchButtonClicked = await page.evaluate(() => {
+            const buttons = Array.from(document.querySelectorAll('.ant-btn'));
+            const searchBtn = buttons.find(btn => 
+                btn.innerText.includes('Search') || btn.textContent.includes('Search')
+            );
+            
+            if (searchBtn) {
+                searchBtn.dispatchEvent(new MouseEvent('click', { bubbles: true, cancelable: true }));
+                return true;
+            }
+            return false;
+        });
+
+        if (!searchButtonClicked) {
+            console.log('  ⚠️ Search button not found');
+            return false;
+        }
 
         await wait(2000);
 
@@ -55,16 +69,20 @@ async function searchAndSelectManufacturer(page, code) {
 async function clearSearchInput(page) {
     try {
         await page.evaluate(() => {
-            const inputs = Array.from(document.querySelectorAll('input'));
-            const searchInput = inputs.find(input =>
-                input.placeholder.toLowerCase().includes('search') ||
-                input.placeholder.toLowerCase().includes('filter')
-            );
+            const input = document.querySelector('input#value');
+            if (input) {
+                input.value = '';
+                input.dispatchEvent(new Event('input', { bubbles: true }));
+                input.dispatchEvent(new Event('change', { bubbles: true }));
+            }
 
-            if (searchInput) {
-                searchInput.value = '';
-                searchInput.dispatchEvent(new Event('input', { bubbles: true }));
-                searchInput.dispatchEvent(new Event('change', { bubbles: true }));
+            const buttons = Array.from(document.querySelectorAll('.ant-btn'));
+            const clearBtn = buttons.find(btn => 
+                btn.innerText.includes('Clear') || btn.textContent.includes('Clear')
+            );
+            
+            if (clearBtn) {
+                clearBtn.dispatchEvent(new MouseEvent('click', { bubbles: true, cancelable: true }));
             }
         });
         await wait(1000);
