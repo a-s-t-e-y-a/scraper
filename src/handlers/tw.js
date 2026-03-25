@@ -4,6 +4,7 @@
  */
 
 const BaseHandler = require('./baseHandler');
+const { searchAndSelectManufacturer, clearSearchInput } = require('../utils/manufacturerSearch');
 
 const wait = (ms) => new Promise(r => setTimeout(r, ms));
 
@@ -132,11 +133,16 @@ class TwoWheelerHandler extends BaseHandler {
         });
     }
 
-    /**
-     * Find manufacturer by code and click to select
-     */
     async findAndSelectManufacturer(page, code) {
-        let found = false;
+        let found = await searchAndSelectManufacturer(page, code);
+        if (found) {
+            console.log(`  ✅ Found via search`);
+            return true;
+        }
+
+        console.log(`  🔄 Search not available, trying pagination...`);
+        await clearSearchInput(page);
+
         let mfrPagesDone = false;
 
         while (!mfrPagesDone) {
@@ -167,11 +173,6 @@ class TwoWheelerHandler extends BaseHandler {
                 if (btn) btn.dispatchEvent(new MouseEvent('click', { bubbles: true, cancelable: true }));
             });
             await wait(1500);
-
-            const newActivePage = await page.evaluate(() => {
-                const active = document.querySelector('.ant-modal-body .ant-pagination-item-active');
-                return active ? parseInt(active.title || active.innerText) : 1;
-            });
 
             mfrPagesDone = found;
             await this.pollForElements(page, '.ant-modal-body .ant-table-row');
