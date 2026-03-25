@@ -3643,5 +3643,2119 @@
     "name": "ELFINO DURO ELECTRIC",
     "models": [],
     "vehicleType": "GOODS CARRYING MOTORISED THREE WHEELERS AND MOTORISED PEDAL CYCLES-PUBLIC CARRIERS"
+  },
+  {
+    "code": "M_1845621",
+    "id": "1392",
+    "name": "CAPARO",
+    "models": [
+      {
+        "vehicleCode": "M_14851",
+        "modelDescription": "SHAKTI Electric SEAT 0",
+        "bodyDescription": "ECART",
+        "cubicCapacity": "0.00",
+        "fuel": "Electric",
+        "gvw": "500",
+        "noOfDrivers": "1",
+        "seatingCapacity": "0",
+        "vehicleWatt": "900.00"
+      },
+      {
+        "vehicleCode": "M_14163",
+        "modelDescription": "E LOADER Electric SEAT 0",
+        "bodyDescription": "ECART",
+        "cubicCapacity": "0.00",
+        "fuel": "Electric",
+        "gvw": "500",
+        "noOfDrivers": "1",
+        "seatingCapacity": "0",
+        "vehicleWatt": "910.00"
+      },
+      {
+        "vehicleCode": "M_16500",
+        "modelDescription": "E VAHAN Electric SEAT 0",
+        "bodyDescription": "ECART",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "500",
+        "noOfDrivers": "1",
+        "seatingCapacity": "0",
+        "vehicleWatt": "910.00"
+      },
+      {
+        "vehicleCode": "M_17077",
+        "modelDescription": "MAHASHAKTI KT E Electric SEAT 0",
+        "bodyDescription": "ECART",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "500",
+        "noOfDrivers": "1",
+        "seatingCapacity": "0",
+        "vehicleWatt": "1000.00"
+      }
+    ],
+    "vehicleType": "GOODS CARRYING MOTORISED THREE WHEELERS AND MOTORISED PEDAL CYCLES-PUBLIC CARRIERS"
+  },
+  {
+    "code": "M_160594",
+    "id": "2043",
+    "name": "CAPCO INDUSTRIES PVT. LTD.",
+    "models": [
+      {
+        "vehicleCode": "M_21803",
+        "modelDescription": "EC5 Electric SEAT 0",
+        "bodyDescription": "ECART",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "500",
+        "noOfDrivers": "1",
+        "seatingCapacity": "0",
+        "vehicleWatt": "1000.00"
+      }
+    ],
+    "vehicleType": "GOODS CARRYING MOTORISED THREE WHEELERS AND MOTORISED PEDAL CYCLES-PUBLIC CARRIERS"
+  },
+  {
+    "code": "M_160694",
+    "id": "2146",
+    "name": "CAPITAL AUTO INDUSTRIES",
+    "models": [
+      {
+        "vehicleCode": "M_22527",
+        "modelDescription": "CAPITAL AUTO 3W DIESEL SEAT 0",
+        "bodyDescription": "DELIVERY VAN",
+        "cubicCapacity": "1.00",
+        "fuel": "DIESEL",
+        "gvw": "960",
+        "noOfDrivers": "1",
+        "seatingCapacity": "0",
+        "vehicleWatt": "0.00"
+      }
+    ],
+    "vehicleType": "GOODS CARRYING MOTORISED THREE WHEELERS AND MOTORISED PEDAL CYCLES-PUBLIC CARRIERS"
+  },
+  {
+    "code": "M_160177",
+    "id": "1724",
+    "name": "CAPITAL AUTOWORLD PVT LTD",
+    "models": [
+      {
+        "vehicleCode": "M_18676",
+        "modelDescription": "ECO LOAD KING Electric SEAT 0",
+        "bodyDescription": "ECART",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "500",
+        "noOfDrivers": "1",
+        "seatingCapacity": "0",
+        "vehicleWatt": "1000.00"
+      }
+    ],
+    "vehicleType": "GOODS CARRYING MOTORISED THREE WHEELERS AND MOTORISED PEDAL CYCLES-PUBLIC CARRIERS"
+  },
+  {
+    "code": "M_160671",
+    "id": "2121",
+    "name": "CAPSULES SMART VEHICLES PVT. LTD.",
+    "models": [
+      {
+        "vehicleCode": "M_22346",
+        "modelDescription": "EC - GO Electric SEAT 1",
+        "bodyDescription": "PICKUP",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "500",
+        "noOfDrivers": "1",
+        "seatingCapacity": "1",
+        "vehicleWatt": "2500.00"
+      }
+    ],
+    "vehicleType": "GOODS CARRYING MOTORISED THREE WHEELERS AND MOTORISED PEDAL CYCLES-PUBLIC CARRIERS"
+  },
+  {
+    "code": "M_160544",
+    "id": "1995",
+    "name": "CART INDIA",
+    "models": [
+      {
+        "vehicleCode": "M_25345",
+        "modelDescription": "ENERGY MAX LOADER Electric SEAT 0",
+        "bodyDescription": "ECART",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "500",
+        "noOfDrivers": "1",
+        "seatingCapacity": "0",
+        "vehicleWatt": "850.00"
+      },
+      {
+        "vehicleCode": "M_31481",
+        "modelDescription": "ENERGY MAX LOADER E CART Electric SEAT 0",
+        "bodyDescription": "ECART",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "1",
+        "noOfDrivers": "1",
+        "seatingCapacity": "0",
+        "vehicleWatt": "850.00"
+      }
+    ],
+    "vehicleType": "GOODS CARRYING MOTORISED THREE WHEELERS AND MOTORISED PEDAL CYCLES-PUBLIC CARRIERS"
+  },
+  {
+    "code": "M_160104",
+    "id": "1092",
+    "name": "CEEON INDIA",
+    "models": [
+      {
+        "vehicleCode": "M_17781",
+        "modelDescription": "EASY WAY ERL Electric SEAT 0",
+        "bodyDescription": "ECART",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "758",
+        "noOfDrivers": "1",
+        "seatingCapacity": "0",
+        "vehicleWatt": "1200.00"
+      },
+      {
+        "vehicleCode": "M_18527",
+        "modelDescription": "EASY WAY L Electric SEAT 0",
+        "bodyDescription": "ECART",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "500",
+        "noOfDrivers": "1",
+        "seatingCapacity": "0",
+        "vehicleWatt": "900.00"
+      },
+      {
+        "vehicleCode": "M_22010",
+        "modelDescription": "EASY WAY E CART GARBAGE Electric SEAT 0",
+        "bodyDescription": "ECART",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "796",
+        "noOfDrivers": "1",
+        "seatingCapacity": "0",
+        "vehicleWatt": "1000.00"
+      },
+      {
+        "vehicleCode": "M_22557",
+        "modelDescription": "EASY WAY ERL Electric SEAT 0",
+        "bodyDescription": "ECART",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "758",
+        "noOfDrivers": "1",
+        "seatingCapacity": "0",
+        "vehicleWatt": "1000.00"
+      }
+    ],
+    "vehicleType": "GOODS CARRYING MOTORISED THREE WHEELERS AND MOTORISED PEDAL CYCLES-PUBLIC CARRIERS"
+  },
+  {
+    "code": "M_161374",
+    "id": "2721",
+    "name": "CHANDAK E AUTOMOBILES LLP",
+    "models": [
+      {
+        "vehicleCode": "M_30214",
+        "modelDescription": "REHMAT E-KART Electric SEAT 0",
+        "bodyDescription": "ECART",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "1",
+        "noOfDrivers": "1",
+        "seatingCapacity": "0",
+        "vehicleWatt": "1400.00"
+      }
+    ],
+    "vehicleType": "GOODS CARRYING MOTORISED THREE WHEELERS AND MOTORISED PEDAL CYCLES-PUBLIC CARRIERS"
+  },
+  {
+    "code": "M_160314",
+    "id": "1837",
+    "name": "CHARAN AGRO TECH",
+    "models": [
+      {
+        "vehicleCode": "M_23242",
+        "modelDescription": "PARAS ECO E-LOADER Electric SEAT 0",
+        "bodyDescription": "ECART",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "750",
+        "noOfDrivers": "1",
+        "seatingCapacity": "0",
+        "vehicleWatt": "1200.00"
+      }
+    ],
+    "vehicleType": "GOODS CARRYING MOTORISED THREE WHEELERS AND MOTORISED PEDAL CYCLES-PUBLIC CARRIERS"
+  },
+  {
+    "code": "M_160578",
+    "id": "2028",
+    "name": "CHAUHAN AUTO INDUSTRIES",
+    "models": [
+      {
+        "vehicleCode": "M_22016",
+        "modelDescription": "VEER SHAKTI Electric SEAT 0",
+        "bodyDescription": "ECART",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "500",
+        "noOfDrivers": "1",
+        "seatingCapacity": "0",
+        "vehicleWatt": "850.00"
+      },
+      {
+        "vehicleCode": "M_25013",
+        "modelDescription": "VEER SHAKTI Electric SEAT 0",
+        "bodyDescription": "ECART",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "500",
+        "noOfDrivers": "1",
+        "seatingCapacity": "0",
+        "vehicleWatt": "850.00"
+      }
+    ],
+    "vehicleType": "GOODS CARRYING MOTORISED THREE WHEELERS AND MOTORISED PEDAL CYCLES-PUBLIC CARRIERS"
+  },
+  {
+    "code": "M_160230",
+    "id": "1767",
+    "name": "CHEHAK BATTERIES",
+    "models": [
+      {
+        "vehicleCode": "M_21370",
+        "modelDescription": "BABA CARGO Electric SEAT 0",
+        "bodyDescription": "ECART",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "705",
+        "noOfDrivers": "1",
+        "seatingCapacity": "0",
+        "vehicleWatt": "1000.00"
+      },
+      {
+        "vehicleCode": "M_25212",
+        "modelDescription": "BABA CARGO DLX Electric SEAT 1",
+        "bodyDescription": "ECART",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "698",
+        "noOfDrivers": "1",
+        "seatingCapacity": "1",
+        "vehicleWatt": "1200.00"
+      },
+      {
+        "vehicleCode": "M_32440",
+        "modelDescription": "TOWN RIDER CARGO Electric SEAT 0",
+        "bodyDescription": "ECART",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "1",
+        "noOfDrivers": "1",
+        "seatingCapacity": "0",
+        "vehicleWatt": "1200.00"
+      },
+      {
+        "vehicleCode": "M_33876",
+        "modelDescription": "BABA CARGO Electric SEAT 1",
+        "bodyDescription": "ECART",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "698",
+        "noOfDrivers": "1",
+        "seatingCapacity": "1",
+        "vehicleWatt": "1170.00"
+      }
+    ],
+    "vehicleType": "GOODS CARRYING MOTORISED THREE WHEELERS AND MOTORISED PEDAL CYCLES-PUBLIC CARRIERS"
+  },
+  {
+    "code": "M_160085",
+    "id": "1075",
+    "name": "CITYGREEN AUTO & PETRO CHEMICAL PVT.LTD",
+    "models": [
+      {
+        "vehicleCode": "M_21845",
+        "modelDescription": "CARGO LOADER Electric SEAT 0",
+        "bodyDescription": "ECART",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "500",
+        "noOfDrivers": "1",
+        "seatingCapacity": "0",
+        "vehicleWatt": "1000.00"
+      }
+    ],
+    "vehicleType": "GOODS CARRYING MOTORISED THREE WHEELERS AND MOTORISED PEDAL CYCLES-PUBLIC CARRIERS"
+  },
+  {
+    "code": "M_1845472",
+    "id": "1368",
+    "name": "CLH ACLH GASEOUS FUEL APPLICATIONS",
+    "models": [
+      {
+        "vehicleCode": "M_14455",
+        "modelDescription": "GREEN CART Electric SEAT 0",
+        "bodyDescription": "ECART",
+        "cubicCapacity": "0.00",
+        "fuel": "Electric",
+        "gvw": "500",
+        "noOfDrivers": "1",
+        "seatingCapacity": "0",
+        "vehicleWatt": "1200.00"
+      },
+      {
+        "vehicleCode": "M_19085",
+        "modelDescription": "GREENRICK Electric SEAT 0",
+        "bodyDescription": "ECART",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "500",
+        "noOfDrivers": "1",
+        "seatingCapacity": "0",
+        "vehicleWatt": "650.00"
+      }
+    ],
+    "vehicleType": "GOODS CARRYING MOTORISED THREE WHEELERS AND MOTORISED PEDAL CYCLES-PUBLIC CARRIERS"
+  },
+  {
+    "code": "M_160503",
+    "id": "1954",
+    "name": "D.S. INDUSTRIES",
+    "models": [
+      {
+        "vehicleCode": "M_21489",
+        "modelDescription": "DDC CARGO Electric SEAT 0",
+        "bodyDescription": "ECART",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "500",
+        "noOfDrivers": "1",
+        "seatingCapacity": "0",
+        "vehicleWatt": "1000.00"
+      }
+    ],
+    "vehicleType": "GOODS CARRYING MOTORISED THREE WHEELERS AND MOTORISED PEDAL CYCLES-PUBLIC CARRIERS"
+  },
+  {
+    "code": "M_160406",
+    "id": "1885",
+    "name": "DAKSH INDUSTRIES",
+    "models": [
+      {
+        "vehicleCode": "M_28678",
+        "modelDescription": "SARGAM E RIDE Electric SEAT 0",
+        "bodyDescription": "ECART",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "1",
+        "noOfDrivers": "1",
+        "seatingCapacity": "0",
+        "vehicleWatt": "1000.00"
+      },
+      {
+        "vehicleCode": "M_32002",
+        "modelDescription": "RONAK E CART LXI Electric SEAT 0",
+        "bodyDescription": "ECART",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "1",
+        "noOfDrivers": "1",
+        "seatingCapacity": "0",
+        "vehicleWatt": "1000.00"
+      },
+      {
+        "vehicleCode": "M_32278",
+        "modelDescription": "SARGAM E CART Electric SEAT 0",
+        "bodyDescription": "ECART",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "1",
+        "noOfDrivers": "1",
+        "seatingCapacity": "0",
+        "vehicleWatt": "1000.00"
+      },
+      {
+        "vehicleCode": "M_34202",
+        "modelDescription": "RONAK E CART LXI Electric SEAT 0",
+        "bodyDescription": "ECART",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "1",
+        "noOfDrivers": "1",
+        "seatingCapacity": "0",
+        "vehicleWatt": "1000.00"
+      }
+    ],
+    "vehicleType": "GOODS CARRYING MOTORISED THREE WHEELERS AND MOTORISED PEDAL CYCLES-PUBLIC CARRIERS"
+  },
+  {
+    "code": "M_160244",
+    "id": "1781",
+    "name": "DASHMESH TRADERS",
+    "models": [
+      {
+        "vehicleCode": "M_19087",
+        "modelDescription": "SWARAN Electric SEAT 0",
+        "bodyDescription": "ECART",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "334",
+        "noOfDrivers": "1",
+        "seatingCapacity": "0",
+        "vehicleWatt": "1000.00"
+      },
+      {
+        "vehicleCode": "M_24922",
+        "modelDescription": "SWARAN Electric SEAT 0",
+        "bodyDescription": "ECART",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "500",
+        "noOfDrivers": "1",
+        "seatingCapacity": "0",
+        "vehicleWatt": "1000.00"
+      },
+      {
+        "vehicleCode": "M_28837",
+        "modelDescription": "SWARAN SUPER LDR Electric SEAT 0",
+        "bodyDescription": "ECART",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "1",
+        "noOfDrivers": "1",
+        "seatingCapacity": "0",
+        "vehicleWatt": "1176.00"
+      },
+      {
+        "vehicleCode": "M_35060",
+        "modelDescription": "SWARAN SUPER LDR ECART Electric SEAT 0",
+        "bodyDescription": "ECART",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "1",
+        "noOfDrivers": "1",
+        "seatingCapacity": "0",
+        "vehicleWatt": "1000.00"
+      }
+    ],
+    "vehicleType": "GOODS CARRYING MOTORISED THREE WHEELERS AND MOTORISED PEDAL CYCLES-PUBLIC CARRIERS"
+  },
+  {
+    "code": "M_161851",
+    "id": "3210",
+    "name": "DAWKI MOBILITY",
+    "models": [
+      {
+        "vehicleCode": "M_34775",
+        "modelDescription": "GRAVITTI Electric SEAT 0",
+        "bodyDescription": "PICKUP",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "1",
+        "noOfDrivers": "1",
+        "seatingCapacity": "0",
+        "vehicleWatt": "4000.00"
+      }
+    ],
+    "vehicleType": "GOODS CARRYING MOTORISED THREE WHEELERS AND MOTORISED PEDAL CYCLES-PUBLIC CARRIERS"
+  },
+  {
+    "code": "M_1845863",
+    "id": "1475",
+    "name": "DD AUTO PVT LTD",
+    "models": [
+      {
+        "vehicleCode": "M_19083",
+        "modelDescription": "E RICK 1 LD PLUS Electric SEAT 0",
+        "bodyDescription": "ECART",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "500",
+        "noOfDrivers": "1",
+        "seatingCapacity": "0",
+        "vehicleWatt": "1000.00"
+      }
+    ],
+    "vehicleType": "GOODS CARRYING MOTORISED THREE WHEELERS AND MOTORISED PEDAL CYCLES-PUBLIC CARRIERS"
+  },
+  {
+    "code": "M_160131",
+    "id": "1678",
+    "name": "DEEP DRAWN TECHNOLOGIES",
+    "models": [
+      {
+        "vehicleCode": "M_23745",
+        "modelDescription": "E KRANTI Electric SEAT 0",
+        "bodyDescription": "ECART",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "500",
+        "noOfDrivers": "1",
+        "seatingCapacity": "0",
+        "vehicleWatt": "1000.00"
+      }
+    ],
+    "vehicleType": "GOODS CARRYING MOTORISED THREE WHEELERS AND MOTORISED PEDAL CYCLES-PUBLIC CARRIERS"
+  },
+  {
+    "code": "M_161775",
+    "id": "3130",
+    "name": "DEEP ELECTRIC VEHICLES",
+    "models": [
+      {
+        "vehicleCode": "M_33826",
+        "modelDescription": "HUMAX E-CART Electric SEAT 0",
+        "bodyDescription": "ECART",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "1",
+        "noOfDrivers": "1",
+        "seatingCapacity": "0",
+        "vehicleWatt": "1000.00"
+      },
+      {
+        "vehicleCode": "M_35383",
+        "modelDescription": "HUMAX E CART MS Electric SEAT 0",
+        "bodyDescription": "ECART",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "1",
+        "noOfDrivers": "1",
+        "seatingCapacity": "0",
+        "vehicleWatt": "1000.00"
+      }
+    ],
+    "vehicleType": "GOODS CARRYING MOTORISED THREE WHEELERS AND MOTORISED PEDAL CYCLES-PUBLIC CARRIERS"
+  },
+  {
+    "code": "M_160441",
+    "id": "1904",
+    "name": "DHAR",
+    "models": [
+      {
+        "vehicleCode": "M_20574",
+        "modelDescription": "SARANGAL D VAN DIESEL SEAT 0",
+        "bodyDescription": "DELIVERY VAN",
+        "cubicCapacity": "1.00",
+        "fuel": "DIESEL",
+        "gvw": "590",
+        "noOfDrivers": "1",
+        "seatingCapacity": "0",
+        "vehicleWatt": "0.00"
+      }
+    ],
+    "vehicleType": "GOODS CARRYING MOTORISED THREE WHEELERS AND MOTORISED PEDAL CYCLES-PUBLIC CARRIERS"
+  },
+  {
+    "code": "M_160934",
+    "id": "2386",
+    "name": "DHAR IN PRIVATE LIMITED",
+    "models": [
+      {
+        "vehicleCode": "M_28037",
+        "modelDescription": "KAMRUP A2 LOADER Electric SEAT 0",
+        "bodyDescription": "ECART",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "1",
+        "noOfDrivers": "1",
+        "seatingCapacity": "0",
+        "vehicleWatt": "1000.00"
+      }
+    ],
+    "vehicleType": "GOODS CARRYING MOTORISED THREE WHEELERS AND MOTORISED PEDAL CYCLES-PUBLIC CARRIERS"
+  },
+  {
+    "code": "M_161506",
+    "id": "2852",
+    "name": "DHARMPAL ENTERPRISES",
+    "models": [
+      {
+        "vehicleCode": "M_32014",
+        "modelDescription": "DP PANTHER 1.0 AX Electric SEAT 0",
+        "bodyDescription": "ECART",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "1",
+        "noOfDrivers": "1",
+        "seatingCapacity": "0",
+        "vehicleWatt": "1000.00"
+      },
+      {
+        "vehicleCode": "M_32589",
+        "modelDescription": "DP PANTHER 1.0 L Electric SEAT 0",
+        "bodyDescription": "ECART",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "1",
+        "noOfDrivers": "1",
+        "seatingCapacity": "0",
+        "vehicleWatt": "1200.00"
+      }
+    ],
+    "vehicleType": "GOODS CARRYING MOTORISED THREE WHEELERS AND MOTORISED PEDAL CYCLES-PUBLIC CARRIERS"
+  },
+  {
+    "code": "M_161272",
+    "id": "2621",
+    "name": "DHRITI ENTERPRISES",
+    "models": [
+      {
+        "vehicleCode": "M_31675",
+        "modelDescription": "JP TRCIRCLE E CART Electric SEAT 0",
+        "bodyDescription": "ECART",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "1",
+        "noOfDrivers": "1",
+        "seatingCapacity": "0",
+        "vehicleWatt": "1000.00"
+      }
+    ],
+    "vehicleType": "GOODS CARRYING MOTORISED THREE WHEELERS AND MOTORISED PEDAL CYCLES-PUBLIC CARRIERS"
+  },
+  {
+    "code": "M_1845855",
+    "id": "1468",
+    "name": "DIAMOND E VEHICLES",
+    "models": [
+      {
+        "vehicleCode": "M_17951",
+        "modelDescription": "SUPER SHAKTI Electric SEAT 0",
+        "bodyDescription": "ECART",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "530",
+        "noOfDrivers": "1",
+        "seatingCapacity": "0",
+        "vehicleWatt": "1000.00"
+      },
+      {
+        "vehicleCode": "M_28369",
+        "modelDescription": "SUPER SHAKTI 1000 Electric SEAT 0",
+        "bodyDescription": "ECART",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "1",
+        "noOfDrivers": "1",
+        "seatingCapacity": "0",
+        "vehicleWatt": "1000.00"
+      }
+    ],
+    "vehicleType": "GOODS CARRYING MOTORISED THREE WHEELERS AND MOTORISED PEDAL CYCLES-PUBLIC CARRIERS"
+  },
+  {
+    "code": "M_1845879",
+    "id": "1487",
+    "name": "DILLI ELECTRIC AUTO PVT LTD",
+    "models": [
+      {
+        "vehicleCode": "M_16356",
+        "modelDescription": "CITYLIFE XV 850 LADDER XV MAX Electric SEAT 0",
+        "bodyDescription": "ECART",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "500",
+        "noOfDrivers": "1",
+        "seatingCapacity": "0",
+        "vehicleWatt": "1000.00"
+      },
+      {
+        "vehicleCode": "M_18048",
+        "modelDescription": "CITYLIFE XV MAX Electric SEAT 0",
+        "bodyDescription": "ECART",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "500",
+        "noOfDrivers": "1",
+        "seatingCapacity": "0",
+        "vehicleWatt": "1500.00"
+      },
+      {
+        "vehicleCode": "M_19923",
+        "modelDescription": "CITYLIFE XV MAX BASE Electric SEAT 0",
+        "bodyDescription": "ECART",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "500",
+        "noOfDrivers": "1",
+        "seatingCapacity": "0",
+        "vehicleWatt": "1500.00"
+      },
+      {
+        "vehicleCode": "M_16356",
+        "modelDescription": "CITYLIFE XV 850 LADDER XV MAX Electric SEAT 0",
+        "bodyDescription": "ECART",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "500",
+        "noOfDrivers": "1",
+        "seatingCapacity": "0",
+        "vehicleWatt": "1000.00"
+      },
+      {
+        "vehicleCode": "M_18048",
+        "modelDescription": "CITYLIFE XV MAX Electric SEAT 0",
+        "bodyDescription": "ECART",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "500",
+        "noOfDrivers": "1",
+        "seatingCapacity": "0",
+        "vehicleWatt": "1500.00"
+      },
+      {
+        "vehicleCode": "M_19923",
+        "modelDescription": "CITYLIFE XV MAX BASE Electric SEAT 0",
+        "bodyDescription": "ECART",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "500",
+        "noOfDrivers": "1",
+        "seatingCapacity": "0",
+        "vehicleWatt": "1500.00"
+      }
+    ],
+    "vehicleType": "GOODS CARRYING MOTORISED THREE WHEELERS AND MOTORISED PEDAL CYCLES-PUBLIC CARRIERS"
+  },
+  {
+    "code": "M_160315",
+    "id": "1840",
+    "name": "DIVANSU AUTOMOBILES LIMITED",
+    "models": [
+      {
+        "vehicleCode": "M_19598",
+        "modelDescription": "PARAS ECO Electric SEAT 0",
+        "bodyDescription": "ECART",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "500",
+        "noOfDrivers": "1",
+        "seatingCapacity": "0",
+        "vehicleWatt": "1800.00"
+      }
+    ],
+    "vehicleType": "GOODS CARRYING MOTORISED THREE WHEELERS AND MOTORISED PEDAL CYCLES-PUBLIC CARRIERS"
+  },
+  {
+    "code": "M_1845606",
+    "id": "1391",
+    "name": "ELITE AUTO ENGINEERS",
+    "models": [
+      {
+        "vehicleCode": "M_24988",
+        "modelDescription": "GARUD Electric SEAT 0",
+        "bodyDescription": "ECART",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "500",
+        "noOfDrivers": "1",
+        "seatingCapacity": "0",
+        "vehicleWatt": "1000.00"
+      },
+      {
+        "vehicleCode": "M_27006",
+        "modelDescription": "GARUD SHAKTI Electric SEAT 0",
+        "bodyDescription": "ECART",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "1",
+        "noOfDrivers": "1",
+        "seatingCapacity": "0",
+        "vehicleWatt": "1000.00"
+      },
+      {
+        "vehicleCode": "M_27205",
+        "modelDescription": "GARUD SHAKTI Electric SEAT 0",
+        "bodyDescription": "ECART",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "1",
+        "noOfDrivers": "1",
+        "seatingCapacity": "0",
+        "vehicleWatt": "1000.00"
+      }
+    ],
+    "vehicleType": "GOODS CARRYING MOTORISED THREE WHEELERS AND MOTORISED PEDAL CYCLES-PUBLIC CARRIERS"
+  },
+  {
+    "code": "M_161514",
+    "id": "2860",
+    "name": "ENABLING E VEHICLE PVT LTD",
+    "models": [
+      {
+        "vehicleCode": "M_33409",
+        "modelDescription": "HALCHAL Electric SEAT 0",
+        "bodyDescription": "ECART",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "1",
+        "noOfDrivers": "1",
+        "seatingCapacity": "0",
+        "vehicleWatt": "1000.00"
+      }
+    ],
+    "vehicleType": "GOODS CARRYING MOTORISED THREE WHEELERS AND MOTORISED PEDAL CYCLES-PUBLIC CARRIERS"
+  },
+  {
+    "code": "M_1845800",
+    "id": "1423",
+    "name": "ENERGY ELECTRIC VEHICLES",
+    "models": [
+      {
+        "vehicleCode": "M_16465",
+        "modelDescription": "PARTH Electric SEAT 0",
+        "bodyDescription": "ECART",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "500",
+        "noOfDrivers": "1",
+        "seatingCapacity": "0",
+        "vehicleWatt": "1000.00"
+      },
+      {
+        "vehicleCode": "M_19999",
+        "modelDescription": "UDAAN DLX Electric SEAT 0",
+        "bodyDescription": "ECART",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "900",
+        "noOfDrivers": "1",
+        "seatingCapacity": "0",
+        "vehicleWatt": "1000.00"
+      },
+      {
+        "vehicleCode": "M_23783",
+        "modelDescription": "UDAAN LOADER Electric SEAT 0",
+        "bodyDescription": "ECART",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "500",
+        "noOfDrivers": "1",
+        "seatingCapacity": "0",
+        "vehicleWatt": "1000.00"
+      },
+      {
+        "vehicleCode": "M_25703",
+        "modelDescription": "PARTH Electric SEAT 0",
+        "bodyDescription": "ECART",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "500",
+        "noOfDrivers": "1",
+        "seatingCapacity": "0",
+        "vehicleWatt": "1000.00"
+      },
+      {
+        "vehicleCode": "M_16465",
+        "modelDescription": "PARTH Electric SEAT 0",
+        "bodyDescription": "ECART",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "500",
+        "noOfDrivers": "1",
+        "seatingCapacity": "0",
+        "vehicleWatt": "1000.00"
+      },
+      {
+        "vehicleCode": "M_19999",
+        "modelDescription": "UDAAN DLX Electric SEAT 0",
+        "bodyDescription": "ECART",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "900",
+        "noOfDrivers": "1",
+        "seatingCapacity": "0",
+        "vehicleWatt": "1000.00"
+      },
+      {
+        "vehicleCode": "M_23783",
+        "modelDescription": "UDAAN LOADER Electric SEAT 0",
+        "bodyDescription": "ECART",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "500",
+        "noOfDrivers": "1",
+        "seatingCapacity": "0",
+        "vehicleWatt": "1000.00"
+      },
+      {
+        "vehicleCode": "M_25703",
+        "modelDescription": "PARTH Electric SEAT 0",
+        "bodyDescription": "ECART",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "500",
+        "noOfDrivers": "1",
+        "seatingCapacity": "0",
+        "vehicleWatt": "1000.00"
+      }
+    ],
+    "vehicleType": "GOODS CARRYING MOTORISED THREE WHEELERS AND MOTORISED PEDAL CYCLES-PUBLIC CARRIERS"
+  },
+  {
+    "code": "M_1845763",
+    "id": "1408",
+    "name": "ENTICE IMPEX PVT. LTD.",
+    "models": [
+      {
+        "vehicleCode": "M_22311",
+        "modelDescription": "GATTI Electric SEAT 0",
+        "bodyDescription": "ECART",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "350",
+        "noOfDrivers": "1",
+        "seatingCapacity": "0",
+        "vehicleWatt": "1900.00"
+      },
+      {
+        "vehicleCode": "M_27257",
+        "modelDescription": "GATTI E LOADER Electric SEAT 0",
+        "bodyDescription": "ECART",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "1",
+        "noOfDrivers": "1",
+        "seatingCapacity": "0",
+        "vehicleWatt": "1500.00"
+      }
+    ],
+    "vehicleType": "GOODS CARRYING MOTORISED THREE WHEELERS AND MOTORISED PEDAL CYCLES-PUBLIC CARRIERS"
+  },
+  {
+    "code": "M_160913",
+    "id": "2365",
+    "name": "ERIDE E-MOBILITY COMPANY",
+    "models": [
+      {
+        "vehicleCode": "M_24694",
+        "modelDescription": "VICTORY SHAKTHI LOADER Electric SEAT 0",
+        "bodyDescription": "ECART",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "500",
+        "noOfDrivers": "1",
+        "seatingCapacity": "0",
+        "vehicleWatt": "1000.00"
+      }
+    ],
+    "vehicleType": "GOODS CARRYING MOTORISED THREE WHEELERS AND MOTORISED PEDAL CYCLES-PUBLIC CARRIERS"
+  },
+  {
+    "code": "M_160927",
+    "id": "2379",
+    "name": "ERISHA E MOBILITY PVT. LTD.",
+    "models": [
+      {
+        "vehicleCode": "M_24816",
+        "modelDescription": "SUPERIOR CARGO Electric SEAT 0",
+        "bodyDescription": "PICKUP",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "1250",
+        "noOfDrivers": "1",
+        "seatingCapacity": "0",
+        "vehicleWatt": "10500.00"
+      }
+    ],
+    "vehicleType": "GOODS CARRYING MOTORISED THREE WHEELERS AND MOTORISED PEDAL CYCLES-PUBLIC CARRIERS"
+  },
+  {
+    "code": "M_160216",
+    "id": "1763",
+    "name": "EUSI MOTORS PVT LTD",
+    "models": [
+      {
+        "vehicleCode": "M_24230",
+        "modelDescription": "EURASIA Electric SEAT 0",
+        "bodyDescription": "ECART",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "500",
+        "noOfDrivers": "1",
+        "seatingCapacity": "0",
+        "vehicleWatt": "1000.00"
+      },
+      {
+        "vehicleCode": "M_25082",
+        "modelDescription": "EURASIA E-LOADER Electric SEAT 0",
+        "bodyDescription": "ECART",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "500",
+        "noOfDrivers": "1",
+        "seatingCapacity": "0",
+        "vehicleWatt": "1500.00"
+      },
+      {
+        "vehicleCode": "M_26885",
+        "modelDescription": "EURASIA E LOADER Electric SEAT 0",
+        "bodyDescription": "ECART",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "1",
+        "noOfDrivers": "1",
+        "seatingCapacity": "0",
+        "vehicleWatt": "1500.00"
+      }
+    ],
+    "vehicleType": "GOODS CARRYING MOTORISED THREE WHEELERS AND MOTORISED PEDAL CYCLES-PUBLIC CARRIERS"
+  },
+  {
+    "code": "M_161407",
+    "id": "2754",
+    "name": "EV GREEN PVT LTD",
+    "models": [
+      {
+        "vehicleCode": "M_32319",
+        "modelDescription": "EV GREEN ENVI MAX Electric SEAT 0",
+        "bodyDescription": "ECART",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "1",
+        "noOfDrivers": "1",
+        "seatingCapacity": "0",
+        "vehicleWatt": "1000.00"
+      }
+    ],
+    "vehicleType": "GOODS CARRYING MOTORISED THREE WHEELERS AND MOTORISED PEDAL CYCLES-PUBLIC CARRIERS"
+  },
+  {
+    "code": "M_161224",
+    "id": "2574",
+    "name": "EVBHARAT RANGE PVT LTD",
+    "models": [
+      {
+        "vehicleCode": "M_30542",
+        "modelDescription": "EVLOD 150 Electric SEAT 0",
+        "bodyDescription": "ECART",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "1",
+        "noOfDrivers": "1",
+        "seatingCapacity": "0",
+        "vehicleWatt": "1250.00"
+      },
+      {
+        "vehicleCode": "M_33186",
+        "modelDescription": "SHREE TASK BLESSING Electric SEAT 0",
+        "bodyDescription": "ECART",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "1",
+        "noOfDrivers": "1",
+        "seatingCapacity": "0",
+        "vehicleWatt": "1250.00"
+      },
+      {
+        "vehicleCode": "M_33238",
+        "modelDescription": "GARBAGE LODER Electric SEAT 0",
+        "bodyDescription": "ECART",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "1",
+        "noOfDrivers": "1",
+        "seatingCapacity": "0",
+        "vehicleWatt": "1000.00"
+      },
+      {
+        "vehicleCode": "M_33469",
+        "modelDescription": "SHREE TASK BLESSINGS 01 E-CART Electric SEAT 0",
+        "bodyDescription": "ECART",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "1",
+        "noOfDrivers": "1",
+        "seatingCapacity": "0",
+        "vehicleWatt": "1000.00"
+      }
+    ],
+    "vehicleType": "GOODS CARRYING MOTORISED THREE WHEELERS AND MOTORISED PEDAL CYCLES-PUBLIC CARRIERS"
+  },
+  {
+    "code": "M_161261",
+    "id": "2611",
+    "name": "EVCO AUTOMOBILES PVT LTD",
+    "models": [
+      {
+        "vehicleCode": "M_28991",
+        "modelDescription": "EPYCK SS Electric SEAT 0",
+        "bodyDescription": "ECART",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "1",
+        "noOfDrivers": "1",
+        "seatingCapacity": "0",
+        "vehicleWatt": "1000.00"
+      },
+      {
+        "vehicleCode": "M_29757",
+        "modelDescription": "E RIDE PRO 100 Electric SEAT 0",
+        "bodyDescription": "ECART",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "1000",
+        "noOfDrivers": "1",
+        "seatingCapacity": "0",
+        "vehicleWatt": "1000.00"
+      },
+      {
+        "vehicleCode": "M_30150",
+        "modelDescription": "E PYCK PRO 100 PLUS Electric SEAT 0",
+        "bodyDescription": "ECART",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "1",
+        "noOfDrivers": "1",
+        "seatingCapacity": "0",
+        "vehicleWatt": "1500.00"
+      },
+      {
+        "vehicleCode": "M_31861",
+        "modelDescription": "L5 HALF BODY LOADER Electric SEAT 0",
+        "bodyDescription": "ECART",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "1",
+        "noOfDrivers": "1",
+        "seatingCapacity": "0",
+        "vehicleWatt": "1500.00"
+      }
+    ],
+    "vehicleType": "GOODS CARRYING MOTORISED THREE WHEELERS AND MOTORISED PEDAL CYCLES-PUBLIC CARRIERS"
+  },
+  {
+    "code": "M_160286",
+    "id": "1817",
+    "name": "EVEX INDIA",
+    "models": [
+      {
+        "vehicleCode": "M_21359",
+        "modelDescription": "LOADER Electric SEAT 0",
+        "bodyDescription": "ECART",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "500",
+        "noOfDrivers": "1",
+        "seatingCapacity": "0",
+        "vehicleWatt": "1000.00"
+      },
+      {
+        "vehicleCode": "M_21948",
+        "modelDescription": "RANGER LOADER Electric SEAT 0",
+        "bodyDescription": "ECART",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "500",
+        "noOfDrivers": "1",
+        "seatingCapacity": "0",
+        "vehicleWatt": "1000.00"
+      }
+    ],
+    "vehicleType": "GOODS CARRYING MOTORISED THREE WHEELERS AND MOTORISED PEDAL CYCLES-PUBLIC CARRIERS"
+  },
+  {
+    "code": "M_161633",
+    "id": "2982",
+    "name": "EVIONICS INNOVATIONS PRIVATE LIMITED",
+    "models": [
+      {
+        "vehicleCode": "M_31766",
+        "modelDescription": "E CART GARBAGE LOADER Electric SEAT 0",
+        "bodyDescription": "ECART",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "1",
+        "noOfDrivers": "1",
+        "seatingCapacity": "0",
+        "vehicleWatt": "1500.00"
+      }
+    ],
+    "vehicleType": "GOODS CARRYING MOTORISED THREE WHEELERS AND MOTORISED PEDAL CYCLES-PUBLIC CARRIERS"
+  },
+  {
+    "code": "M_160407",
+    "id": "1886",
+    "name": "EVOLUTION AUTOTECH",
+    "models": [
+      {
+        "vehicleCode": "M_20590",
+        "modelDescription": "E FORCE Electric SEAT 0",
+        "bodyDescription": "ECART",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "700",
+        "noOfDrivers": "1",
+        "seatingCapacity": "0",
+        "vehicleWatt": "1000.00"
+      },
+      {
+        "vehicleCode": "M_26805",
+        "modelDescription": "E FORCE Electric SEAT 0",
+        "bodyDescription": "ECART",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "1",
+        "noOfDrivers": "1",
+        "seatingCapacity": "0",
+        "vehicleWatt": "1000.00"
+      }
+    ],
+    "vehicleType": "GOODS CARRYING MOTORISED THREE WHEELERS AND MOTORISED PEDAL CYCLES-PUBLIC CARRIERS"
+  },
+  {
+    "code": "M_160516",
+    "id": "1968",
+    "name": "EXTRA FAST SOLUTIONS",
+    "models": [
+      {
+        "vehicleCode": "M_21679",
+        "modelDescription": "EXTRA FAST Electric SEAT 0",
+        "bodyDescription": "ECART",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "500",
+        "noOfDrivers": "1",
+        "seatingCapacity": "0",
+        "vehicleWatt": "1000.00"
+      },
+      {
+        "vehicleCode": "M_28371",
+        "modelDescription": "EXTRA FAST E LOADER Electric SEAT 0",
+        "bodyDescription": "ECART",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "1",
+        "noOfDrivers": "1",
+        "seatingCapacity": "0",
+        "vehicleWatt": "1000.00"
+      },
+      {
+        "vehicleCode": "M_31807",
+        "modelDescription": "EXTRA FAST E LOADER LITHIUM Electric SEAT 0",
+        "bodyDescription": "ECART",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "1",
+        "noOfDrivers": "1",
+        "seatingCapacity": "0",
+        "vehicleWatt": "1200.00"
+      }
+    ],
+    "vehicleType": "GOODS CARRYING MOTORISED THREE WHEELERS AND MOTORISED PEDAL CYCLES-PUBLIC CARRIERS"
+  },
+  {
+    "code": "M_1845819",
+    "id": "1433",
+    "name": "EXTREME MOTORS",
+    "models": [
+      {
+        "vehicleCode": "M_20006",
+        "modelDescription": "EXTREME LOADER Electric SEAT 0",
+        "bodyDescription": "ECART",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "700",
+        "noOfDrivers": "1",
+        "seatingCapacity": "0",
+        "vehicleWatt": "1250.00"
+      },
+      {
+        "vehicleCode": "M_24269",
+        "modelDescription": "EXTREME LOADER Electric SEAT 0",
+        "bodyDescription": "ECART",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "500",
+        "noOfDrivers": "1",
+        "seatingCapacity": "0",
+        "vehicleWatt": "700.00"
+      },
+      {
+        "vehicleCode": "M_32308",
+        "modelDescription": "EX 850C Electric SEAT 0",
+        "bodyDescription": "ECART",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "1",
+        "noOfDrivers": "1",
+        "seatingCapacity": "0",
+        "vehicleWatt": "1000.00"
+      }
+    ],
+    "vehicleType": "GOODS CARRYING MOTORISED THREE WHEELERS AND MOTORISED PEDAL CYCLES-PUBLIC CARRIERS"
+  },
+  {
+    "code": "M_161020",
+    "id": "2472",
+    "name": "EYUG AUTOMOBILE PVT LTD",
+    "models": [
+      {
+        "vehicleCode": "M_28362",
+        "modelDescription": "E SHAAN Electric SEAT 0",
+        "bodyDescription": "ECART",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "1",
+        "noOfDrivers": "1",
+        "seatingCapacity": "0",
+        "vehicleWatt": "1000.00"
+      }
+    ],
+    "vehicleType": "GOODS CARRYING MOTORISED THREE WHEELERS AND MOTORISED PEDAL CYCLES-PUBLIC CARRIERS"
+  },
+  {
+    "code": "M_160777",
+    "id": "2229",
+    "name": "FEDE INDUSTRIES PVT. LTD .",
+    "models": [
+      {
+        "vehicleCode": "M_27333",
+        "modelDescription": "MILFY E LOADER Electric SEAT 0",
+        "bodyDescription": "ECART",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "1",
+        "noOfDrivers": "1",
+        "seatingCapacity": "0",
+        "vehicleWatt": "1000.00"
+      },
+      {
+        "vehicleCode": "M_35390",
+        "modelDescription": "MILFY ROADMAX E CART LOADER Electric SEAT 4",
+        "bodyDescription": "ECART",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "1",
+        "noOfDrivers": "1",
+        "seatingCapacity": "4",
+        "vehicleWatt": "1000.00"
+      }
+    ],
+    "vehicleType": "GOODS CARRYING MOTORISED THREE WHEELERS AND MOTORISED PEDAL CYCLES-PUBLIC CARRIERS"
+  },
+  {
+    "code": "M_160649",
+    "id": "2099",
+    "name": "FIRST CHOICE ELECTRIC VEHICLE PVT . LTD .",
+    "models": [
+      {
+        "vehicleCode": "M_22176",
+        "modelDescription": "UNIRICK Electric SEAT 0",
+        "bodyDescription": "ECART",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "500",
+        "noOfDrivers": "1",
+        "seatingCapacity": "0",
+        "vehicleWatt": "1000.00"
+      },
+      {
+        "vehicleCode": "M_34483",
+        "modelDescription": "UNIRICK ECART Electric SEAT 0",
+        "bodyDescription": "ECART",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "1",
+        "noOfDrivers": "1",
+        "seatingCapacity": "0",
+        "vehicleWatt": "1000.00"
+      }
+    ],
+    "vehicleType": "GOODS CARRYING MOTORISED THREE WHEELERS AND MOTORISED PEDAL CYCLES-PUBLIC CARRIERS"
+  },
+  {
+    "code": "M_160523",
+    "id": "1975",
+    "name": "FITWEL MOBILITY PRIVATE LIMITED",
+    "models": [
+      {
+        "vehicleCode": "M_28405",
+        "modelDescription": "APIS LOADING Electric SEAT 0",
+        "bodyDescription": "ECART",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "1",
+        "noOfDrivers": "1",
+        "seatingCapacity": "0",
+        "vehicleWatt": "1000.00"
+      }
+    ],
+    "vehicleType": "GOODS CARRYING MOTORISED THREE WHEELERS AND MOTORISED PEDAL CYCLES-PUBLIC CARRIERS"
+  },
+  {
+    "code": "M_161686",
+    "id": "3036",
+    "name": "FUTURE EV TECHNOLOGY",
+    "models": [
+      {
+        "vehicleCode": "M_34231",
+        "modelDescription": "CITY RIDE CARRY LODER Electric SEAT 0",
+        "bodyDescription": "ECART",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "1",
+        "noOfDrivers": "1",
+        "seatingCapacity": "0",
+        "vehicleWatt": "1000.00"
+      }
+    ],
+    "vehicleType": "GOODS CARRYING MOTORISED THREE WHEELERS AND MOTORISED PEDAL CYCLES-PUBLIC CARRIERS"
+  },
+  {
+    "code": "M_1845867",
+    "id": "1479",
+    "name": "G K RICKSHAW PVT LTD",
+    "models": [
+      {
+        "vehicleCode": "M_23536",
+        "modelDescription": "HEAVY 100 LOADER Electric SEAT 0",
+        "bodyDescription": "ECART",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "500",
+        "noOfDrivers": "1",
+        "seatingCapacity": "0",
+        "vehicleWatt": "1000.00"
+      }
+    ],
+    "vehicleType": "GOODS CARRYING MOTORISED THREE WHEELERS AND MOTORISED PEDAL CYCLES-PUBLIC CARRIERS"
+  },
+  {
+    "code": "M_150008",
+    "id": "905",
+    "name": "G KON ELECTRIC MOTOR VEHICLES PVT LOT",
+    "models": [
+      {
+        "vehicleCode": "M_19820",
+        "modelDescription": "G KON VEER Electric SEAT 0",
+        "bodyDescription": "ECART",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "500",
+        "noOfDrivers": "1",
+        "seatingCapacity": "0",
+        "vehicleWatt": "1000.00"
+      },
+      {
+        "vehicleCode": "M_22457",
+        "modelDescription": "G KON VEER BUTTERFLY CARGO Electric SEAT 0",
+        "bodyDescription": "ECART",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "500",
+        "noOfDrivers": "1",
+        "seatingCapacity": "0",
+        "vehicleWatt": "1200.00"
+      },
+      {
+        "vehicleCode": "M_24753",
+        "modelDescription": "G KON VEER LOADER Electric SEAT 0",
+        "bodyDescription": "ECART",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "500",
+        "noOfDrivers": "1",
+        "seatingCapacity": "0",
+        "vehicleWatt": "1000.00"
+      }
+    ],
+    "vehicleType": "GOODS CARRYING MOTORISED THREE WHEELERS AND MOTORISED PEDAL CYCLES-PUBLIC CARRIERS"
+  },
+  {
+    "code": "M_160630",
+    "id": "2080",
+    "name": "G&G AUTOMOTIVE",
+    "models": [
+      {
+        "vehicleCode": "M_23767",
+        "modelDescription": "SHAHENSHAH Electric SEAT 0",
+        "bodyDescription": "ECART",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "500",
+        "noOfDrivers": "1",
+        "seatingCapacity": "0",
+        "vehicleWatt": "1000.00"
+      },
+      {
+        "vehicleCode": "M_25908",
+        "modelDescription": "DON Electric SEAT 0",
+        "bodyDescription": "ECART",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "500",
+        "noOfDrivers": "1",
+        "seatingCapacity": "0",
+        "vehicleWatt": "1000.00"
+      },
+      {
+        "vehicleCode": "M_26700",
+        "modelDescription": "DON EV Electric SEAT 0",
+        "bodyDescription": "ECART",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "1",
+        "noOfDrivers": "1",
+        "seatingCapacity": "0",
+        "vehicleWatt": "1450.00"
+      },
+      {
+        "vehicleCode": "M_33008",
+        "modelDescription": "SHAHENSHAH DELUXE Electric SEAT 0",
+        "bodyDescription": "ECART",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "1",
+        "noOfDrivers": "1",
+        "seatingCapacity": "0",
+        "vehicleWatt": "1200.00"
+      }
+    ],
+    "vehicleType": "GOODS CARRYING MOTORISED THREE WHEELERS AND MOTORISED PEDAL CYCLES-PUBLIC CARRIERS"
+  },
+  {
+    "code": "M_161348",
+    "id": "2695",
+    "name": "G.K. E VEHICLES INDUSTRIES PVT. LTD.",
+    "models": [
+      {
+        "vehicleCode": "M_30180",
+        "modelDescription": "GK EL.CARGO SUPER DLX EXT PLUS Electric SEAT 0",
+        "bodyDescription": "ECART",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "1",
+        "noOfDrivers": "1",
+        "seatingCapacity": "0",
+        "vehicleWatt": "1500.00"
+      },
+      {
+        "vehicleCode": "M_30303",
+        "modelDescription": "CARGO DLX PLUS Electric SEAT 0",
+        "bodyDescription": "ECART",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "1",
+        "noOfDrivers": "1",
+        "seatingCapacity": "0",
+        "vehicleWatt": "1000.00"
+      },
+      {
+        "vehicleCode": "M_30315",
+        "modelDescription": "G K ELECTRIC CARGO DLX EXTRA PLUS Electric SEAT 0",
+        "bodyDescription": "ECART",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "1",
+        "noOfDrivers": "1",
+        "seatingCapacity": "0",
+        "vehicleWatt": "1500.00"
+      }
+    ],
+    "vehicleType": "GOODS CARRYING MOTORISED THREE WHEELERS AND MOTORISED PEDAL CYCLES-PUBLIC CARRIERS"
+  },
+  {
+    "code": "M_161347",
+    "id": "2694",
+    "name": "G.M VEHICLE INDUSTRIES",
+    "models": [
+      {
+        "vehicleCode": "M_34491",
+        "modelDescription": "G.M TOTO CART Electric SEAT 0",
+        "bodyDescription": "ECART",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "1",
+        "noOfDrivers": "1",
+        "seatingCapacity": "0",
+        "vehicleWatt": "1000.00"
+      }
+    ],
+    "vehicleType": "GOODS CARRYING MOTORISED THREE WHEELERS AND MOTORISED PEDAL CYCLES-PUBLIC CARRIERS"
+  },
+  {
+    "code": "M_1845173",
+    "id": "1307",
+    "name": "GARUD AUTO",
+    "models": [
+      {
+        "vehicleCode": "M_15395",
+        "modelDescription": "GARUD LD BS 3 DIESEL SEAT 0",
+        "bodyDescription": "PICKUP",
+        "cubicCapacity": "0.00",
+        "fuel": "DIESEL",
+        "gvw": "997",
+        "noOfDrivers": "1",
+        "seatingCapacity": "0",
+        "vehicleWatt": "0.00"
+      }
+    ],
+    "vehicleType": "GOODS CARRYING MOTORISED THREE WHEELERS AND MOTORISED PEDAL CYCLES-PUBLIC CARRIERS"
+  },
+  {
+    "code": "M_1845829",
+    "id": "1443",
+    "name": "GATTI ENTERPRISES",
+    "models": [
+      {
+        "vehicleCode": "M_15321",
+        "modelDescription": "GATTI Electric SEAT 0",
+        "bodyDescription": "ECART",
+        "cubicCapacity": "0.00",
+        "fuel": "Electric",
+        "gvw": "400",
+        "noOfDrivers": "1",
+        "seatingCapacity": "0",
+        "vehicleWatt": "1000.00"
+      },
+      {
+        "vehicleCode": "M_20978",
+        "modelDescription": "GATTI VIRAJ Electric SEAT 0",
+        "bodyDescription": "ECART",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "400",
+        "noOfDrivers": "1",
+        "seatingCapacity": "0",
+        "vehicleWatt": "1500.00"
+      },
+      {
+        "vehicleCode": "M_21990",
+        "modelDescription": "GATTI VIRAJ Electric SEAT 0",
+        "bodyDescription": "ECART",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "400",
+        "noOfDrivers": "1",
+        "seatingCapacity": "0",
+        "vehicleWatt": "1000.00"
+      }
+    ],
+    "vehicleType": "GOODS CARRYING MOTORISED THREE WHEELERS AND MOTORISED PEDAL CYCLES-PUBLIC CARRIERS"
+  },
+  {
+    "code": "M_160064",
+    "id": "1054",
+    "name": "GAYATRI ELECTRIC VEHICLES",
+    "models": [
+      {
+        "vehicleCode": "M_20899",
+        "modelDescription": "DABANG LOADER Electric SEAT 0",
+        "bodyDescription": "PICKUP",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "500",
+        "noOfDrivers": "1",
+        "seatingCapacity": "0",
+        "vehicleWatt": "7000.00"
+      },
+      {
+        "vehicleCode": "M_23427",
+        "modelDescription": "DABANG Electric SEAT 0",
+        "bodyDescription": "ECART",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "500",
+        "noOfDrivers": "1",
+        "seatingCapacity": "0",
+        "vehicleWatt": "1000.00"
+      },
+      {
+        "vehicleCode": "M_25203",
+        "modelDescription": "DABANG E-LOADER Electric SEAT 0",
+        "bodyDescription": "ECART",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "500",
+        "noOfDrivers": "1",
+        "seatingCapacity": "0",
+        "vehicleWatt": "1000.00"
+      },
+      {
+        "vehicleCode": "M_26712",
+        "modelDescription": "DABANG E-LOADER Electric SEAT 0",
+        "bodyDescription": "ECART",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "1",
+        "noOfDrivers": "1",
+        "seatingCapacity": "0",
+        "vehicleWatt": "1500.00"
+      }
+    ],
+    "vehicleType": "GOODS CARRYING MOTORISED THREE WHEELERS AND MOTORISED PEDAL CYCLES-PUBLIC CARRIERS"
+  },
+  {
+    "code": "M_161297",
+    "id": "2645",
+    "name": "GKON ELECTRIC MOTOR VEHICLES PVT LTD",
+    "models": [
+      {
+        "vehicleCode": "M_27720",
+        "modelDescription": "E LOADER VEER CARGO Electric SEAT 0",
+        "bodyDescription": "ECART",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "1",
+        "noOfDrivers": "1",
+        "seatingCapacity": "0",
+        "vehicleWatt": "1200.00"
+      }
+    ],
+    "vehicleType": "GOODS CARRYING MOTORISED THREE WHEELERS AND MOTORISED PEDAL CYCLES-PUBLIC CARRIERS"
+  },
+  {
+    "code": "M_161829",
+    "id": "3187",
+    "name": "GKS RICKSHAW (P) LTD.",
+    "models": [
+      {
+        "vehicleCode": "M_34498",
+        "modelDescription": "GK5 E-CART Electric SEAT 0",
+        "bodyDescription": "ECART",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "1",
+        "noOfDrivers": "1",
+        "seatingCapacity": "0",
+        "vehicleWatt": "1200.00"
+      },
+      {
+        "vehicleCode": "M_34717",
+        "modelDescription": "GKS LODER Electric SEAT 0",
+        "bodyDescription": "ECART",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "1",
+        "noOfDrivers": "1",
+        "seatingCapacity": "0",
+        "vehicleWatt": "1200.00"
+      }
+    ],
+    "vehicleType": "GOODS CARRYING MOTORISED THREE WHEELERS AND MOTORISED PEDAL CYCLES-PUBLIC CARRIERS"
+  },
+  {
+    "code": "M_160804",
+    "id": "2254",
+    "name": "GLAD GURU MOTOR WALE",
+    "models": [
+      {
+        "vehicleCode": "M_24607",
+        "modelDescription": "RANGER LOADER Electric SEAT 0",
+        "bodyDescription": "ECART",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "700",
+        "noOfDrivers": "1",
+        "seatingCapacity": "0",
+        "vehicleWatt": "1200.00"
+      }
+    ],
+    "vehicleType": "GOODS CARRYING MOTORISED THREE WHEELERS AND MOTORISED PEDAL CYCLES-PUBLIC CARRIERS"
+  },
+  {
+    "code": "M_161449",
+    "id": "2796",
+    "name": "GOLDEN ELECTRIC VEHICLES",
+    "models": [
+      {
+        "vehicleCode": "M_31745",
+        "modelDescription": "GOLDEN LDR Electric SEAT 0",
+        "bodyDescription": "ECART",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "1",
+        "noOfDrivers": "1",
+        "seatingCapacity": "0",
+        "vehicleWatt": "1740.00"
+      }
+    ],
+    "vehicleType": "GOODS CARRYING MOTORISED THREE WHEELERS AND MOTORISED PEDAL CYCLES-PUBLIC CARRIERS"
+  },
+  {
+    "code": "M_160276",
+    "id": "1807",
+    "name": "GOODLUCK VEHICLE INDUSTRY PVT LTD",
+    "models": [
+      {
+        "vehicleCode": "M_19198",
+        "modelDescription": "GLR-C Electric SEAT 0",
+        "bodyDescription": "ECART",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "400",
+        "noOfDrivers": "1",
+        "seatingCapacity": "0",
+        "vehicleWatt": "1000.00"
+      }
+    ],
+    "vehicleType": "GOODS CARRYING MOTORISED THREE WHEELERS AND MOTORISED PEDAL CYCLES-PUBLIC CARRIERS"
+  },
+  {
+    "code": "M_160680",
+    "id": "2131",
+    "name": "GOPAL AUTO MOTORS",
+    "models": [
+      {
+        "vehicleCode": "M_23013",
+        "modelDescription": "ELECTROMOUNT LOADER Electric SEAT 0",
+        "bodyDescription": "ECART",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "500",
+        "noOfDrivers": "1",
+        "seatingCapacity": "0",
+        "vehicleWatt": "1000.00"
+      },
+      {
+        "vehicleCode": "M_34853",
+        "modelDescription": "GAM ELECTROMOUNT LOADER LITHIUM Electric SEAT 0",
+        "bodyDescription": "ECART",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "1",
+        "noOfDrivers": "1",
+        "seatingCapacity": "0",
+        "vehicleWatt": "1000.00"
+      }
+    ],
+    "vehicleType": "GOODS CARRYING MOTORISED THREE WHEELERS AND MOTORISED PEDAL CYCLES-PUBLIC CARRIERS"
+  },
+  {
+    "code": "M_150031",
+    "id": "926",
+    "name": "GOPAL AUTOMOTOR",
+    "models": [
+      {
+        "vehicleCode": "M_17527",
+        "modelDescription": "GAM ELECTROMOUNT Electric SEAT 0",
+        "bodyDescription": "ECART",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "688",
+        "noOfDrivers": "1",
+        "seatingCapacity": "0",
+        "vehicleWatt": "1000.00"
+      }
+    ],
+    "vehicleType": "GOODS CARRYING MOTORISED THREE WHEELERS AND MOTORISED PEDAL CYCLES-PUBLIC CARRIERS"
+  },
+  {
+    "code": "M_160790",
+    "id": "2242",
+    "name": "GR INDIA MOTORS PVT. LTD .",
+    "models": [
+      {
+        "vehicleCode": "M_28767",
+        "modelDescription": "VARSHA CARGO Electric SEAT 0",
+        "bodyDescription": "ECART",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "1",
+        "noOfDrivers": "1",
+        "seatingCapacity": "0",
+        "vehicleWatt": "1000.00"
+      }
+    ],
+    "vehicleType": "GOODS CARRYING MOTORISED THREE WHEELERS AND MOTORISED PEDAL CYCLES-PUBLIC CARRIERS"
+  },
+  {
+    "code": "M_160174",
+    "id": "1721",
+    "name": "GRD MOTORS",
+    "models": [
+      {
+        "vehicleCode": "M_19135",
+        "modelDescription": "DEVRATH Electric SEAT 0",
+        "bodyDescription": "ECART",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "316",
+        "noOfDrivers": "1",
+        "seatingCapacity": "0",
+        "vehicleWatt": "1000.00"
+      },
+      {
+        "vehicleCode": "M_21746",
+        "modelDescription": "DAVRATH E- LOADER Electric SEAT 0",
+        "bodyDescription": "ECART",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "705",
+        "noOfDrivers": "1",
+        "seatingCapacity": "0",
+        "vehicleWatt": "1000.00"
+      },
+      {
+        "vehicleCode": "M_22934",
+        "modelDescription": "DAVRATH E- LOADER Electric SEAT 0",
+        "bodyDescription": "ECART",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "705",
+        "noOfDrivers": "1",
+        "seatingCapacity": "0",
+        "vehicleWatt": "1000.00"
+      },
+      {
+        "vehicleCode": "M_25130",
+        "modelDescription": "DAVRATH E- LOADER EXPRESS Electric SEAT 0",
+        "bodyDescription": "ECART",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "705",
+        "noOfDrivers": "1",
+        "seatingCapacity": "0",
+        "vehicleWatt": "1000.00"
+      }
+    ],
+    "vehicleType": "GOODS CARRYING MOTORISED THREE WHEELERS AND MOTORISED PEDAL CYCLES-PUBLIC CARRIERS"
+  },
+  {
+    "code": "M_161413",
+    "id": "2760",
+    "name": "GREAVES ELECTRIC MOBILITY PVT LTD",
+    "models": [
+      {
+        "vehicleCode": "M_33201",
+        "modelDescription": "GREAVES D-435 SUPER CARGO DIESEL SEAT 0",
+        "bodyDescription": "PICKUP",
+        "cubicCapacity": "1.00",
+        "fuel": "DIESEL",
+        "gvw": "997",
+        "noOfDrivers": "1",
+        "seatingCapacity": "0",
+        "vehicleWatt": "0.00"
+      }
+    ],
+    "vehicleType": "GOODS CARRYING MOTORISED THREE WHEELERS AND MOTORISED PEDAL CYCLES-PUBLIC CARRIERS"
+  },
+  {
+    "code": "M_161292",
+    "id": "2641",
+    "name": "GREEN PANTHER",
+    "models": [
+      {
+        "vehicleCode": "M_27853",
+        "modelDescription": "PARV LDR Electric SEAT 0",
+        "bodyDescription": "ECART",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "1",
+        "noOfDrivers": "1",
+        "seatingCapacity": "0",
+        "vehicleWatt": "1250.00"
+      }
+    ],
+    "vehicleType": "GOODS CARRYING MOTORISED THREE WHEELERS AND MOTORISED PEDAL CYCLES-PUBLIC CARRIERS"
+  },
+  {
+    "code": "M_160562",
+    "id": "2012",
+    "name": "GREEN SHUTTLE",
+    "models": [
+      {
+        "vehicleCode": "M_23080",
+        "modelDescription": "FLYING FISH E- CART Electric SEAT 0",
+        "bodyDescription": "ECART",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "736",
+        "noOfDrivers": "1",
+        "seatingCapacity": "0",
+        "vehicleWatt": "1200.00"
+      }
+    ],
+    "vehicleType": "GOODS CARRYING MOTORISED THREE WHEELERS AND MOTORISED PEDAL CYCLES-PUBLIC CARRIERS"
+  },
+  {
+    "code": "M_160201",
+    "id": "1748",
+    "name": "GREEN STAR MOTORS",
+    "models": [
+      {
+        "vehicleCode": "M_24899",
+        "modelDescription": "GREEN STAR Electric SEAT 0",
+        "bodyDescription": "ECART",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "500",
+        "noOfDrivers": "1",
+        "seatingCapacity": "0",
+        "vehicleWatt": "1000.00"
+      },
+      {
+        "vehicleCode": "M_29396",
+        "modelDescription": "GREEN STAR CARGO Electric SEAT 0",
+        "bodyDescription": "ECART",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "1",
+        "noOfDrivers": "1",
+        "seatingCapacity": "0",
+        "vehicleWatt": "1000.00"
+      }
+    ],
+    "vehicleType": "GOODS CARRYING MOTORISED THREE WHEELERS AND MOTORISED PEDAL CYCLES-PUBLIC CARRIERS"
+  },
+  {
+    "code": "M_160196",
+    "id": "1741",
+    "name": "GREEN TECHNOLOGIES",
+    "models": [
+      {
+        "vehicleCode": "M_21093",
+        "modelDescription": "BAAZ E CART Electric SEAT 0",
+        "bodyDescription": "ECART",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "750",
+        "noOfDrivers": "1",
+        "seatingCapacity": "0",
+        "vehicleWatt": "1000.00"
+      },
+      {
+        "vehicleCode": "M_26310",
+        "modelDescription": "BAAZ E CART Electric SEAT 0",
+        "bodyDescription": "ECART",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "750",
+        "noOfDrivers": "1",
+        "seatingCapacity": "0",
+        "vehicleWatt": "1000.00"
+      },
+      {
+        "vehicleCode": "M_30490",
+        "modelDescription": "KING E CART Electric SEAT 0",
+        "bodyDescription": "ECART",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "1",
+        "noOfDrivers": "1",
+        "seatingCapacity": "0",
+        "vehicleWatt": "1500.00"
+      },
+      {
+        "vehicleCode": "M_33039",
+        "modelDescription": "BAAZ XL PLUS Electric SEAT 0",
+        "bodyDescription": "ECART",
+        "cubicCapacity": "1.00",
+        "fuel": "Electric",
+        "gvw": "1",
+        "noOfDrivers": "1",
+        "seatingCapacity": "0",
+        "vehicleWatt": "1500.00"
+      }
+    ],
+    "vehicleType": "GOODS CARRYING MOTORISED THREE WHEELERS AND MOTORISED PEDAL CYCLES-PUBLIC CARRIERS"
   }
 ]
