@@ -48,6 +48,14 @@ class PCCVHandler extends BaseHandler {
             await page.evaluate(() => {
                 const virtualHolder = document.querySelector('.ant-table-tbody-virtual-holder');
                 if (virtualHolder) {
+                    virtualHolder.scrollTop = 0;
+                }
+            });
+            await wait(1000);
+            
+            await page.evaluate(() => {
+                const virtualHolder = document.querySelector('.ant-table-tbody-virtual-holder');
+                if (virtualHolder) {
                     virtualHolder.scrollTop = virtualHolder.scrollHeight;
                 }
             });
@@ -211,7 +219,19 @@ class PCCVHandler extends BaseHandler {
                 console.log('📝 Selecting form options via nested iteration for 1st/3rd variant...');
                 
                 try {
+                    console.log('  → Checking for Proposal Type dropdown...');
                     const propCount = await this.getDropdownOptionsCount(page, 'proposalType');
+                    console.log(`    ℹ️ Found ${propCount} Proposal Type options`);
+                    
+                    if (propCount === 0) {
+                        console.log('  ⚠️ No Proposal Type options found. Checking if element exists...');
+                        const eleExists = await page.evaluate(() => {
+                            return !!document.querySelector('#proposalType');
+                        });
+                        console.log(`    Element #proposalType exists: ${eleExists}`);
+                        throw new Error('Proposal Type dropdown not available or empty');
+                    }
+                    
                     for (let p1 = 0; p1 < propCount; p1++) {
                         const propText = await this.selectDropdownOption(page, 'proposalType', p1);
                         console.log(`  → Proposal Type: ${propText}`);
@@ -280,7 +300,7 @@ class PCCVHandler extends BaseHandler {
                         }
                     }
                 } catch (err) {
-                    console.log(`  ❌ Failed during selection steps: ${err.message}`);
+                    console.log(`  ❌ Failed during nested selection: ${err.message}`);
                     console.log('  ⏭️  Skipping this vehicle type variant.\n');
                     continue;
                 }

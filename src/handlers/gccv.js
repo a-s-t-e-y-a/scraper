@@ -45,6 +45,22 @@ class GCCVHandler extends BaseHandler {
         while (loopsLeft > 0) {
             loopsLeft--;
             
+            await page.evaluate(() => {
+                const virtualHolder = document.querySelector('.ant-table-tbody-virtual-holder');
+                if (virtualHolder) {
+                    virtualHolder.scrollTop = 0;
+                }
+            });
+            await wait(1000);
+            
+            await page.evaluate(() => {
+                const virtualHolder = document.querySelector('.ant-table-tbody-virtual-holder');
+                if (virtualHolder) {
+                    virtualHolder.scrollTop = virtualHolder.scrollHeight;
+                }
+            });
+            await wait(1500);
+            
             const pageData = await page.evaluate(() => {
                 const rows = Array.from(document.querySelectorAll('.ant-modal-body .ant-table-row'));
                 return rows.map(row => {
