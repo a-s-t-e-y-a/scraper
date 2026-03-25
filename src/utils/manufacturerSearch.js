@@ -48,7 +48,7 @@ async function searchAndSelectManufacturer(page, code) {
             console.log(`[PAGE] Found ${buttons.length} buttons total`);
             
             buttons.forEach((btn, idx) => {
-                console.log(`[PAGE] Button ${idx}: "${btn.innerText || btn.textContent}"`);
+                console.log(`[PAGE] Button ${idx}: text="${btn.innerText || btn.textContent}" class="${btn.className}"`);
             });
             
             const searchBtn = buttons.find(btn => 
@@ -56,12 +56,16 @@ async function searchAndSelectManufacturer(page, code) {
             );
             
             if (searchBtn) {
-                console.log(`[PAGE] Search button found! Clicking it...`);
+                console.log(`[PAGE] ✅ Search button found! Current page state:`);
+                const rowsBefore = Array.from(document.querySelectorAll('.ant-table-row'));
+                console.log(`[PAGE] Rows visible BEFORE click: ${rowsBefore.length}`);
+                
+                console.log(`[PAGE] Clicking Search button...`);
                 searchBtn.dispatchEvent(new MouseEvent('click', { bubbles: true, cancelable: true }));
                 return true;
             }
             
-            console.log(`[PAGE] Search button NOT found`);
+            console.log(`[PAGE] ❌ Search button NOT found`);
             return false;
         });
 
@@ -70,30 +74,131 @@ async function searchAndSelectManufacturer(page, code) {
             return false;
         }
 
-        console.log(`    ✅ Search button clicked`);
-        await wait(2000);
+        console.log(`    ✅ Search button clicked, waiting for results (1s)...`);
+        await wait(1000);
+        
+        console.log(`    📊 Checking page load status...`);
+        const loadingStatus = await page.evaluate(() => {
+            const loadingOverlay = document.querySelector('.ant-spin');
+            const loadingVisible = loadingOverlay && loadingOverlay.offsetHeight > 0;
+            console.log(`[PAGE] Loading spinner visible: ${loadingVisible}`);
+            
+            const rows = Array.from(document.querySelectorAll('.ant-table-row'));
+            console.log(`[PAGE] Rows after 1s wait: ${rows.length}`);
+            
+            return { loadingVisible, rowCount: rows.length };
+        });
+        
+        if (loadingStatus.loadingVisible) {
+            console.log(`    ⏳ Still loading, waiting additional 2s...`);
+            await wait(2000);
+        } else {
+            console.log(`    ✅ Page appears loaded, waiting 1s more for safety...`);
+            await wait(1000);
+        }
 
         console.log(`    🔍 Searching for result row with code: ${code}`);
         
         const found = await page.evaluate((code) => {
+            console.log(`[PAGE] ===== POST-SEARCH DOM ANALYSIS =====`);
+            
+            console.log(`[PAGE] Searching for all possible table structures...`);
+            
+            const structures = {
+                'table-row': Array.from(document.querySelectorAll('.ant-table-row')),
+                'tbody-row': Array.from(document.querySelectorAll('.ant-table-tbody .ant-table-row')),
+                'data-row-key': Array.from(document.querySelectorAll('[data-row-key]')),
+                'flex-row': Array.from(document.querySelectorAll('div[style*="flex"]')),
+                'modal-body': document.querySelector('.ant-modal-body'),
+                'container': document.querySelector('.container')
+            };
+            
+            console.log(`[PAGE] Structure summary:`);
+            console.log(`[PAGE]   .ant-table-row: ${structures['table-row'].length}`);
+            console.log(`[PAGE]   .ant-table-tbody .ant-table-row: ${structures['tbody-row'].length}`);
+            console.log(`[PAGE]   [data-row-key]: ${structures['data-row-key'].length}`);
+            console.log(`[PAGE]   Modal body present: ${!!structures['modal-body']}`);
+            console.log(`[PAGE]   Container present: ${!!structures['container']}`);
+            
+            console.log(`[PAGE] Checking if modal structure changed...`);
+            const modalBody = document.querySelector('.ant-modal-body');
+            if (modalBody) {
+                const allText = modalBody.innerText;
+                const lines = allText.split('\n').slice(0, 10);
+                console.log(`[PAGE] Modal content (first 10 lines):`);
+                lines.forEach((line, idx) => {
+                    console.log(`[PAGE]   ${idx}: "${line.substring(0, 80)}"`);
+                });
+            }
+            
             const rows = Array.from(document.querySelectorAll('.ant-table-row'));
-            console.log(`[PAGE] Found ${rows.length} table rows`);
+            console.log(`[PAGE] Using .ant-table-row (found ${rows.length})`);
             
             if (rows.length === 0) {
-                console.log(`[PAGE] No rows found!`);
+                console.log(`[PAGE] ⚠️ No rows found with .ant-table-row, trying alternatives...`);
+                
+                const altRows = Array.from(document.querySelectorAll('[data-row-key]'));
+                console.log(`[PAGE] Trying [data-row-key]: found ${altRows.length}`);
+                if (altRows.length > 0) {
+                    console.log(`[PAGE] Using alternative selector [data-row-key]`);
+                    
+                    let altTarget = null;
+                    for (const row of altRows) {
+                        const cells = Array.from(row.querySelectorAll('.ant-table-cell'));
+                        if (cells.length > 0) {
+                            const firstCell = cells[0];
+                            const cellText = firstCell ? firstCell.innerText.trim() : '';
+                            if (cellText === code) {
+                                altTarget = row;
+                                console.log(`[PAGE] Found match in alt rows: "${cellText}"`);
+                                break;
+                            }
+                        }
+                    }
+                    
+                    if (altTarget) {
+                        console.log(`[PAGE] ✅ Found matching row in alt structure! Clicking...`);
+                        altTarget.dispatchEvent(new MouseEvent('click', { bubbles: true, cancelable: true }));
+                        return true;
+                    }
+                    console.log(`[PAGE] ❌ No match found in alternative rows`);
+                    return false;
+                }
+                console.log(`[PAGE] ❌ No rows found with any selector`);
                 return false;
             }
+            
 
+            console.log(`[PAGE] Found ${rows.length} rows, inspecting first 5...`);
             rows.slice(0, 5).forEach((row, idx) => {
-                const firstCell = row.querySelector('.ant-table-cell');
-                const cellText = firstCell ? firstCell.innerText.trim() : 'N/A';
-                console.log(`[PAGE] Row ${idx}: "${cellText}"`);
+                const cells = Array.from(row.querySelectorAll('.ant-table-cell'));
+                if (cells.length === 0) {
+                    console.log(`[PAGE] Row ${idx}: NO .ant-table-cell, using innerText: "${row.innerText.substring(0, 100)}"`);
+                } else {
+                    console.log(`[PAGE] Row ${idx}: ${cells.length} cells`);
+                    cells.forEach((cell, cidx) => {
+                        const text = cell.innerText.trim();
+                        console.log(`[PAGE]   Cell ${cidx}: "${text}"`);
+                    });
+                }
             });
 
-            const target = rows.find(row => {
-                const firstCell = row.querySelector('.ant-table-cell');
-                const cellText = firstCell ? firstCell.innerText.trim() : '';
-                return cellText === code;
+            console.log(`[PAGE] Searching for match with code: "${code}"`);
+            const target = rows.find((row, idx) => {
+                let cells = Array.from(row.querySelectorAll('.ant-table-cell'));
+                let cellText = '';
+                
+                if (cells.length > 0) {
+                    cellText = cells[0].innerText.trim();
+                } else {
+                    cellText = row.innerText.trim().split('\n')[0];
+                }
+                
+                const isMatch = cellText === code;
+                if (idx < 3 || isMatch) {
+                    console.log(`[PAGE]   Row ${idx}: "${cellText}" vs "${code}" = ${isMatch}`);
+                }
+                return isMatch;
             });
 
             if (target) {
@@ -103,6 +208,15 @@ async function searchAndSelectManufacturer(page, code) {
             }
             
             console.log(`[PAGE] ❌ No matching row found for code: ${code}`);
+            console.log(`[PAGE] Checking if modal structure is different...`);
+            
+            const modalBody = document.querySelector('.ant-modal-body');
+            if (modalBody) {
+                console.log(`[PAGE] Modal body found, checking inner structure:`);
+                const innerTables = modalBody.querySelectorAll('.ant-table-row');
+                console.log(`[PAGE] Found ${innerTables.length} rows inside modal body`);
+            }
+            
             return false;
         }, code);
 
@@ -111,6 +225,7 @@ async function searchAndSelectManufacturer(page, code) {
         } else {
             console.log(`    ❌ Manufacturer NOT found in results`);
         }
+        
         
         return found;
     } catch (err) {
