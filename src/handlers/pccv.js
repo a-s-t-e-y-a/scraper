@@ -45,6 +45,14 @@ class PCCVHandler extends BaseHandler {
         while (loopsLeft > 0) {
             loopsLeft--;
             
+            await page.evaluate(() => {
+                const virtualHolder = document.querySelector('.ant-table-tbody-virtual-holder');
+                if (virtualHolder) {
+                    virtualHolder.scrollTop = virtualHolder.scrollHeight;
+                }
+            });
+            await wait(1500);
+            
             const pageData = await page.evaluate(() => {
                 const rows = Array.from(document.querySelectorAll('.ant-modal-body .ant-table-row'));
                 return rows.map(row => {
@@ -83,104 +91,65 @@ class PCCVHandler extends BaseHandler {
         return manufacturers;
     }
 
-    async selectProposalType(page) {
-        console.log('    [DEBUG] Starting Proposal Type selection...');
+    async getDropdownOptionsCount(page, inputId) {
         await wait(1000);
-
-        const isOpen = await page.evaluate(() => {
-            const input = document.querySelector('#proposalType');
+        const isOpen = await page.evaluate((id) => {
+            const input = document.querySelector(`#${id}`);
             const selector = input ? input.closest('.ant-select-selector') : null;
             if (selector) {
                 selector.click();
                 return true;
             }
             return false;
-        });
+        }, inputId);
 
-        console.log(`    [DEBUG] Proposal Type dropdown opened: ${isOpen}`);
-        if (!isOpen) throw new Error('Could not find Proposal Type dropdown');
-
+        if (!isOpen) return 0;
         await wait(2000);
 
-        const optionsLog = await page.evaluate(() => {
-            const options = Array.from(document.querySelectorAll('.ant-select-item-option-content'));
-            return options.map((opt, index) => `Option ${index}: "${opt.innerText.trim()}"`);
+        const count = await page.evaluate(() => {
+            const activeDropdown = Array.from(document.querySelectorAll('.ant-select-dropdown:not(.ant-select-dropdown-hidden)'));
+            if (!activeDropdown.length) return 0;
+            return activeDropdown[activeDropdown.length - 1].querySelectorAll('.ant-select-item-option').length;
         });
 
-        console.log(`    [DEBUG] Found ${optionsLog.length} options for Proposal Type:`);
-        optionsLog.forEach(opt => console.log(`      - ${opt}`));
-
-        const selected = await page.evaluate(() => {
-            const options = Array.from(document.querySelectorAll('.ant-select-item-option-content'));
-            if (options.length > 0) {
-                const text = options[0].innerText.trim();
-                options[0].click();
-                return `Selected Option 0: "${text}"`;
-            }
-            return null;
-        });
-
-        if (selected) {
-            console.log(`    [DEBUG] DOM Click Success: ${selected}`);
-        } else {
-            console.log('    ⚠️ [DEBUG] Retrying Proposal Type selection with down arrow...');
-            await page.keyboard.press('ArrowDown');
-            await wait(500);
-            await page.keyboard.press('Enter');
-            console.log('    [DEBUG] Executed Down Arrow + Enter fallback.');
-        }
-
-        await wait(1500);
+        // Close dropdown
+        await page.keyboard.press('Escape');
+        await wait(1000);
+        return count;
     }
 
-    async selectPolicyType(page) {
-        console.log('    [DEBUG] Starting Policy Type selection...');
+    async selectDropdownOption(page, inputId, index) {
         await wait(1000);
-
-        const isOpen = await page.evaluate(() => {
-            const input = document.querySelector('#policyType');
+        const isOpen = await page.evaluate((id) => {
+            const input = document.querySelector(`#${id}`);
             const selector = input ? input.closest('.ant-select-selector') : null;
             if (selector) {
                 selector.click();
                 return true;
             }
             return false;
-        });
+        }, inputId);
 
-        console.log(`    [DEBUG] Policy Type dropdown opened: ${isOpen}`);
-        if (!isOpen) throw new Error('Could not find Policy Type dropdown');
-
+        if (!isOpen) throw new Error(`Could not find dropdown ${inputId}`);
         await wait(2000);
 
-        const optionsLog = await page.evaluate(() => {
-            const options = Array.from(document.querySelectorAll('.ant-select-item-option-content'));
-            return options.map((opt, index) => `Option ${index}: "${opt.innerText.trim()}"`);
-        });
-
-        console.log(`    [DEBUG] Found ${optionsLog.length} options for Policy Type:`);
-        optionsLog.forEach(opt => console.log(`      - ${opt}`));
-
-        const selected = await page.evaluate(() => {
-            const options = Array.from(document.querySelectorAll('.ant-select-item-option-content'));
-            if (options.length > 0) {
-                const text = options[0].innerText.trim();
-                options[0].click();
-                return `Selected Option 0: "${text}"`;
+        const text = await page.evaluate((idx) => {
+            const activeDropdown = Array.from(document.querySelectorAll('.ant-select-dropdown:not(.ant-select-dropdown-hidden)'));
+            if (!activeDropdown.length) return null;
+            const options = activeDropdown[activeDropdown.length - 1].querySelectorAll('.ant-select-item-option');
+            if (idx < options.length) {
+                const opt = options[idx];
+                const text = opt.innerText.trim();
+                opt.click();
+                return text;
             }
             return null;
-        });
+        }, index);
 
-        if (selected) {
-            console.log(`    [DEBUG] DOM Click Success: ${selected}`);
-        } else {
-            console.log('    ⚠️ [DEBUG] Retrying Policy Type selection with down arrow...');
-            await page.keyboard.press('ArrowDown');
-            await wait(500);
-            await page.keyboard.press('Enter');
-            console.log('    [DEBUG] Executed Down Arrow + Enter fallback.');
-        }
-
+        if (!text) throw new Error(`Option at index ${index} not found in ${inputId}`);
+        
         await wait(1500);
+        return text;
     }
 
     async selectRegistrationType(page) {
@@ -239,81 +208,122 @@ class PCCVHandler extends BaseHandler {
             const isFirstOrThird = typeIdx === 0 || typeIdx === 2;
             
             if (isFirstOrThird) {
-                console.log('📝 Selecting form options for 1st/3rd variant...');
+                console.log('📝 Selecting form options via nested iteration for 1st/3rd variant...');
                 
                 try {
-                    console.log('  → Selecting Proposal Type...');
-                    await this.selectProposalType(page);
-                    console.log('    ✅ Proposal Type selected');
+                    const propCount = await this.getDropdownOptionsCount(page, 'proposalType');
+                    for (let p1 = 0; p1 < propCount; p1++) {
+                        const propText = await this.selectDropdownOption(page, 'proposalType', p1);
+                        console.log(`  → Proposal Type: ${propText}`);
 
-                    console.log('  → Selecting Policy Type...');
-                    await this.selectPolicyType(page);
-                    console.log('    ✅ Policy Type selected');
+                        const polCount = await this.getDropdownOptionsCount(page, 'policyType');
+                        for (let p2 = 0; p2 < polCount; p2++) {
+                            const polText = await this.selectDropdownOption(page, 'policyType', p2);
+                            console.log(`    → Policy Type: ${polText}`);
 
-                    console.log('  → Selecting Registration Type...');
-                    await this.selectRegistrationType(page);
-                    console.log('    ✅ Registration Type selected\n');
+                            const pccvCount = await this.getDropdownOptionsCount(page, 'pccvType');
+                            for (let p3 = 0; p3 < pccvCount; p3++) {
+                                const pccvText = await this.selectDropdownOption(page, 'pccvType', p3);
+                                console.log(`      → PCCV Type: ${pccvText}`);
+
+                                await this.selectRegistrationType(page);
+                                console.log('        ✅ Registration Type "No" selected');
+
+                                console.log('        📥 Fetching manufacturers for this combination...');
+                                const pccvManufacturers = await this.getAvailableManufacturersFromPortal(page);
+                                console.log(`        ✅ Found ${pccvManufacturers.length} manufacturers.`);
+
+                                let typeResult = [];
+                                let suffix = `_${propText}_${polText}_${pccvText}`.replace(/[^a-z0-9]/gi, '_').toLowerCase();
+                                const typeOutputFileName = this.getOutputFileNameForVehicleType(vehicleType).replace('.json', `${suffix}.json`);
+                                const typeOutputPath = path.join(this.config.outputDir, typeOutputFileName);
+
+                                if (fs.existsSync(typeOutputPath)) {
+                                    try {
+                                        const fileData = fs.readFileSync(typeOutputPath, 'utf-8');
+                                        if (fileData.trim()) typeResult = JSON.parse(fileData);
+                                    } catch (e) {}
+                                }
+
+                                const processedCodes = new Set(typeResult.map(m => m.code));
+
+                                for (let mIdx = 0; mIdx < pccvManufacturers.length; mIdx++) {
+                                    const mfr = pccvManufacturers[mIdx];
+                                    if (processedCodes.has(mfr.code)) continue;
+
+                                    console.log(`        [${mIdx + 1}/${pccvManufacturers.length}] 🔍 ${mfr.name}`);
+                                    try {
+                                        const models = await this.scrapeModelsForManufacturer(page, mfr);
+                                        typeResult.push({ 
+                                            ...mfr, 
+                                            models, 
+                                            vehicleType: vehicleType.label,
+                                            proposalType: propText,
+                                            policyType: polText,
+                                            pccvType: pccvText
+                                        });
+                                        this.saveData(typeOutputPath, typeResult);
+                                    } catch (err) {
+                                        console.log(`          ❌ ${err.message}`);
+                                        typeResult.push({ ...mfr, models: [], vehicleType: vehicleType.label });
+                                        try {
+                                            await page.evaluate(() => {
+                                                const closeBtn = document.querySelector('.ant-modal-close');
+                                                if (closeBtn) closeBtn.dispatchEvent(new MouseEvent('click', { bubbles: true, cancelable: true }));
+                                            });
+                                        } catch (_) {}
+                                        await wait(1500);
+                                    }
+                                }
+                                allResults.push({ vehicleType: `${vehicleType.label}${suffix}`, count: typeResult.length });
+                            }
+                        }
+                    }
                 } catch (err) {
                     console.log(`  ❌ Failed during selection steps: ${err.message}`);
                     console.log('  ⏭️  Skipping this vehicle type variant.\n');
                     continue;
                 }
-            }
+            } else {
+                console.log('📥 Fetching available manufacturers for this vehicle type...');
+                const pccvManufacturers = await this.getAvailableManufacturersFromPortal(page);
+                console.log(`✅ Found ${pccvManufacturers.length} manufacturers for this variant.\n`);
 
-            console.log('📥 Fetching available manufacturers for this vehicle type...');
-            const pccvManufacturers = await this.getAvailableManufacturersFromPortal(page);
-            console.log(`✅ Found ${pccvManufacturers.length} manufacturers for this variant.\n`);
+                let typeResult = [];
+                const typeOutputFileName = this.getOutputFileNameForVehicleType(vehicleType);
+                const typeOutputPath = path.join(this.config.outputDir, typeOutputFileName);
 
-            let typeResult = [];
-            const typeOutputFileName = this.getOutputFileNameForVehicleType(vehicleType);
-            const typeOutputPath = path.join(this.config.outputDir, typeOutputFileName);
-
-            if (fs.existsSync(typeOutputPath)) {
-                try {
-                    const fileData = fs.readFileSync(typeOutputPath, 'utf-8');
-                    if (fileData.trim()) {
-                        typeResult = JSON.parse(fileData);
-                        console.log(`📂 Found existing data with ${typeResult.length} manufacturers. Resuming...\n`);
-                    }
-                } catch (e) {
-                    console.log('⚠️ Could not parse existing JSON. Starting fresh.\n');
-                }
-            }
-
-            const processedCodes = new Set(typeResult.map(m => m.code));
-
-            for (let mIdx = 0; mIdx < pccvManufacturers.length; mIdx++) {
-                const mfr = pccvManufacturers[mIdx];
-
-                if (processedCodes.has(mfr.code)) {
-                    console.log(`[${mIdx + 1}/${pccvManufacturers.length}] ⏭️  Skipping ${mfr.name} (Already scraped)`);
-                    continue;
-                }
-
-                console.log(`[${mIdx + 1}/${pccvManufacturers.length}] 🔍 ${mfr.name}`);
-
-                try {
-                    const models = await this.scrapeModelsForManufacturer(page, mfr);
-                    typeResult.push({ ...mfr, models, vehicleType: vehicleType.label });
-                    console.log(`  ✅ Extracted ${models.length} models.`);
-
-                    this.saveData(typeOutputPath, typeResult);
-                } catch (err) {
-                    console.log(`  ❌ ${err.message}`);
-                    typeResult.push({ ...mfr, models: [], vehicleType: vehicleType.label });
-                    
+                if (fs.existsSync(typeOutputPath)) {
                     try {
-                        await page.evaluate(() => {
-                            const closeBtn = document.querySelector('.ant-modal-close');
-                            if (closeBtn) closeBtn.dispatchEvent(new MouseEvent('click', { bubbles: true, cancelable: true }));
-                        });
-                    } catch (_) {}
-                    await wait(1500);
+                        const fileData = fs.readFileSync(typeOutputPath, 'utf-8');
+                        if (fileData.trim()) typeResult = JSON.parse(fileData);
+                    } catch (e) {}
                 }
-            }
 
-            console.log(`\n✅ Vehicle Type Complete: ${vehicleType.label} → ${typeOutputFileName}`);
-            allResults.push({ vehicleType: vehicleType.label, count: typeResult.length });
+                const processedCodes = new Set(typeResult.map(m => m.code));
+
+                for (let mIdx = 0; mIdx < pccvManufacturers.length; mIdx++) {
+                    const mfr = pccvManufacturers[mIdx];
+                    if (processedCodes.has(mfr.code)) continue;
+
+                    console.log(`[${mIdx + 1}/${pccvManufacturers.length}] 🔍 ${mfr.name}`);
+                    try {
+                        const models = await this.scrapeModelsForManufacturer(page, mfr);
+                        typeResult.push({ ...mfr, models, vehicleType: vehicleType.label });
+                        this.saveData(typeOutputPath, typeResult);
+                    } catch (err) {
+                        typeResult.push({ ...mfr, models: [], vehicleType: vehicleType.label });
+                        try {
+                            await page.evaluate(() => {
+                                const closeBtn = document.querySelector('.ant-modal-close');
+                                if (closeBtn) closeBtn.dispatchEvent(new MouseEvent('click', { bubbles: true, cancelable: true }));
+                            });
+                        } catch (_) {}
+                        await wait(1500);
+                    }
+                }
+                allResults.push({ vehicleType: vehicleType.label, count: typeResult.length });
+            }
         }
 
         console.log(`\n${'='.repeat(70)}`);
