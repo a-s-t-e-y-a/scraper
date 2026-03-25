@@ -84,6 +84,7 @@ class PCCVHandler extends BaseHandler {
     }
 
     async selectProposalType(page) {
+        console.log('    [DEBUG] Starting Proposal Type selection...');
         await wait(1000);
 
         const isOpen = await page.evaluate(() => {
@@ -96,30 +97,44 @@ class PCCVHandler extends BaseHandler {
             return false;
         });
 
+        console.log(`    [DEBUG] Proposal Type dropdown opened: ${isOpen}`);
         if (!isOpen) throw new Error('Could not find Proposal Type dropdown');
 
         await wait(2000);
 
+        const optionsLog = await page.evaluate(() => {
+            const options = Array.from(document.querySelectorAll('.ant-select-item-option-content'));
+            return options.map((opt, index) => `Option ${index}: "${opt.innerText.trim()}"`);
+        });
+
+        console.log(`    [DEBUG] Found ${optionsLog.length} options for Proposal Type:`);
+        optionsLog.forEach(opt => console.log(`      - ${opt}`));
+
         const selected = await page.evaluate(() => {
             const options = Array.from(document.querySelectorAll('.ant-select-item-option-content'));
             if (options.length > 0) {
+                const text = options[0].innerText.trim();
                 options[0].click();
-                return true;
+                return `Selected Option 0: "${text}"`;
             }
-            return false;
+            return null;
         });
 
-        if (!selected) {
-            console.log('    ⚠️ Retrying Proposal Type selection with down arrow...');
+        if (selected) {
+            console.log(`    [DEBUG] DOM Click Success: ${selected}`);
+        } else {
+            console.log('    ⚠️ [DEBUG] Retrying Proposal Type selection with down arrow...');
             await page.keyboard.press('ArrowDown');
             await wait(500);
             await page.keyboard.press('Enter');
+            console.log('    [DEBUG] Executed Down Arrow + Enter fallback.');
         }
 
         await wait(1500);
     }
 
     async selectPolicyType(page) {
+        console.log('    [DEBUG] Starting Policy Type selection...');
         await wait(1000);
 
         const isOpen = await page.evaluate(() => {
@@ -132,24 +147,37 @@ class PCCVHandler extends BaseHandler {
             return false;
         });
 
+        console.log(`    [DEBUG] Policy Type dropdown opened: ${isOpen}`);
         if (!isOpen) throw new Error('Could not find Policy Type dropdown');
 
         await wait(2000);
 
+        const optionsLog = await page.evaluate(() => {
+            const options = Array.from(document.querySelectorAll('.ant-select-item-option-content'));
+            return options.map((opt, index) => `Option ${index}: "${opt.innerText.trim()}"`);
+        });
+
+        console.log(`    [DEBUG] Found ${optionsLog.length} options for Policy Type:`);
+        optionsLog.forEach(opt => console.log(`      - ${opt}`));
+
         const selected = await page.evaluate(() => {
             const options = Array.from(document.querySelectorAll('.ant-select-item-option-content'));
             if (options.length > 0) {
+                const text = options[0].innerText.trim();
                 options[0].click();
-                return true;
+                return `Selected Option 0: "${text}"`;
             }
-            return false;
+            return null;
         });
 
-        if (!selected) {
-            console.log('    ⚠️ Retrying Policy Type selection with down arrow...');
+        if (selected) {
+            console.log(`    [DEBUG] DOM Click Success: ${selected}`);
+        } else {
+            console.log('    ⚠️ [DEBUG] Retrying Policy Type selection with down arrow...');
             await page.keyboard.press('ArrowDown');
             await wait(500);
             await page.keyboard.press('Enter');
+            console.log('    [DEBUG] Executed Down Arrow + Enter fallback.');
         }
 
         await wait(1500);
