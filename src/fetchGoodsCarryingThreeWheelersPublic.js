@@ -250,7 +250,7 @@ async function main() {
       if (result.getModelResponse && result.getModelResponse.length > 0) {
         allModels = allModels.concat(result.getModelResponse);
         
-        if (result.getModelResponse.length < 100) {
+        if (result.getModelResponse.length < 5000) {
           hasMore = false;
         } else {
           pageIndex++;

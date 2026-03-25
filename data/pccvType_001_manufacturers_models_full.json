@@ -1,0 +1,18 @@
+{
+  "allManufacturerResponse": {
+    "serviceResponse": {
+      "result": "Success",
+      "resultMessage": "Manfacturer load successfully",
+      "resultStatus": 200
+    },
+    "getManufacturerResponse": [
+      {
+        "row_num": "1",
+        "manfacturerID": "3026",
+        "manfacturerName": "OLECTRA GREENTECH LIMITED ",
+        "manfacturerCode": "M_161677",
+        "totalRows": "1"
+      }
+    ]
+  }
+}

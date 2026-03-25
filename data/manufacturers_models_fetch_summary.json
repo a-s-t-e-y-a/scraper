@@ -1,0 +1,68 @@
+[
+  {
+    "pccvType": 1,
+    "status": "success",
+    "fileName": "pccvType_001_manufacturers_models_full.json",
+    "count": 1
+  },
+  {
+    "pccvType": 2,
+    "status": "success",
+    "fileName": "pccvType_002_manufacturers_models_full.json",
+    "count": 43
+  },
+  {
+    "pccvType": 3,
+    "status": "success",
+    "fileName": "pccvType_003_manufacturers_models_full.json",
+    "count": 42
+  },
+  {
+    "pccvType": 4,
+    "status": "success",
+    "fileName": "pccvType_004_manufacturers_models_full.json",
+    "count": 43
+  },
+  {
+    "pccvType": 5,
+    "status": "success",
+    "fileName": "pccvType_005_manufacturers_models_full.json",
+    "count": 45
+  },
+  {
+    "pccvType": 6,
+    "status": "success",
+    "fileName": "pccvType_006_manufacturers_models_full.json",
+    "count": 42
+  },
+  {
+    "pccvType": 7,
+    "status": "success",
+    "fileName": "pccvType_007_manufacturers_models_full.json",
+    "count": 42
+  },
+  {
+    "pccvType": 8,
+    "status": "success",
+    "fileName": "pccvType_008_manufacturers_models_full.json",
+    "count": 1
+  },
+  {
+    "pccvType": 9,
+    "status": "success",
+    "fileName": "pccvType_009_manufacturers_models_full.json",
+    "count": 1
+  },
+  {
+    "pccvType": 10,
+    "status": "success",
+    "fileName": "pccvType_010_manufacturers_models_full.json",
+    "count": 43
+  },
+  {
+    "pccvType": 11,
+    "status": "success",
+    "fileName": "pccvType_011_manufacturers_models_full.json",
+    "count": 42
+  }
+]
